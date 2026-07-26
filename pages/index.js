@@ -1,0 +1,57 @@
+import { useState } from "react";
+import FxPanel from "../components/FxPanel";
+import NewsPanel from "../components/NewsPanel";
+import DailyNote from "../components/DailyNote";
+
+export default function Home() {
+  const [fxHeadline, setFxHeadline] = useState(null);
+  const [topHeadline, setTopHeadline] = useState(null);
+
+  const today = new Date().toLocaleDateString("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+
+  return (
+    <main className="page">
+      <div className="page-header">
+        <h1>The Desk</h1>
+        <p>Refresh anytime — FX and news panels pull fresh data on every load.</p>
+      </div>
+
+      <section className="briefing">
+        <div className="briefing-top">
+          <h2><span className="stamp">Must Know Today</span></h2>
+          <span className="briefing-date">{today}</span>
+        </div>
+        <div className="briefing-grid">
+          <div className="briefing-card">
+            <h3>FX Headline</h3>
+            <div>{fxHeadline || "Loading…"}</div>
+          </div>
+          <div className="briefing-card">
+            <h3>Top Trade/FX Headline</h3>
+            <div>
+              {topHeadline ? (
+                <a href={topHeadline.link} target="_blank" rel="noreferrer">
+                  {topHeadline.title}
+                </a>
+              ) : (
+                "Loading…"
+              )}
+            </div>
+          </div>
+          <div className="briefing-card">
+            <h3>Your Focus For Today</h3>
+            <DailyNote />
+          </div>
+        </div>
+      </section>
+
+      <FxPanel onHeadline={setFxHeadline} />
+      <NewsPanel onTopHeadline={setTopHeadline} />
+    </main>
+  );
+}
