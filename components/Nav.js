@@ -6,6 +6,9 @@ const LINKS = [
   { href: "/", label: "Desk" },
   { href: "/policy", label: "Policy Rates" },
   { href: "/knowledge", label: "Reference" },
+  { href: "/study-notes", label: "Study Notes" },
+  { href: "/quiz", label: "Quiz" },
+  { href: "/flashcards", label: "Flashcards" },
   { href: "/portfolio", label: "Portfolio & Targets" },
 ];
 

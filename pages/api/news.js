@@ -6,16 +6,21 @@ const parser = new Parser({
   headers: { "User-Agent": "Mozilla/5.0 (rm-trade-desk feed reader)" },
 });
 
-// Public RSS feeds covering Nigerian business/economy news.
+// Public RSS feeds — Nigerian and global financial/banking/trade news.
 // Feed URLs occasionally change — if one starts failing silently,
 // check the outlet's site for its current /feed path and swap it
 // in here. A single broken feed will not break the others.
 const FEEDS = [
+  // Nigerian
   { name: "Nairametrics", url: "https://nairametrics.com/feed/" },
   { name: "BusinessDay NG", url: "https://businessday.ng/feed/" },
   { name: "Vanguard Business", url: "https://www.vanguardngr.com/category/business/feed/" },
   { name: "The Cable Business", url: "https://www.thecable.ng/category/business/feed" },
-  { name: "Punch", url: "https://punchng.com/feed/" },
+  // Global financial/banking/markets
+  { name: "CNBC Finance", url: "https://www.cnbc.com/id/10000664/device/rss/rss.html" },
+  { name: "MarketWatch", url: "https://feeds.marketwatch.com/marketwatch/topstories/" },
+  { name: "Yahoo Finance", url: "https://finance.yahoo.com/news/rssindex" },
+  { name: "Investing.com", url: "https://www.investing.com/rss/news.rss" },
 ];
 
 export default async function handler(req, res) {

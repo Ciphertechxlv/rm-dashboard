@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "front": "What is Trade Finance?",
+    "back": "Financing for domestic and international trade transactions between a buyer and a seller, facilitated by banks."
+  },
+  {
+    "id": 2,
+    "front": "Define Absolute Advantage.",
+    "back": "Producing goods at a LOWER COST than another country."
+  },
+  {
+    "id": 3,
+    "front": "Define Comparative Advantage.",
+    "back": "Producing goods at a LOWER OPPORTUNITY COST than another country."
+  },
+  {
+    "id": 4,
+    "front": "Is trade under Comparative Advantage mutually beneficial?",
+    "back": "Yes, always."
+  },
+  {
+    "id": 5,
+    "front": "What measures wealth under Mercantilist Theory?",
+    "back": "The amount of precious metals (gold and silver) a nation possesses."
+  },
+  {
+    "id": 6,
+    "front": "What enabling law of 1995 governs FX in Nigeria?",
+    "back": "The Foreign Exchange (Monitoring and Miscellaneous Provisions) Act of 1995."
+  },
+  {
+    "id": 7,
+    "front": "What does BOFIA empower the CBN to do?",
+    "back": "Grant licenses to Authorised Dealers to deal in Foreign Exchange."
+  },
+  {
+    "id": 8,
+    "front": "Name the three Authorised Dealers in Nigeria.",
+    "back": "Banks, Bureau De Change (BDC), Authorised Buyers (e.g. Airlines, Hotels)."
+  },
+  {
+    "id": 9,
+    "front": "When did CBN stop FX sales to BDCs?",
+    "back": "27 July 2021."
+  },
+  {
+    "id": 10,
+    "front": "Name three reasons CBN stopped BDC FX sales.",
+    "back": "Illegal FX trading, Speculative trading, Money laundering."
+  },
+  {
+    "id": 11,
+    "front": "What are the 5 objectives of CBN's June 2016 FX policy?",
+    "back": "Boost liquidity, promote competitiveness, improve dynamics, deepen market, promote financial security."
+  },
+  {
+    "id": 12,
+    "front": "Define Round Tripping.",
+    "back": "Buying FX at official rates and reselling at black market rates."
+  },
+  {
+    "id": 13,
+    "front": "What is Capital Flight?",
+    "back": "Illegal movement of capital out of Nigeria."
+  },
+  {
+    "id": 14,
+    "front": "What document is a \"quasi-negotiable\" instrument?",
+    "back": "Bill of Lading."
+  },
+  {
+    "id": 15,
+    "front": "Is a Seaway Bill a title document?",
+    "back": "No."
+  },
+  {
+    "id": 16,
+    "front": "Is an Airway Bill negotiable?",
+    "back": "No."
+  },
+  {
+    "id": 17,
+    "front": "What is a Clean Bill of Lading?",
+    "back": "Goods received in apparent good order, no defects noted."
+  },
+  {
+    "id": 18,
+    "front": "What is a Dirty/Claused Bill of Lading?",
+    "back": "Carries a statement noting defects in the goods/packaging."
+  },
+  {
+    "id": 19,
+    "front": "What is a Charter Party Bill of Lading?",
+    "back": "Issued by the hirer of a ship; marked \"subject to charter party.\""
+  },
+  {
+    "id": 20,
+    "front": "What is a Combined Transport B/L also known as?",
+    "back": "Through Bill of Lading."
+  },
+  {
+    "id": 21,
+    "front": "What document introduced Multimodal Transport Documents?",
+    "back": "UCP Publication 500."
+  },
+  {
+    "id": 22,
+    "front": "Define a Pro-Forma Invoice.",
+    "back": "A seller's quotation/invitation to the buyer to place a firm order; marked \"pro-forma\"; no shipping marks."
+  },
+  {
+    "id": 23,
+    "front": "What does a Certificate of Origin attest to?",
+    "back": "The origin, standard, and quality of goods, issued by an independent body like a Chamber of Commerce."
+  },
+  {
+    "id": 24,
+    "front": "What is a Black List Certificate?",
+    "back": "Certifies goods have no connection with blacklisted countries."
+  },
+  {
+    "id": 25,
+    "front": "What is a Third Party Inspection Certificate also called?",
+    "back": "Clean Report of Findings."
+  },
+  {
+    "id": 26,
+    "front": "Who issues a Certificate of Analysis?",
+    "back": "An appointed third-party agent in the exporter's country."
+  },
+  {
+    "id": 27,
+    "front": "What does a Packing List show?",
+    "back": "List of goods packed, weight of individual items, and total weight."
+  },
+  {
+    "id": 28,
+    "front": "What is a Bill of Exchange?",
+    "back": "An unconditional order in writing for a specific sum, payable immediately or at a future date."
+  },
+  {
+    "id": 29,
+    "front": "What is Form M used for?",
+    "back": "Formal application for importation of goods into Nigeria."
+  },
+  {
+    "id": 30,
+    "front": "What is Form Q used for?",
+    "back": "SME access to FX for imports \u2014 USD 20,000 per quarter."
+  },
+  {
+    "id": 31,
+    "front": "What is Form NXP used for?",
+    "back": "Nigerian Export Proceeds \u2014 required for exportation."
+  },
+  {
+    "id": 32,
+    "front": "What is Form A used for?",
+    "back": "Invisible transactions (payments for services)."
+  },
+  {
+    "id": 33,
+    "front": "What is Form NCX used for?",
+    "back": "Non-commercial exports (gifts, personal effects, exhibitions)."
+  },
+  {
+    "id": 34,
+    "front": "What is the minimum account tenure for Form Q?",
+    "back": "6 months."
+  },
+  {
+    "id": 35,
+    "front": "Within how many days must Form Q shipping documents be submitted?",
+    "back": "60 days from date of payment."
+  },
+  {
+    "id": 36,
+    "front": "What does a \"BA\" prefix on Form M mean?",
+    "back": "The item WILL be inspected at point of importation."
+  },
+  {
+    "id": 37,
+    "front": "What does a \"CB\" prefix on Form M mean?",
+    "back": "The item will NOT be inspected (e.g., Gas, Oil, Petroleum)."
+  },
+  {
+    "id": 38,
+    "front": "What insurance percentage is required under Form M?",
+    "back": "110% of goods value."
+  },
+  {
+    "id": 39,
+    "front": "Which body must issue the Form M insurance certificate?",
+    "back": "A recognised Nigerian insurance company."
+  },
+  {
+    "id": 40,
+    "front": "What permit is required for manufactured goods import?",
+    "back": "SON Product Certificate or SON Import Permit."
+  },
+  {
+    "id": 41,
+    "front": "What certificate is required for processed food/chemicals import?",
+    "back": "NAFDAC Certificate."
+  },
+  {
+    "id": 42,
+    "front": "What permit is required for power generators import?",
+    "back": "NERC Permit."
+  },
+  {
+    "id": 43,
+    "front": "What permit is required for petroleum products import?",
+    "back": "DPR (Department of Petroleum Resources) Permit."
+  },
+  {
+    "id": 44,
+    "front": "What does UCP600 govern?",
+    "back": "Letters of Credit."
+  },
+  {
+    "id": 45,
+    "front": "What does URC522 govern?",
+    "back": "Bills for Collection."
+  },
+  {
+    "id": 46,
+    "front": "What does URDG758 govern?",
+    "back": "Demand Guarantees."
+  },
+  {
+    "id": 47,
+    "front": "What does ISP98 govern?",
+    "back": "Standby Letters of Credit."
+  },
+  {
+    "id": 48,
+    "front": "What does e-UCP govern?",
+    "back": "Electronic LC presentations."
+  },
+  {
+    "id": 49,
+    "front": "What does ISBP745 provide?",
+    "back": "International Standard Banking Practices for document examination."
+  },
+  {
+    "id": 50,
+    "front": "How many Incoterms 2020 are there?",
+    "back": "11."
+  },
+  {
+    "id": 51,
+    "front": "Which Incoterms are restricted to sea/inland waterway?",
+    "back": "FAS, FOB, CFR, CIF."
+  },
+  {
+    "id": 52,
+    "front": "Under EXW, who has the minimum obligation?",
+    "back": "The seller."
+  },
+  {
+    "id": 53,
+    "front": "Under DDP, who has the maximum obligation?",
+    "back": "The seller."
+  },
+  {
+    "id": 54,
+    "front": "Under FOB, when does risk transfer?",
+    "back": "When goods are on board the vessel."
+  },
+  {
+    "id": 55,
+    "front": "Under FAS, when does risk transfer?",
+    "back": "When goods are placed alongside the vessel."
+  },
+  {
+    "id": 56,
+    "front": "What is the key difference between CFR and CIF?",
+    "back": "CIF includes seller-arranged insurance; CFR does not."
+  },
+  {
+    "id": 57,
+    "front": "How is CIF insurance typically calculated?",
+    "back": "CIF value plus 10%."
+  },
+  {
+    "id": 58,
+    "front": "What replaced \"DAT\" in Incoterms 2020?",
+    "back": "DPU (Delivered At Place Unloaded)."
+  },
+  {
+    "id": 59,
+    "front": "Under DPU, what must the seller do that DAP does not require?",
+    "back": "Unload the goods at the named terminal."
+  },
+  {
+    "id": 60,
+    "front": "What is the foundational principle of banking in trade finance?",
+    "back": "Banks deal with documents, not goods, services, or performance."
+  },
+  {
+    "id": 61,
+    "front": "Name the four international payment methods.",
+    "back": "Advance Payment, Letter of Credit, Bills for Collection, Open Account."
+  },
+  {
+    "id": 62,
+    "front": "Is Open Account allowed for imports in Nigeria?",
+    "back": "No."
+  },
+  {
+    "id": 63,
+    "front": "Rank the three Nigeria-permitted payment methods by security.",
+    "back": "LC (most secure), Bills for Collection (moderate), Advance Payment (least secure)."
+  },
+  {
+    "id": 64,
+    "front": "Approximately what % of Nigeria's imports use Advance Payment?",
+    "back": "70%."
+  },
+  {
+    "id": 65,
+    "front": "Define a Letter of Credit.",
+    "back": "An irrevocable undertaking by the Issuing Bank to pay the Beneficiary on presentation of compliant documents."
+  },
+  {
+    "id": 66,
+    "front": "Who is the Applicant in an LC?",
+    "back": "The buyer/importer."
+  },
+  {
+    "id": 67,
+    "front": "Who is the Beneficiary in an LC?",
+    "back": "The seller/exporter."
+  },
+  {
+    "id": 68,
+    "front": "What does the Issuing Bank do?",
+    "back": "Issues the LC on behalf of the applicant."
+  },
+  {
+    "id": 69,
+    "front": "What does the Advising Bank do?",
+    "back": "Advises the beneficiary of the LC."
+  },
+  {
+    "id": 70,
+    "front": "What does the Confirming Bank do?",
+    "back": "Adds its own payment commitment to the LC."
+  },
+  {
+    "id": 71,
+    "front": "What does the Negotiating Bank do?",
+    "back": "Pays or undertakes to pay the beneficiary after document presentation."
+  },
+  {
+    "id": 72,
+    "front": "How many working days for document examination under UCP600?",
+    "back": "5 working days."
+  },
+  {
+    "id": 73,
+    "front": "Does this 5-day rule apply to both confirming and issuing bank?",
+    "back": "Yes, separately to each."
+  },
+  {
+    "id": 74,
+    "front": "What is a discrepant document?",
+    "back": "A document that does not comply with the LC terms."
+  },
+  {
+    "id": 75,
+    "front": "Who must authorise a waiver of discrepancies?",
+    "back": "The Applicant (buyer); some require CBN approval too."
+  },
+  {
+    "id": 76,
+    "front": "What is a Confirmed LC?",
+    "back": "An LC where a second bank adds its payment guarantee."
+  },
+  {
+    "id": 77,
+    "front": "What is a Transferable LC used for?",
+    "back": "When the beneficiary is an intermediary who wants to transfer credit to the actual supplier."
+  },
+  {
+    "id": 78,
+    "front": "What is a Back-to-Back LC?",
+    "back": "The original LC is used as security to open a second LC for the actual supplier."
+  },
+  {
+    "id": 79,
+    "front": "What is a Standby LC?",
+    "back": "A default instrument, similar to a guarantee; only called on failure to perform."
+  },
+  {
+    "id": 80,
+    "front": "What is the advance payment limit under a Red Clause LC?",
+    "back": "15% of FOB value."
+  },
+  {
+    "id": 81,
+    "front": "What security does a Red Clause LC require?",
+    "back": "A guarantee from the exporter/beneficiary."
+  },
+  {
+    "id": 82,
+    "front": "What security does a Green Clause LC require?",
+    "back": "A Warehouse Receipt (goods warehoused in nominated bank's name)."
+  },
+  {
+    "id": 83,
+    "front": "What is a Revolving LC used for?",
+    "back": "Repeat shipments of the same goods to the same importer over time."
+  },
+  {
+    "id": 84,
+    "front": "What is a Cash Collateral LC?",
+    "back": "Importer provides FX upfront, held with the confirming bank as collateral."
+  },
+  {
+    "id": 85,
+    "front": "What is a Clean Line/Confirmation Line LC?",
+    "back": "Confirming bank pays based on a credit line extended to the issuing bank."
+  },
+  {
+    "id": 86,
+    "front": "What does D/P stand for in Bills for Collection?",
+    "back": "Documents against Payment."
+  },
+  {
+    "id": 87,
+    "front": "What does D/A stand for?",
+    "back": "Documents against Acceptance."
+  },
+  {
+    "id": 88,
+    "front": "Is D/P allowed in Nigeria?",
+    "back": "No."
+  },
+  {
+    "id": 89,
+    "front": "Is D/A allowed in Nigeria?",
+    "back": "Yes."
+  },
+  {
+    "id": 90,
+    "front": "Who is the Drawer in a Bills for Collection transaction?",
+    "back": "The exporter/seller (also called Principal/Applicant)."
+  },
+  {
+    "id": 91,
+    "front": "Who is the Drawee?",
+    "back": "The importer/buyer."
+  },
+  {
+    "id": 92,
+    "front": "What is the Remitting Bank?",
+    "back": "The seller's bank, through which proceeds are remitted to the seller."
+  },
+  {
+    "id": 93,
+    "front": "What is the Presenting/Collecting Bank?",
+    "back": "Usually the buyer's bank; presents documents and collects proceeds."
+  },
+  {
+    "id": 94,
+    "front": "What is a Guarantee?",
+    "back": "A non-accessory payment undertaking independent of the underlying transaction."
+  },
+  {
+    "id": 95,
+    "front": "Is a guarantee normally expected to be claimed?",
+    "back": "No \u2014 only on default."
+  },
+  {
+    "id": 96,
+    "front": "What is a Tender Guarantee for?",
+    "back": "Protects importer against exporter refusing the awarded contract."
+  },
+  {
+    "id": 97,
+    "front": "What is a Performance Guarantee for?",
+    "back": "Protects importer against exporter's nondelivery; replaces Tender Guarantee."
+  },
+  {
+    "id": 98,
+    "front": "What is an Advance/Down Payment Guarantee for?",
+    "back": "Protects buyer who paid in advance if seller fails to deliver/refund."
+  },
+  {
+    "id": 99,
+    "front": "What is a Payment Guarantee for?",
+    "back": "Protects seller if buyer fails to meet payment obligations."
+  },
+  {
+    "id": 100,
+    "front": "What is the export proceeds repatriation deadline?",
+    "back": "90 days from shipment."
+  },
+  {
+    "id": 101,
+    "front": "What account must export proceeds be credited into?",
+    "back": "An export proceeds (export domiciliary) account."
+  },
+  {
+    "id": 102,
+    "front": "What is a Capital Importation Certificate (CCI)?",
+    "back": "Certificate issued to a foreign investor acknowledging investment in Nigeria."
+  },
+  {
+    "id": 103,
+    "front": "Within what timeframe is CCI issued for cash investment?",
+    "back": "24 hours."
+  },
+  {
+    "id": 104,
+    "front": "What body approves consultancy service agreements for FX remittance?",
+    "back": "NOTAP (National Office for Technology Acquisition and Promotion)."
+  }
+]

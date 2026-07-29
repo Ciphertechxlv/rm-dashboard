@@ -1,0 +1,1692 @@
+[
+  {
+    "id": 1,
+    "question": "What does Trade Finance signify?",
+    "options": {
+      "A": "Financing for domestic trade only",
+      "B": "Financing for both domestic and international trade transactions",
+      "C": "Only bank-to-bank transactions",
+      "D": "Financing for government projects only"
+    },
+    "correct": "B",
+    "explanation": "Trade Finance signifies financing for trade and concerns BOTH domestic and international trade transactions.",
+    "whyWrong": "A is too narrow. C is incorrect as it involves buyers and sellers. D is wrong as trade finance is commercial."
+  },
+  {
+    "id": 2,
+    "question": "Which theory holds that a nation's wealth is measured by the amount of precious metals it possesses?",
+    "options": {
+      "A": "Absolute Advantage Theory",
+      "B": "Comparative Advantage Theory",
+      "C": "Mercantilist Theory",
+      "D": "Keynesian Theory"
+    },
+    "correct": "C",
+    "explanation": "Mercantilist Theory holds that a nation's economic wealth is measured by its stock of precious metals (gold and silver).",
+    "whyWrong": "A measures cost of production, B measures opportunity cost, D is macroeconomic theory."
+  },
+  {
+    "id": 3,
+    "question": "Absolute Advantage is a condition in which a country:",
+    "options": {
+      "A": "Produces goods at a lower opportunity cost",
+      "B": "Produces goods at a lower actual cost than another country",
+      "C": "Has more natural resources",
+      "D": "Exports more than it imports"
+    },
+    "correct": "B",
+    "explanation": "Absolute Advantage refers to the ability to produce goods at a LOWER COST (not opportunity cost) than another country.",
+    "whyWrong": "A describes Comparative Advantage. C and D are unrelated definitions."
+  },
+  {
+    "id": 4,
+    "question": "The CBN formulates and implements Nigeria's foreign exchange policy on behalf of:",
+    "options": {
+      "A": "The National Assembly",
+      "B": "The Federal Government",
+      "C": "The World Bank",
+      "D": "Commercial Banks"
+    },
+    "correct": "B",
+    "explanation": "The Central Bank of Nigeria formulates and implements the foreign exchange policy in Nigeria on behalf of the Federal Government.",
+    "whyWrong": "A makes laws but does not implement FX policy. C and D are not the principal."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is NOT an Authorised Dealer in the Nigerian FX market?",
+    "options": {
+      "A": "Commercial Banks",
+      "B": "Bureau De Change",
+      "C": "Insurance Companies",
+      "D": "Authorised Buyers (Airlines, Hotels)"
+    },
+    "correct": "C",
+    "explanation": "The Authorised Dealers in Nigeria are Banks, Bureau De Change (BDC), and Authorised Buyers. Insurance Companies are not listed.",
+    "whyWrong": "A, B, and D are all specifically listed as Authorised Dealers."
+  },
+  {
+    "id": 6,
+    "question": "A Pro-Forma Invoice does NOT include:",
+    "options": {
+      "A": "Supplier's address and telephone",
+      "B": "Nature and quantity of goods",
+      "C": "Shipping marks",
+      "D": "Price of goods"
+    },
+    "correct": "C",
+    "explanation": "A Pro-Forma Invoice is similar to a Commercial Invoice except that it does NOT include shipping marks.",
+    "whyWrong": "A, B, and D are all standard contents of a Pro-Forma Invoice."
+  },
+  {
+    "id": 7,
+    "question": "The document that serves as TITLE TO GOODS in sea transport is:",
+    "options": {
+      "A": "Airway Bill",
+      "B": "Seaway Bill",
+      "C": "Bill of Lading",
+      "D": "Road Way Bill"
+    },
+    "correct": "C",
+    "explanation": "The Bill of Lading serves as title to the goods \u2014 goods will be released only to the holder of the signed original.",
+    "whyWrong": "A (Airway Bill) and B (Seaway Bill) are NOT title documents. D is for road transport."
+  },
+  {
+    "id": 8,
+    "question": "Form Q was introduced by the CBN to provide FX access for:",
+    "options": {
+      "A": "Large multinational corporations",
+      "B": "Small and medium scale enterprises",
+      "C": "Bureau De Change operators",
+      "D": "Government agencies"
+    },
+    "correct": "B",
+    "explanation": "Form Q was introduced by the CBN specifically to make FX available for payment on importations by small and medium scale enterprises (SMEs).",
+    "whyWrong": "A are served by regular LC and Form M. C use BDC channels. D use government FX windows."
+  },
+  {
+    "id": 9,
+    "question": "What is the maximum FX available to applicants under the Form Q (SME) scheme per quarter?",
+    "options": {
+      "A": "USD 10,000",
+      "B": "USD 15,000",
+      "C": "USD 20,000",
+      "D": "USD 50,000"
+    },
+    "correct": "C",
+    "explanation": "Form Q applicants have access to USD 20,000 per quarter from the CBN's weekly allocations.",
+    "whyWrong": "A, B, and D are all incorrect figures for Form Q quarterly allocation."
+  },
+  {
+    "id": 10,
+    "question": "Under Form Q, an applicant must submit shipping documents within how many days from the date of payment?",
+    "options": {
+      "A": "30 days",
+      "B": "60 days",
+      "C": "90 days",
+      "D": "120 days"
+    },
+    "correct": "B",
+    "explanation": "Importers MUST submit shipping documents not later than 60 DAYS from date of payment under the Form Q scheme.",
+    "whyWrong": "A (30 days) applies to Clean Line LC exchange control docs. C (90 days) applies to export repatriation. D (120 days) is not stated."
+  },
+  {
+    "id": 11,
+    "question": "International trade is regulated globally by:",
+    "options": {
+      "A": "World Trade Organisation (WTO)",
+      "B": "International Chamber of Commerce (ICC)",
+      "C": "International Monetary Fund (IMF)",
+      "D": "Central Bank of Nigeria (CBN)"
+    },
+    "correct": "B",
+    "explanation": "International trade is regulated by the International Chamber of Commerce (ICC) through its publications and commentaries/opinions that guide international trade.",
+    "whyWrong": "A sets trade policies but does not regulate trade instruments. C is a financial institution. D is Nigeria's central bank."
+  },
+  {
+    "id": 12,
+    "question": "UCP600 governs which trade finance instrument?",
+    "options": {
+      "A": "Bank Guarantees",
+      "B": "Bills for Collection",
+      "C": "Letters of Credit",
+      "D": "Promissory Notes"
+    },
+    "correct": "C",
+    "explanation": "UCP600 stands for Uniform Customs and Practices for Documentary Credit and governs Letters of Credit.",
+    "whyWrong": "A is governed by URDG758. B is governed by URC522. D has no specific ICC publication."
+  },
+  {
+    "id": 13,
+    "question": "Which Incoterm requires the seller to bear the MAXIMUM cost and risk?",
+    "options": {
+      "A": "EXW (Ex Works)",
+      "B": "FCA (Free Carrier)",
+      "C": "CIF (Cost Insurance Freight)",
+      "D": "DDP (Delivered Duty Paid)"
+    },
+    "correct": "D",
+    "explanation": "DDP (Delivered Duty Paid) places the maximum obligation on the seller \u2014 all costs, risks, and customs clearance at the destination.",
+    "whyWrong": "A places minimum obligation on seller. B and C represent intermediate obligations."
+  },
+  {
+    "id": 14,
+    "question": "Which Incoterm requires the BUYER to bear the maximum risk from the earliest point?",
+    "options": {
+      "A": "EXW",
+      "B": "CIF",
+      "C": "DDP",
+      "D": "DPU"
+    },
+    "correct": "A",
+    "explanation": "EXW (Ex Works) is the term that places minimum obligation on the seller and maximum obligation on the buyer from the very earliest point (seller's premises).",
+    "whyWrong": "B, C, D all have the seller bearing more obligations and risks."
+  },
+  {
+    "id": 15,
+    "question": "A \"Clean Bill of Lading\" indicates that:",
+    "options": {
+      "A": "The goods were shipped for free",
+      "B": "The shipping company received goods in apparent good order with no defects noted",
+      "C": "The goods have been cleaned before shipment",
+      "D": "The B/L has been cleared by customs"
+    },
+    "correct": "B",
+    "explanation": "A Clean Bill of Lading indicates that the shipping company received the goods in apparent good order \u2014 no defects or issues noted.",
+    "whyWrong": "A, C, and D are all incorrect interpretations of \"clean.\""
+  },
+  {
+    "id": 16,
+    "question": "A \"Dirty\" or \"Claused\" Bill of Lading:",
+    "options": {
+      "A": "Has been stamped by customs",
+      "B": "Carries a statement noting defects in the goods or packaging",
+      "C": "Was issued without the shipper's signature",
+      "D": "Covers goods being trans-shipped"
+    },
+    "correct": "B",
+    "explanation": "A Dirty or Claused B/L carries a statement that the goods for shipment have defects, noting what the carrier found wrong.",
+    "whyWrong": "A describes customs clearance. C describes an incomplete B/L. D describes a Trans- shipment B/L."
+  },
+  {
+    "id": 17,
+    "question": "The Seaway Bill (Ships Way Bill) differs from the Bill of Lading in that it is:",
+    "options": {
+      "A": "Issued by airlines",
+      "B": "Applicable only to containers",
+      "C": "NOT a title document and NOT negotiable",
+      "D": "Issued for inland waterway transport only"
+    },
+    "correct": "C",
+    "explanation": "The Seaway Bill serves the same functions as the B/L except that it is NOT a title document and is NOT negotiable.",
+    "whyWrong": "A describes an Airway Bill. B refers to Container B/L. D is incorrect."
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is the most SECURE method of payment for the seller?",
+    "options": {
+      "A": "Open Account",
+      "B": "Advance Payment",
+      "C": "Letter of Credit",
+      "D": "Bills for Collection"
+    },
+    "correct": "B",
+    "explanation": "Advance Payment is the most secure for the SELLER as payment is received before goods are shipped. LC is very secure but involves conditions.",
+    "whyWrong": "A is least secure for seller. C requires document compliance. D gives only moderate security."
+  },
+  {
+    "id": 19,
+    "question": "Open Account payment is:",
+    "options": {
+      "A": "The most secure for the seller",
+      "B": "Not allowed in Nigeria for imports",
+      "C": "The same as Letter of Credit",
+      "D": "Governed by UCP600"
+    },
+    "correct": "B",
+    "explanation": "Open Account is NOT allowed in Nigeria as an import payment method. It is only available for exports.",
+    "whyWrong": "A is wrong \u2014 open account is most risky for the seller. C and D are incorrect."
+  },
+  {
+    "id": 20,
+    "question": "The APPLICANT in a Letter of Credit transaction is:",
+    "options": {
+      "A": "The exporter/seller",
+      "B": "The importer/buyer",
+      "C": "The Issuing Bank",
+      "D": "The Advising Bank"
+    },
+    "correct": "B",
+    "explanation": "The Applicant is the importer or buyer who applies to the Issuing Bank to open a Letter of Credit.",
+    "whyWrong": "A is the Beneficiary. C is the bank that issues the LC. D is the bank that advises the beneficiary."
+  },
+  {
+    "id": 21,
+    "question": "The BENEFICIARY in a Letter of Credit transaction is:",
+    "options": {
+      "A": "The importer/buyer",
+      "B": "The exporter/seller",
+      "C": "The Issuing Bank",
+      "D": "The Confirming Bank"
+    },
+    "correct": "B",
+    "explanation": "The Beneficiary is the exporter or seller who receives payment upon presentation of compliant shipping documents.",
+    "whyWrong": "A is the Applicant. C issues the LC. D confirms it."
+  },
+  {
+    "id": 22,
+    "question": "Banks are required to examine LC documents within how many working days?",
+    "options": {
+      "A": "3 working days",
+      "B": "5 working days",
+      "C": "7 working days",
+      "D": "10 working days"
+    },
+    "correct": "B",
+    "explanation": "Under UCP600, both negotiating/confirming banks and issuing banks have a maximum of 5 WORKING DAYS to determine document compliance.",
+    "whyWrong": "A, C, and D are all incorrect timeframes under UCP600."
+  },
+  {
+    "id": 23,
+    "question": "What does \"URC522\" govern?",
+    "options": {
+      "A": "Letters of Credit",
+      "B": "Bank Guarantees",
+      "C": "Bills for Collection",
+      "D": "Incoterms"
+    },
+    "correct": "C",
+    "explanation": "URC522 stands for Uniform Rules for Collections and governs Bills for Collection transactions.",
+    "whyWrong": "A is governed by UCP600. B is governed by URDG758. D is set by ICC Incoterms rules, not URC522."
+  },
+  {
+    "id": 24,
+    "question": "In a Bills for Collection transaction, \"D/A\" means:",
+    "options": {
+      "A": "Documents against Amount",
+      "B": "Documents against Acceptance",
+      "C": "Documents after Arrival",
+      "D": "Debit and Acknowledgement"
+    },
+    "correct": "B",
+    "explanation": "D/A stands for Documents against Acceptance \u2014 the drawee accepts the Bill of Exchange, and documents are released before actual payment.",
+    "whyWrong": "A, C, and D are all incorrect expansions of the abbreviation D/A."
+  },
+  {
+    "id": 25,
+    "question": "Documents against Payment (D/P) in Bills for Collection:",
+    "options": {
+      "A": "Is the most common form of collection in Nigeria",
+      "B": "Is permitted only for oil imports",
+      "C": "Is NOT ALLOWED in Nigeria",
+      "D": "Requires a Letter of Credit"
+    },
+    "correct": "C",
+    "explanation": "Documents against Payment (D/P) is NOT ALLOWED in Nigeria. Only D/A (Documents against Acceptance) is permitted.",
+    "whyWrong": "A, B, and D are all incorrect statements about D/P in Nigeria."
+  },
+  {
+    "id": 26,
+    "question": "A guarantee differs from a Letter of Credit in that it is:",
+    "options": {
+      "A": "More expensive",
+      "B": "A payment instrument rather than a default instrument",
+      "C": "A non-accessory instrument independent of the underlying transaction",
+      "D": "Governed by UCP600"
+    },
+    "correct": "C",
+    "explanation": "A guarantee is a non-accessory payment undertaking that is independent of the underlying transaction. An LC is tied to document presentation.",
+    "whyWrong": "A may or may not be true. B is wrong \u2014 a guarantee is a DEFAULT instrument. D is wrong \u2014 guarantees are governed by URDG758."
+  },
+  {
+    "id": 27,
+    "question": "The export proceeds repatriation deadline in Nigeria is:",
+    "options": {
+      "A": "30 days from shipment",
+      "B": "60 days from shipment",
+      "C": "90 days from shipment",
+      "D": "120 days from shipment"
+    },
+    "correct": "C",
+    "explanation": "Exporters are expected to repatriate proceeds of their exports within 90 DAYS of shipment.",
+    "whyWrong": "A is the exchange control doc deadline for Clean Line LC. B is the Form Q document deadline. D is not the stated rule."
+  },
+  {
+    "id": 28,
+    "question": "What form is used for exportation from Nigeria?",
+    "options": {
+      "A": "Form M",
+      "B": "Form A",
+      "C": "Form NXP",
+      "D": "Form Q"
+    },
+    "correct": "C",
+    "explanation": "Form NXP (Nigerian Export Proceeds form) is used for exportation from Nigeria.",
+    "whyWrong": "A is for importation. B is for invisible payments. D is for SME FX imports."
+  },
+  {
+    "id": 29,
+    "question": "Form A is used for which type of transaction?",
+    "options": {
+      "A": "Importation of goods",
+      "B": "Exportation of goods",
+      "C": "Invisible payments (services)",
+      "D": "SME FX purchases"
+    },
+    "correct": "C",
+    "explanation": "Form A is required for invisible transactions \u2014 payments for services (not physical goods) across international borders.",
+    "whyWrong": "A uses Form M. B uses Form NXP. D uses Form Q."
+  },
+  {
+    "id": 30,
+    "question": "The Capital Importation Certificate (CCI) is issued to:",
+    "options": {
+      "A": "Nigerian exporters",
+      "B": "Foreign investors investing in Nigeria",
+      "C": "CBN-licensed dealers",
+      "D": "SME importers"
+    },
+    "correct": "B",
+    "explanation": "CCI is the certificate issued to a FOREIGN INVESTOR to acknowledge their investment in the Nigerian economy.",
+    "whyWrong": "A are exporters. C are dealers who facilitate transactions. D have Form Q."
+  },
+  {
+    "id": 31,
+    "question": "Which document certifies the origin, standard, and quality of imported goods?",
+    "options": {
+      "A": "Commercial Invoice",
+      "B": "Certificate of Analysis",
+      "C": "Certificate of Origin",
+      "D": "Packing List"
+    },
+    "correct": "C",
+    "explanation": "The Certificate of Origin, issued by an independent body such as a Chamber of Commerce, attests to the origin, standard, and quality of goods.",
+    "whyWrong": "A is financial; B is for exchange control; D shows weight and packaging."
+  },
+  {
+    "id": 32,
+    "question": "The Packing List provides:",
+    "options": {
+      "A": "The price of goods",
+      "B": "The list of goods packed, weight of each item, and total weight",
+      "C": "Evidence of payment",
+      "D": "The insurance coverage"
+    },
+    "correct": "B",
+    "explanation": "A Packing List details the list of goods packed, the weight of individual items, and the total weight of all goods.",
+    "whyWrong": "A is the Invoice. C is a financial document. D is an insurance certificate."
+  },
+  {
+    "id": 33,
+    "question": "What is the insurance requirement for goods under Form M in Nigeria?",
+    "options": {
+      "A": "100% of goods value",
+      "B": "105% of goods value",
+      "C": "110% of goods value",
+      "D": "120% of goods value"
+    },
+    "correct": "C",
+    "explanation": "Under CBN regulation, goods imported under Form M must be insured to 110% of their value by a recognised Nigerian insurance company.",
+    "whyWrong": "A, B, and D are incorrect percentages."
+  },
+  {
+    "id": 34,
+    "question": "Under the Mercantilist Theory, a merchant fleet is important because:",
+    "options": {
+      "A": "It helps the navy",
+      "B": "It avoids the need for foreign assistance in transporting goods and raw materials",
+      "C": "It reduces unemployment",
+      "D": "It helps in collecting taxes"
+    },
+    "correct": "B",
+    "explanation": "A merchant fleet is of vital importance in Mercantilism as it avoids the need for foreign assistance in transporting goods and raw materials, keeping transport revenue domestic.",
+    "whyWrong": "A, C, and D are not the stated mercantilist reason for a merchant fleet."
+  },
+  {
+    "id": 35,
+    "question": "A Standby Letter of Credit (SBLC) has its roots in:",
+    "options": {
+      "A": "English law",
+      "B": "French law",
+      "C": "United States law",
+      "D": "Swiss banking law"
+    },
+    "correct": "C",
+    "explanation": "A Standby Letter of Credit is an instrument that has its roots in United States law, where banks were historically prohibited from issuing guarantees.",
+    "whyWrong": "A, B, and D are not the correct legal origin of the SBLC."
+  },
+  {
+    "id": 36,
+    "question": "Which of these is a type of guarantee?",
+    "options": {
+      "A": "Red Clause Guarantee",
+      "B": "Standby Guarantee",
+      "C": "Tender Guarantee",
+      "D": "Back-to-Back Guarantee"
+    },
+    "correct": "C",
+    "explanation": "Tender Guarantee is one of the four types of guarantees covered in the material. Others are Performance, Advance Payment, and Payment Guarantee.",
+    "whyWrong": "A and D are not types of guarantees. B is a Standby LC not a guarantee type."
+  },
+  {
+    "id": 37,
+    "question": "FOB (Free On Board) means risk passes from seller to buyer when:",
+    "options": {
+      "A": "Goods leave the seller's factory",
+      "B": "Goods are placed alongside the vessel",
+      "C": "Goods are on board the vessel",
+      "D": "Goods arrive at destination port"
+    },
+    "correct": "C",
+    "explanation": "Under FOB, risk of loss or damage passes when goods are ON BOARD the vessel nominated by the buyer.",
+    "whyWrong": "A describes EXW. B describes FAS. D describes DAP/DDP."
+  },
+  {
+    "id": 38,
+    "question": "FAS (Free Alongside Ship) means risk passes from seller to buyer when goods are:",
+    "options": {
+      "A": "On board the vessel",
+      "B": "At the seller's warehouse",
+      "C": "Placed alongside the vessel at the named port",
+      "D": "Delivered to the buyer's premises"
+    },
+    "correct": "C",
+    "explanation": "Under FAS, risk passes when the goods are placed alongside the vessel (e.g., on a quay) at the named port of shipment.",
+    "whyWrong": "A describes FOB and higher. B describes EXW. D describes DAP/DDP."
+  },
+  {
+    "id": 39,
+    "question": "The REMITTING BANK in a Bills for Collection transaction is:",
+    "options": {
+      "A": "The buyer's bank",
+      "B": "The seller's bank",
+      "C": "The CBN",
+      "D": "The correspondent bank"
+    },
+    "correct": "B",
+    "explanation": "The Remitting Bank is the seller's bank through which the collection proceeds will be remitted to the seller.",
+    "whyWrong": "A is the Collecting/Presenting Bank. C and D are not parties to collection."
+  },
+  {
+    "id": 40,
+    "question": "Non-commercial exports use which form in Nigeria?",
+    "options": {
+      "A": "Form NXP",
+      "B": "Form A",
+      "C": "Form NCX",
+      "D": "Form Q"
+    },
+    "correct": "C",
+    "explanation": "Non-commercial exports (gifts, personal effects, exhibition items) use Form NCX.",
+    "whyWrong": "A is for commercial exports. B is for invisible transactions. D is for SME imports."
+  },
+  {
+    "id": 41,
+    "question": "Which prefix on a Form M number indicates the goods will NOT be inspected at the point of importation?",
+    "options": {
+      "A": "BA",
+      "B": "CB",
+      "C": "AB",
+      "D": "MN"
+    },
+    "correct": "B",
+    "explanation": "CB prefix before a Form M number indicates that the import item will NOT be inspected at the point of importation (e.g., Gas, Oil, Petroleum products).",
+    "whyWrong": "A (BA) means inspection WILL take place. C and D are not valid Form M prefixes."
+  },
+  {
+    "id": 42,
+    "question": "A Performance Guarantee protects the:",
+    "options": {
+      "A": "Exporter against non-payment",
+      "B": "Importer against non-delivery by the exporter",
+      "C": "Bank against LC fraud",
+      "D": "Buyer against customs delays"
+    },
+    "correct": "B",
+    "explanation": "A Performance Guarantee protects the importer/buyer against the risk that the exporter/seller fails to fulfil delivery commitments.",
+    "whyWrong": "A describes a Payment Guarantee. C and D are not the purpose of a Performance Guarantee."
+  },
+  {
+    "id": 43,
+    "question": "URDG758 governs:",
+    "options": {
+      "A": "Letters of Credit",
+      "B": "Bills for Collection",
+      "C": "Uniform Rules for Demand Guarantees",
+      "D": "Electronic Presentations"
+    },
+    "correct": "C",
+    "explanation": "URDG758 stands for Uniform Rules for Demand Guarantees and governs bank guarantees.",
+    "whyWrong": "A is governed by UCP600. B is governed by URC522. D is governed by e-UCP."
+  },
+  {
+    "id": 44,
+    "question": "Which LC type can be transferred to another beneficiary?",
+    "options": {
+      "A": "Revocable LC",
+      "B": "Standby LC",
+      "C": "Transferable LC",
+      "D": "Red Clause LC"
+    },
+    "correct": "C",
+    "explanation": "A Transferable LC can be transferred to another beneficiary \u2014 used when the seller is an intermediary who wishes to involve the actual supplier.",
+    "whyWrong": "A can be cancelled \u2014 different feature. B is a default instrument. D provides advance payment."
+  },
+  {
+    "id": 45,
+    "question": "A Bill of Exchange is best described as:",
+    "options": {
+      "A": "A conditional order to pay",
+      "B": "An unconditional order in writing to pay a specific sum",
+      "C": "A type of shipping document",
+      "D": "A customs declaration form"
+    },
+    "correct": "B",
+    "explanation": "A Bill of Exchange is an UNCONDITIONAL order in writing from one party to another for a SPECIFIC AMOUNT of money, signed by the issuer.",
+    "whyWrong": "A is wrong \u2014 it must be unconditional. C and D are completely different documents."
+  },
+  {
+    "id": 46,
+    "question": "The \"Presenting Bank\" in Bills for Collection is usually:",
+    "options": {
+      "A": "The seller's bank",
+      "B": "The buyer's bank",
+      "C": "The CBN",
+      "D": "The Issuing Bank"
+    },
+    "correct": "B",
+    "explanation": "The Presenting Bank is usually the buyer's bank \u2014 it presents documents to the buyer for acceptance and payment.",
+    "whyWrong": "A is the Remitting Bank. C and D are not parties to a collection transaction."
+  },
+  {
+    "id": 47,
+    "question": "What document is required by NEPC before exporting from Nigeria?",
+    "options": {
+      "A": "NEPC Registration Certificate",
+      "B": "CBN Approval Letter",
+      "C": "NPA Clearance Certificate",
+      "D": "NAFDAC Permit"
+    },
+    "correct": "A",
+    "explanation": "The NEPC (Nigerian Export Promotion Council) Registration Certificate is required BEFORE shipment for non-oil exports from Nigeria.",
+    "whyWrong": "B, C, and D are not the specific document required by NEPC for export."
+  },
+  {
+    "id": 48,
+    "question": "Goods imported under CIF must be insured to what percentage of their CIF value?",
+    "options": {
+      "A": "100%",
+      "B": "105%",
+      "C": "CIF value plus 10%",
+      "D": "CIF value minus 10%"
+    },
+    "correct": "C",
+    "explanation": "Under CIF terms, the cost of insurance is usually the CIF value of the goods PLUS 10% to cover the expected profit of the buyer.",
+    "whyWrong": "A provides no buffer. B is an intermediate amount. D reduces coverage."
+  },
+  {
+    "id": 49,
+    "question": "Under Form Q, what is the minimum account tenure required before an applicant can access the scheme?",
+    "options": {
+      "A": "3 months",
+      "B": "6 months",
+      "C": "12 months",
+      "D": "24 months"
+    },
+    "correct": "B",
+    "explanation": "Applicants must have operated their account with the bank for a minimum of SIX MONTHS to be eligible for the Form Q scheme.",
+    "whyWrong": "A is too short. C and D exceed the stated requirement."
+  },
+  {
+    "id": 50,
+    "question": "A Red Clause LC provides:",
+    "options": {
+      "A": "Payment only after delivery",
+      "B": "Advance payment to the seller BEFORE shipment",
+      "C": "Payment based on acceptance of Bill of Exchange",
+      "D": "Automatic reinstatement after drawing"
+    },
+    "correct": "B",
+    "explanation": "A Red Clause LC enables the exporter to obtain advance payment BEFORE shipment in the form of pre-shipment finance.",
+    "whyWrong": "A describes a Sight LC. C describes D/A collection. D describes a Revolving LC."
+  },
+  {
+    "id": 51,
+    "question": "An importer opens a Cash Collateral LC. What happens to the FX provided by the importer?",
+    "options": {
+      "A": "It is kept in the importer's domiciliary account",
+      "B": "It is moved to the Bank's correspondent bank's position",
+      "C": "It is deposited with the CBN",
+      "D": "It is held in escrow by the importer"
+    },
+    "correct": "B",
+    "explanation": "Under Cash Collateral LC, Treasury sources FX, the LC is issued, and funds are moved to the Bank's correspondent bank's position until compliant documents are presented.",
+    "whyWrong": "A keeps funds locally. C is not the process. D is not the banking mechanism."
+  },
+  {
+    "id": 52,
+    "question": "Which document is described as \"quasi-negotiable\"?",
+    "options": {
+      "A": "Airway Bill",
+      "B": "Seaway Bill",
+      "C": "Bill of Lading",
+      "D": "Pro-Forma Invoice"
+    },
+    "correct": "C",
+    "explanation": "A Bill of Lading is referred to as quasi-negotiable because a transferee for value who takes possession of an endorsed B/L obtains good title, provided the transferor had good title.",
+    "whyWrong": "A and B are NOT title documents. D is a commercial document, not quasi-negotiable."
+  },
+  {
+    "id": 53,
+    "question": "The \"Confirming Bank\" in an LC adds which of the following?",
+    "options": {
+      "A": "Export licence",
+      "B": "Its own commitment to pay the beneficiary if compliant documents are presented",
+      "C": "Insurance coverage for the goods",
+      "D": "The shipping marks on transport documents"
+    },
+    "correct": "B",
+    "explanation": "The Confirming Bank adds its OWN COMMITMENT to pay the beneficiary of the credit in compliance with the terms and conditions of the LC.",
+    "whyWrong": "A is done by exporters. C is arranged separately. D is on the invoice and B/L."
+  },
+  {
+    "id": 54,
+    "question": "Under Incoterms 2020, which THREE terms are for SEA AND INLAND WATERWAY transport only?",
+    "options": {
+      "A": "EXW, FCA, CPT",
+      "B": "FAS, FOB, CIF",
+      "C": "DAP, DPU, DDP",
+      "D": "CPT, CIP, DAP"
+    },
+    "correct": "B",
+    "explanation": "FAS (Free Alongside Ship), FOB (Free On Board), and CIF (Cost Insurance Freight) are the three Incoterms restricted to sea and inland waterway transport.",
+    "whyWrong": "A, C, and D all include terms applicable to any mode of transport."
+  },
+  {
+    "id": 55,
+    "question": "A Revolving LC is typically used when:",
+    "options": {
+      "A": "The seller is an intermediary",
+      "B": "The same goods are shipped repeatedly to the same importer over a period",
+      "C": "The buyer needs pre-shipment finance",
+      "D": "The importer has no credit facility"
+    },
+    "correct": "B",
+    "explanation": "A Revolving LC allows the LC to be automatically reinstated under certain circumstances and is normally used where shipments of the same goods are made to the same importer over a period of time.",
+    "whyWrong": "A describes a Transferable LC. C describes a Red Clause LC. D describes Cash Collateral LC."
+  },
+  {
+    "id": 56,
+    "question": "Which of the following best describes the role of the Principal in a Bills for Collection?",
+    "options": {
+      "A": "The bank that issues the collection instructions",
+      "B": "The importer who pays for the goods",
+      "C": "The exporter who entrusts collection responsibility to their bank",
+      "D": "The CBN regulator"
+    },
+    "correct": "C",
+    "explanation": "The Principal/Drawer/Applicant/Seller is the exporter who entrusts the responsibility of collecting export proceeds to their bank (the remitting bank).",
+    "whyWrong": "A is the Remitting/Collecting Bank. B is the Drawee. D is the regulator."
+  },
+  {
+    "id": 57,
+    "question": "The \"ISSUING BANK\" in an LC is instructed by which party to open the credit?",
+    "options": {
+      "A": "The Beneficiary",
+      "B": "The Applicant/Buyer",
+      "C": "The Advising Bank",
+      "D": "The CBN"
+    },
+    "correct": "B",
+    "explanation": "The Issuing Bank is the bank that issues the LC on behalf of and at the REQUEST of the APPLICANT (the importer/buyer).",
+    "whyWrong": "A receives payment. C only advises. D does not issue commercial LCs."
+  },
+  {
+    "id": 58,
+    "question": "In an unconfirmed LC, when compliant documents arrive, what does the issuing bank do?",
+    "options": {
+      "A": "Pays immediately from its own funds without checking with the applicant",
+      "B": "Notifies the applicant to bid for FX or advises maturity, then remits funds",
+      "C": "Returns all documents to the beneficiary",
+      "D": "Refuses payment until the CBN approves"
+    },
+    "correct": "B",
+    "explanation": "Under an unconfirmed LC, the issuing bank receives documents, either notifies the applicant to bid in the FX market or advises maturity (for deferred), then remits funds to the advising bank.",
+    "whyWrong": "A is correct for confirmed LCs where the confirming bank already paid. C is wrong for compliant docs. D is not the standard process."
+  },
+  {
+    "id": 59,
+    "question": "Under CIF terms, who is responsible for arranging insurance?",
+    "options": {
+      "A": "The buyer arranges insurance from port to warehouse",
+      "B": "The seller arranges insurance from port of shipment to port of destination",
+      "C": "Both parties share insurance responsibility equally",
+      "D": "The shipping company arranges all insurance"
+    },
+    "correct": "B",
+    "explanation": "Under CIF, the SELLER also contracts for insurance cover against the buyer's risk during the carriage. Under C&F/CFR, the buyer arranges insurance.",
+    "whyWrong": "A describes CFR/C&F. C and D are not the rule under CIF."
+  },
+  {
+    "id": 60,
+    "question": "When is a presentation NOT considered a partial shipment under UCP600?",
+    "options": {
+      "A": "When goods are on different vessels going to different destinations",
+      "B": "When multiple transport documents cover the same vessel, same journey, same destination",
+      "C": "When goods depart on different days",
+      "D": "When goods are shipped by different carriers"
+    },
+    "correct": "B",
+    "explanation": "Multiple transport documents on the SAME means of conveyance, for the SAME journey, to the SAME destination do NOT constitute partial shipment, regardless of different dates or loading ports.",
+    "whyWrong": "A, C, and D would all constitute partial shipments."
+  },
+  {
+    "id": 61,
+    "question": "The Certificate of Analysis is issued by:",
+    "options": {
+      "A": "The Chamber of Commerce",
+      "B": "A Nigerian insurance company",
+      "C": "An appointed third-party agent in the exporter's country",
+      "D": "The CBN"
+    },
+    "correct": "C",
+    "explanation": "The Certificate of Analysis is issued for exchange control purposes by an appointed third-party agent in the exporter's country.",
+    "whyWrong": "A issues Certificate of Origin. B issues Insurance Certificates. D regulates FX."
+  },
+  {
+    "id": 62,
+    "question": "Under the CBN's FX policy, all foreign exchange buyers must go through:",
+    "options": {
+      "A": "Licensed stockbrokers",
+      "B": "Authorised Dealers (Banks and BDC)",
+      "C": "The CBN directly",
+      "D": "The Ministry of Finance"
+    },
+    "correct": "B",
+    "explanation": "Foreign Exchange Buyers MUST go through Authorised Dealers (Banks and Bureau De Change). Direct purchase outside this channel is illegal.",
+    "whyWrong": "A are capital market intermediaries. C does not sell directly to importers. D is not an FX distribution channel."
+  },
+  {
+    "id": 63,
+    "question": "A \"Back-to-Back LC\" involves:",
+    "options": {
+      "A": "A single LC with two beneficiaries",
+      "B": "An original LC used as security to open a second LC in favour of the exporter's own supplier",
+      "C": "A combined transport bill covering sea and air",
+      "D": "Two buyers and one seller"
+    },
+    "correct": "B",
+    "explanation": "A Back-to-Back LC uses the original LC as security to open a second LC in favour of the exporter's own supplier. Both LCs must remain in tandem.",
+    "whyWrong": "A describes a Transferable LC. C is a transport concept. D does not describe an LC type."
+  },
+  {
+    "id": 64,
+    "question": "What document is primarily used in Nigeria to monitor compliance with export proceeds repatriation?",
+    "options": {
+      "A": "Form M",
+      "B": "Form NXP",
+      "C": "Form A",
+      "D": "Form Q"
+    },
+    "correct": "B",
+    "explanation": "Form NXP is the Nigerian Export Proceeds form. The bank that registered the NXP must certify that proceeds have been received and credited to the export domiciliary account.",
+    "whyWrong": "A is for imports. C is for invisible transactions. D is for SME imports."
+  },
+  {
+    "id": 65,
+    "question": "Which Incoterm places ALL customs, duties, and delivery costs on the seller?",
+    "options": {
+      "A": "CIF",
+      "B": "CPT",
+      "C": "DAP",
+      "D": "DDP"
+    },
+    "correct": "D",
+    "explanation": "DDP (Delivered Duty Paid) means the seller bears ALL costs and risks including import customs, duties, and delivery to the buyer's named destination.",
+    "whyWrong": "A seller pays freight and insurance but not import duty. B seller pays freight only. C seller delivers but buyer pays import duties."
+  },
+  {
+    "id": 66,
+    "question": "The NAFDAC Certificate is required for importing which of these items into Nigeria?",
+    "options": {
+      "A": "Electronics and computers",
+      "B": "Processed food items and industrial chemicals",
+      "C": "Steel and building materials",
+      "D": "Textiles and clothing"
+    },
+    "correct": "B",
+    "explanation": "The NAFDAC Certificate is required for the import of ALL processed food items and industrial chemicals. Vaccines and sensitive medicaments need NAFDAC Import Permit.",
+    "whyWrong": "A requires SON Certificate. C and D also require SON but not NAFDAC."
+  },
+  {
+    "id": 67,
+    "question": "In a Confirmation Line LC, who pays the beneficiary first?",
+    "options": {
+      "A": "The Applicant/Importer",
+      "B": "The Issuing Bank",
+      "C": "The Confirming Bank (drawing on the clean line facility)",
+      "D": "The CBN"
+    },
+    "correct": "C",
+    "explanation": "Under a Confirmation Line LC, the confirming bank checks document compliance and pays the beneficiary FIRST, drawing on the clean line credit facility provided to the issuing bank.",
+    "whyWrong": "A pays only at the end. B reimburses the confirming bank after. D does not pay in commercial transactions."
+  },
+  {
+    "id": 68,
+    "question": "Which of the following is an \"invisible transaction\" requiring Form A?",
+    "options": {
+      "A": "Importation of electronics",
+      "B": "Exportation of cocoa",
+      "C": "Business travel allowance",
+      "D": "Capital importation of machinery"
+    },
+    "correct": "C",
+    "explanation": "Business Travel Allowance is an invisible transaction (payment for services, not goods) that requires Form A and supporting documentation.",
+    "whyWrong": "A uses Form M. B uses Form NXP. D uses CCI process."
+  },
+  {
+    "id": 69,
+    "question": "A \"Charter Party Bill of Lading\" is issued by:",
+    "options": {
+      "A": "The Exporter",
+      "B": "The Hirer of the Ship (charterer)",
+      "C": "The Port Authority",
+      "D": "The Issuing Bank"
+    },
+    "correct": "B",
+    "explanation": "A Charter Party B/L is issued by the HIRER OF THE SHIP to the exporter. Its terms are subject to the contract of hire between the ship owner and the hirer.",
+    "whyWrong": "A receives the B/L. C issues port documents. D issues LCs."
+  },
+  {
+    "id": 70,
+    "question": "The \"Green Clause LC\" requires goods awaiting shipment to be:",
+    "options": {
+      "A": "Pre-inspected by a third party",
+      "B": "Warehoused in the name of a nominated bank",
+      "C": "Pre-paid by the buyer",
+      "D": "Insured at 110% of value"
+    },
+    "correct": "B",
+    "explanation": "A Green Clause LC requires goods awaiting shipment to be warehoused in the NAME OF A NOMINATED BANK. The advance payment is released against a warehouse receipt.",
+    "whyWrong": "A is a separate requirement. C is for advance payment LCs. D is a Form M insurance requirement."
+  },
+  {
+    "id": 71,
+    "question": "Trans-shipment in Bills of Lading refers to:",
+    "options": {
+      "A": "Shipping goods to multiple destinations",
+      "B": "Unloading from one vessel and reloading onto another at a named port",
+      "C": "Combining air and sea transport",
+      "D": "Splitting one shipment into multiple containers"
+    },
+    "correct": "B",
+    "explanation": "Trans-shipment means unloading from one vessel and reloading onto another vessel during the carriage from the port of loading to the port of discharge.",
+    "whyWrong": "A is partial/multiple destination shipment. C is multi-modal transport. D is container splitting."
+  },
+  {
+    "id": 72,
+    "question": "The \"NEGOTIATING BANK\" in an LC transaction:",
+    "options": {
+      "A": "Issues the LC on behalf of the buyer",
+      "B": "Advises the LC to the beneficiary",
+      "C": "Pays or undertakes to pay the beneficiary after presentation of shipping documents",
+      "D": "Provides the insurance for the goods"
+    },
+    "correct": "C",
+    "explanation": "The Negotiating Bank is the bank that pays or undertakes to pay the beneficiary after presentation of compliant shipping documents.",
+    "whyWrong": "A is the Issuing Bank. B is the Advising Bank. D is an insurance company."
+  },
+  {
+    "id": 73,
+    "question": "An importer fails to submit exchange control documents under a Cash Collateral LC. When must they submit by?",
+    "options": {
+      "A": "30 days from payment",
+      "B": "60 days from clearance",
+      "C": "90 days from clearance",
+      "D": "120 days from payment"
+    },
+    "correct": "C",
+    "explanation": "Under a Cash Collateral LC, the customer must submit exchange control documents to the Bank within 90 DAYS of clearance of goods.",
+    "whyWrong": "A is the Clean Line LC rule (30 days from delivery). B is the Form Q rule. D is not the stated deadline."
+  },
+  {
+    "id": 74,
+    "question": "What type of Bill of Lading is used when goods will pass through more than one mode of transport?",
+    "options": {
+      "A": "Marine B/L",
+      "B": "Charter Party B/L",
+      "C": "Combined Transport (Multimodal) B/L",
+      "D": "Liner B/L"
+    },
+    "correct": "C",
+    "explanation": "Combined Transport (Multimodal) B/L (also called \"Through Bill of Lading\") is used when goods will pass through multiple modes \u2014 air, sea, and land \u2014 before delivery. The issuer accepts liability for the entire journey.",
+    "whyWrong": "A is for sea only. B is for chartered vessels. D is for regular scheduled vessels."
+  },
+  {
+    "id": 75,
+    "question": "Under the \"Advance/Down Payment Guarantee,\" the buyer is protected against:",
+    "options": {
+      "A": "The seller oversupplying goods",
+      "B": "The seller not delivering goods AND not returning the advance payment",
+      "C": "Quality defects in the goods",
+      "D": "Currency depreciation"
+    },
+    "correct": "B",
+    "explanation": "The Advance/Down Payment Guarantee protects the buyer against the risk that the seller neither delivers the goods NOR returns the advance payment \u2014 protecting the pre-payment risk.",
+    "whyWrong": "A, C, and D are not the specific risk covered by this type of guarantee."
+  },
+  {
+    "id": 76,
+    "question": "Which party to a guarantee is described as the entity \"in whose favour the guarantee is issued\"?",
+    "options": {
+      "A": "The Principal/Applicant",
+      "B": "The Issuing Bank",
+      "C": "The Beneficiary",
+      "D": "The Correspondent Bank"
+    },
+    "correct": "C",
+    "explanation": "The Beneficiary is the party in whose favour the guarantee is issued \u2014 they receive financial compensation if the principal defaults.",
+    "whyWrong": "A applies for and takes out the guarantee. B issues the guarantee. D may counter-guarantee but is not the beneficiary."
+  },
+  {
+    "id": 77,
+    "question": "What happens to a guarantee if the underlying transaction is performed successfully?",
+    "options": {
+      "A": "The guarantee is automatically doubled",
+      "B": "The guarantee becomes invalid/expires without being called",
+      "C": "The guarantee is transferred to another beneficiary",
+      "D": "The guarantee amount is paid to the principal"
+    },
+    "correct": "B",
+    "explanation": "When the underlying transaction is conducted smoothly (e.g., goods delivered and payment made), the guarantee becomes INVALID without being called upon. A guarantee is only called upon when there is default.",
+    "whyWrong": "A, C, and D do not describe what happens to a guarantee on successful performance."
+  },
+  {
+    "id": 78,
+    "question": "A company imports cooking gas from abroad. Which Form M prefix would apply?",
+    "options": {
+      "A": "BA prefix",
+      "B": "CB prefix",
+      "C": "NM prefix",
+      "D": "No prefix required"
+    },
+    "correct": "B",
+    "explanation": "CB prefix applies to items that will NOT be inspected at the point of importation, such as Gas, Oil, and Petroleum products.",
+    "whyWrong": "A (BA) applies to items that WILL be inspected. C is not a valid Form M prefix. D is incorrect."
+  },
+  {
+    "id": 79,
+    "question": "When is a Tender Guarantee typically replaced?",
+    "options": {
+      "A": "When goods are delivered",
+      "B": "When the exporter is awarded the contract and replaces it with a Performance Guarantee",
+      "C": "When payment is made",
+      "D": "When the importer approves the goods"
+    },
+    "correct": "B",
+    "explanation": "A Tender Guarantee is replaced by a Performance Guarantee once the exporter accepts the awarded contract. This is the standard progression in international contracting.",
+    "whyWrong": "A, C, and D describe later stages of transaction completion, not when a Tender Guarantee is replaced."
+  },
+  {
+    "id": 80,
+    "question": "Under DDP (Delivered Duty Paid) Incoterms, who pays import duties and customs clearance?",
+    "options": {
+      "A": "The Buyer",
+      "B": "The Shipping Company",
+      "C": "The Seller",
+      "D": "The Bank"
+    },
+    "correct": "C",
+    "explanation": "Under DDP, the SELLER pays ALL costs including import duties and customs clearance at the destination country. It is the maximum obligation for the seller.",
+    "whyWrong": "A bears these costs under most other terms (EXW through DAP). B and D are not parties to Incoterms obligations."
+  },
+  {
+    "id": 81,
+    "question": "In CFR (Cost and Freight), what is the ONE key thing the seller does NOT provide compared to CIF?",
+    "options": {
+      "A": "Payment of freight",
+      "B": "A clean Bill of Lading",
+      "C": "Arrangement and payment of insurance on the goods during transit",
+      "D": "Export licence"
+    },
+    "correct": "C",
+    "explanation": "CFR and CIF are identical EXCEPT that under CIF, the SELLER also arranges and pays for INSURANCE. Under CFR, the buyer arranges and pays for insurance.",
+    "whyWrong": "A, B, and D are obligations under BOTH CFR and CIF."
+  },
+  {
+    "id": 82,
+    "question": "What is the primary purpose of the PAAR (Pre-Arrival Assessment Report)?",
+    "options": {
+      "A": "To advise the exporter of payment",
+      "B": "To enable duty collection by Nigerian Customs",
+      "C": "To confirm that goods have been insured",
+      "D": "To register the Form M with CBN"
+    },
+    "correct": "B",
+    "explanation": "The PAAR (Pre-Arrival Assessment Report) is issued to enable duty collection by the Nigerian Customs Service for imported goods.",
+    "whyWrong": "A is done by SWIFT/bank communications. C is done by insurance certificate. D is done on the CBN/NCS portal."
+  },
+  {
+    "id": 83,
+    "question": "Which document type includes \"Cover Notes\" and \"Insurance Policies\"?",
+    "options": {
+      "A": "Commercial Documents",
+      "B": "Financial Documents",
+      "C": "Insurance Documents",
+      "D": "Transport Documents"
+    },
+    "correct": "C",
+    "explanation": "Insurance Documents include Cover Notes, Insurance Certificates, and Insurance Policies \u2014 they evidence the contract of insurance arrangement on the goods.",
+    "whyWrong": "A includes invoices. B includes cheques and bills of exchange. D includes B/L and airway bills."
+  },
+  {
+    "id": 84,
+    "question": "The CBN stopped FX sales to BDCs on 27 July 2021 primarily because of:",
+    "options": {
+      "A": "BDCs becoming too profitable",
+      "B": "Illegal FX trading, speculative trading, and money laundering",
+      "C": "High operational costs of BDCs",
+      "D": "Low FX reserves at the CBN"
+    },
+    "correct": "B",
+    "explanation": "The CBN cited illegal FX trading, speculative trading, and money laundering as the primary reasons for stopping FX sales to BDCs on 27 July 2021.",
+    "whyWrong": "A, C, and D are not the reasons stated in the training material."
+  },
+  {
+    "id": 85,
+    "question": "Under the \"Third Party Inspection Certificate\" (Clean Report of Findings), who issues the document?",
+    "options": {
+      "A": "The Nigerian Chamber of Commerce",
+      "B": "The importer's bank",
+      "C": "An independent third-party resident in the exporter's country",
+      "D": "The Customs Service"
+    },
+    "correct": "C",
+    "explanation": "The Third Party Inspection Certificate is issued by an INDEPENDENT THIRD PARTY (inspection agent) RESIDENT IN THE EXPORTER'S COUNTRY, confirming the goods meet a certain standard.",
+    "whyWrong": "A issues the Certificate of Origin. B is not an inspection agent. D is a customs authority."
+  },
+  {
+    "id": 86,
+    "question": "For a Payment Guarantee, which party is protected?",
+    "options": {
+      "A": "The buyer, in case the seller does not deliver",
+      "B": "The seller, in case the buyer fails to make payment",
+      "C": "The bank, in case the transaction fails",
+      "D": "The shipping company, against cargo loss"
+    },
+    "correct": "B",
+    "explanation": "A Payment Guarantee protects the SELLER by providing financial security in case the buyer fails fully or partially to meet their payment obligations.",
+    "whyWrong": "A describes a Performance Guarantee. C and D are not the purpose of a payment guarantee."
+  },
+  {
+    "id": 87,
+    "question": "Equity Investment for Capital Importation in cash form \u2014 the CCI should be issued within:",
+    "options": {
+      "A": "48 hours",
+      "B": "24 hours",
+      "C": "72 hours",
+      "D": "7 working days"
+    },
+    "correct": "B",
+    "explanation": "For cash investment where investment is in the form of inflow of funds, the documentation should be in place to enable CCI to be issued within 24 HOURS.",
+    "whyWrong": "A, C, and D are all incorrect timeframes for CCI issuance on cash investment."
+  },
+  {
+    "id": 88,
+    "question": "A company exports machinery as a gift to a sister company abroad. What form is used?",
+    "options": {
+      "A": "Form NXP",
+      "B": "Form NCX",
+      "C": "Form A",
+      "D": "Form Q"
+    },
+    "correct": "B",
+    "explanation": "Form NCX is used for non-commercial exports including gifts, personal effects, and exhibition items. No payment is expected for goods shipped under NCX.",
+    "whyWrong": "A is for commercial exports with expected payment. C is for invisible transactions. D is for SME FX imports."
+  },
+  {
+    "id": 89,
+    "question": "Under which ICC publication are electronic LC presentations governed?",
+    "options": {
+      "A": "UCP600",
+      "B": "URC522",
+      "C": "e-UCP",
+      "D": "ISBP745"
+    },
+    "correct": "C",
+    "explanation": "e-UCP is the ICC publication that governs electronic presentations under Letters of Credit, supplementing UCP600 for digital trade documents.",
+    "whyWrong": "A governs traditional paper-based LCs. B governs collections. D provides document examination standards."
+  },
+  {
+    "id": 90,
+    "question": "The \"Multimodal Transport Document\" was introduced by which publication?",
+    "options": {
+      "A": "UCP600",
+      "B": "UCP500 (Uniform Customs and Practice Publication 500)",
+      "C": "URDG758",
+      "D": "URC522"
+    },
+    "correct": "B",
+    "explanation": "Multimodal Transport Documents are new transport documents introduced by the Uniform Customs and Practice Publication 500 (UCP500, the predecessor to UCP600).",
+    "whyWrong": "A (UCP600) is the current LC standard but did not introduce multimodal docs. C governs guarantees. D governs collections."
+  },
+  {
+    "id": 91,
+    "question": "An exporter submits shipping documents to the advising bank under a Deferred Payment LC. The advising bank notifies the issuing bank. What happens next?",
+    "options": {
+      "A": "Issuing bank pays immediately",
+      "B": "Issuing bank notifies applicant of maturity and remits funds at maturity",
+      "C": "Documents are returned to the exporter",
+      "D": "CBN approves the payment"
+    },
+    "correct": "B",
+    "explanation": "For a Deferred/Usance LC, the issuing bank receives documents, advises maturity (the future payment date) to the applicant, and then remits funds to the advising bank at maturity.",
+    "whyWrong": "A applies to Sight LCs. C applies to discrepant documents. D is not the standard process for compliant documents."
+  },
+  {
+    "id": 92,
+    "question": "Import duty payment receipt bearing which form number is required for capital importation in form of equipment?",
+    "options": {
+      "A": "Form M number",
+      "B": "NXP number",
+      "C": "SGD (Single Goods Declaration) Form number",
+      "D": "Form Q number"
+    },
+    "correct": "C",
+    "explanation": "For capital importation in the form of equipment/machinery, the Original Import Duty Payment Receipt bearing the SGD (Single Goods Declaration) Form number is required.",
+    "whyWrong": "A is the general import form number. B is an export form. D is for SME FX imports."
+  },
+  {
+    "id": 93,
+    "question": "Under EXW (Ex Works), what is the minimum obligation of the seller?",
+    "options": {
+      "A": "The seller must ship goods to the buyer's country",
+      "B": "The seller must arrange insurance",
+      "C": "The seller must place goods at the buyer's disposal at the seller's premises only",
+      "D": "The seller must handle export customs clearance"
+    },
+    "correct": "C",
+    "explanation": "EXW places the MINIMUM obligation on the seller \u2014 simply placing the goods at the buyer's disposal at the seller's premises. The seller does not need to load goods or clear for export.",
+    "whyWrong": "A, B, and D are obligations that arise under higher-level Incoterms (FCA and above)."
+  },
+  {
+    "id": 94,
+    "question": "In a Clean Line LC process, once the confirming bank pays the beneficiary, what does the issuing bank do?",
+    "options": {
+      "A": "Opens a new LC automatically",
+      "B": "Receives documents and releases them to applicant, informing them to provide funds at sight or at maturity",
+      "C": "Returns documents to the CBN",
+      "D": "Cancels the LC"
+    },
+    "correct": "B",
+    "explanation": "The issuing bank receives documents from the confirming bank and releases them to the applicant, informing them to provide funds at sight or at a future maturity date if the LC was refinanced.",
+    "whyWrong": "A, C, and D do not describe the correct process flow."
+  },
+  {
+    "id": 95,
+    "question": "What information does the CBN communicate to Authorised Dealers about FX policy?",
+    "options": {
+      "A": "Only through press releases",
+      "B": "Annual guidelines and CBN Circulars issued at any time",
+      "C": "Only through the Minister of Finance",
+      "D": "Quarterly memoranda only"
+    },
+    "correct": "B",
+    "explanation": "CBN communicates FX policy to Authorised Dealers through (1) Annual Monetary, Credit, Foreign Trade and Exchange Guidelines, and (2) CBN Circulars that can be issued at any time.",
+    "whyWrong": "A, C, and D are incomplete or incorrect channels of CBN policy communication."
+  },
+  {
+    "id": 96,
+    "question": "BOFIA empowers the CBN to:",
+    "options": {
+      "A": "Set import tariffs",
+      "B": "Grant licenses to Authorised Dealers to deal in Foreign Exchange",
+      "C": "Operate Bureau De Change",
+      "D": "Fix interest rates only"
+    },
+    "correct": "B",
+    "explanation": "BOFIA (Banks and Other Financial Institutions Act) 1991 as amended empowers the CBN to grant licenses to Authorised Dealers to deal in Foreign Exchange.",
+    "whyWrong": "A is done by NCS/Ministry of Finance. C is done by private operators. D is only one of many CBN powers."
+  },
+  {
+    "id": 97,
+    "question": "For Dividends and Profit Repatriation, which government agency must issue evidence of tax payment?",
+    "options": {
+      "A": "CBN",
+      "B": "NCS (Nigeria Customs Service)",
+      "C": "FIRS (Federal Inland Revenue Service)",
+      "D": "SEC (Securities and Exchange Commission)"
+    },
+    "correct": "C",
+    "explanation": "Evidence of tax payment on amounts remitted outside Nigeria must be issued by the FIRS (Federal Inland Revenue Service).",
+    "whyWrong": "A regulates FX. B collects import duties. D regulates capital markets."
+  },
+  {
+    "id": 98,
+    "question": "Under Incoterms 2020, CPT (Carriage Paid To) is usually used for which mode of transport?",
+    "options": {
+      "A": "Sea transport only",
+      "B": "Air transport (usually)",
+      "C": "Road transport only",
+      "D": "Rail transport only"
+    },
+    "correct": "B",
+    "explanation": "CPT (Carriage Paid To) is applicable to any mode of transport but is USUALLY used for AIR transportation where the seller pays freight to the named destination.",
+    "whyWrong": "A (FAS, FOB, CFR, CIF) are for sea only. C and D are not specifically tied to CPT."
+  },
+  {
+    "id": 99,
+    "question": "In a Bills for Collection transaction, what document do both parties sign to confirm commercial terms?",
+    "options": {
+      "A": "Letter of Credit",
+      "B": "Bill of Lading",
+      "C": "Bill of Exchange",
+      "D": "Form M"
+    },
+    "correct": "C",
+    "explanation": "In Bills for Collection, the BILL OF EXCHANGE is the financial instrument that the drawee/buyer accepts (in D/A) as the payment commitment.",
+    "whyWrong": "A is an LC instrument. B is a transport document. D is a government regulatory form."
+  },
+  {
+    "id": 101,
+    "question": "A Nigerian importer uses advance payment (parallel market FX) to pay for goods. What is the bank's only role in this transaction?",
+    "options": {
+      "A": "Issue the Letter of Credit",
+      "B": "Process the Form M and issue the PAAR for duty collection purposes",
+      "C": "Provide credit facility to the importer",
+      "D": "Confirm the payment to the exporter's bank"
+    },
+    "correct": "B",
+    "explanation": "When advance payment is used, the FX is sourced from the parallel market. Banks only get involved for documentation purposes: Form M processing and processing shipping documents for issuance of the PAAR (Pre-Arrival Assessment Report) for duty collection.",
+    "whyWrong": "A, C, and D are functions performed under formal bank FX channels (LC, Bills for Collection). In advance payment, bank involvement is minimal."
+  },
+  {
+    "id": 102,
+    "question": "An exporter presents shipping documents under an LC that has a discrepancy. The confirming bank refuses payment. On the exporter's advice, the bank decides to send the documents to the issuing bank despite discrepancies. What must the issuing bank then do?",
+    "options": {
+      "A": "Pay immediately without checking with the applicant",
+      "B": "Consult the CBN before any action",
+      "C": "Contact the applicant for waiver instruction and decide accordingly",
+      "D": "Return all documents to the confirming bank"
+    },
+    "correct": "C",
+    "explanation": "When discrepant documents are sent to the issuing bank, the bank contacts the applicant. If the applicant waives the discrepancies, the bank pays. Some discrepancies cannot be waived without CBN approval.",
+    "whyWrong": "A is incorrect \u2014 discrepant documents cannot be paid without waiver. B is only required for specific CBN-restricted discrepancies. D is not automatic."
+  },
+  {
+    "id": 103,
+    "question": "Under Incoterms 2020, DPU differs from DAP in which specific way?",
+    "options": {
+      "A": "DPU seller pays import duties; DAP seller does not",
+      "B": "DPU seller unloads goods at the terminal; DAP seller leaves goods on the arriving transport ready for unloading",
+      "C": "DPU is for sea transport; DAP is for air transport",
+      "D": "DPU seller pays insurance; DAP seller does not"
+    },
+    "correct": "B",
+    "explanation": "Under DAP, the seller delivers when goods are placed at the buyer's disposal ready for unloading (but NOT unloaded). Under DPU, the seller delivers the goods ONCE UNLOADED at the named terminal.",
+    "whyWrong": "A is DDP (not DPU). C is wrong \u2014 both are for any mode. D is wrong \u2014 neither mandates insurance."
+  },
+  {
+    "id": 104,
+    "question": "An exporter's bank (remitting bank) sends collection documents to the collecting bank. The collecting bank advises the buyer to accept the Bill of Exchange. The buyer accepts but fails to pay at maturity. What risk category does this represent?",
+    "options": {
+      "A": "Documentary Risk",
+      "B": "Political Risk",
+      "C": "Country Risk",
+      "D": "Credit Risk of the Buyer (Drawee)"
+    },
+    "correct": "D",
+    "explanation": "In D/A collections, the buyer accepts the B/E and receives the documents (and goods). If they fail to pay at maturity, this is a CREDIT RISK of the drawee/buyer \u2014 the main risk in Bills for Collection. Unlike LC, the bank has NO payment obligation.",
+    "whyWrong": "A is risk of document deficiencies. B is government-imposed restrictions. C is country-level political or economic risks."
+  },
+  {
+    "id": 105,
+    "question": "A company in Nigeria receives a shipment of vaccines urgently needed. NAFDAC has not yet issued its regular import permit. What alternative document is required?",
+    "options": {
+      "A": "SON Import Permit",
+      "B": "DPR Permit",
+      "C": "NAFDAC Import Permit or signed waiver by NAFDAC Director General",
+      "D": "NEPC Registration Certificate"
+    },
+    "correct": "C",
+    "explanation": "For vaccines and other sensitive medicaments needed for immediate use, a NAFDAC IMPORT PERMIT or a SIGNED WAIVER BY THE NAFDAC DIRECTOR GENERAL is required instead of the standard NAFDAC Certificate.",
+    "whyWrong": "A is for manufactured goods. B is for petroleum products. D is for exports."
+  },
+  {
+    "id": 106,
+    "question": "A Nigerian bank issues a Back-to-Back LC using the original LC received from an importer as security. What is a KEY constraint that the bank must ensure?",
+    "options": {
+      "A": "The second LC must be for a higher value than the original",
+      "B": "The second LC must expire later than the original LC",
+      "C": "The terms of the second LC must be compatible with the original, typically for a lower value and earlier expiry",
+      "D": "The second LC must be confirmed by a foreign bank"
+    },
+    "correct": "C",
+    "explanation": "In a Back-to-Back LC structure, the second LC (opened in favour of the actual supplier) must have compatible terms with the original \u2014 typically LOWER VALUE (to preserve the intermediary's margin) and EARLIER EXPIRY to ensure the intermediary can receive documents and present to the first LC before its expiry.",
+    "whyWrong": "A would reduce the margin. B would create timing risk. D is not a mandatory requirement."
+  },
+  {
+    "id": 107,
+    "question": "An importer applies for a Form Q for USD 20,000. The bank has received its weekly CBN allocation but the account was only opened 4 months ago. What should the Relationship Manager do?",
+    "options": {
+      "A": "Process the Form Q immediately as FX is available",
+      "B": "Decline \u2014 the account must have been operated for at least 6 months",
+      "C": "Process only USD 10,000 as a partial allocation",
+      "D": "Refer to the CBN for special approval"
+    },
+    "correct": "B",
+    "explanation": "One of the prerequisites for Form Q is that the applicant must have operated their account with the bank for NOT LESS THAN SIX MONTHS. A 4-month-old account does not qualify.",
+    "whyWrong": "A ignores the tenure requirement. C is not a valid option under Form Q rules. D is not the stipulated remedy."
+  },
+  {
+    "id": 108,
+    "question": "The Clean Line/Confirmation Line LC is fundamentally different from a Cash Collateral LC because in the Clean Line:",
+    "options": {
+      "A": "The importer provides FX upfront before goods are shipped",
+      "B": "The confirming bank pays the seller based on a credit line extended to the issuing bank \u2014 no upfront FX from importer",
+      "C": "The LC is automatically renewable each quarter",
+      "D": "CBN provides the FX directly"
+    },
+    "correct": "B",
+    "explanation": "In a Clean Line LC, the CONFIRMING BANK pays based on a CREDIT LINE it has extended to the issuing bank. The importer does not need to provide FX upfront. This is the fundamental structural difference from a Cash Collateral LC.",
+    "whyWrong": "A describes Cash Collateral LC. C describes a Revolving LC. D is not how FX works in LCs."
+  },
+  {
+    "id": 109,
+    "question": "A Tender Guarantee secures the importer against which specific risk?",
+    "options": {
+      "A": "The exporter cancelling the shipment after loading",
+      "B": "The exporter refusing to accept an awarded contract or not replacing the tender guarantee with a performance guarantee",
+      "C": "The exporter presenting fraudulent shipping documents",
+      "D": "The importer changing the LC terms after issuance"
+    },
+    "correct": "B",
+    "explanation": "A Tender Guarantee secures the importer against the risk that after winning the tender, the exporter refuses to accept the contract or fails to replace the tender guarantee with a performance guarantee.",
+    "whyWrong": "A is a shipping cancellation risk. C is documentary fraud risk. D is amendment risk \u2014 not a tender risk."
+  },
+  {
+    "id": 110,
+    "question": "Under CBN regulations, which of the following is considered a mal-practice in the FX market?",
+    "options": {
+      "A": "Applying for Form M for goods on the CBN's approved import list",
+      "B": "Round tripping \u2014 buying FX at official rates and reselling at black market rates",
+      "C": "Using a confirmed LC for payment",
+      "D": "Obtaining insurance at 110% of goods value"
+    },
+    "correct": "B",
+    "explanation": "Round tripping is explicitly listed as a mal-practice in the FX market \u2014 obtaining FX at official CBN rates and selling it at higher black market rates.",
+    "whyWrong": "A is a legitimate import transaction. C is standard LC practice. D is a CBN-mandated insurance requirement."
+  },
+  {
+    "id": 111,
+    "question": "Under what circumstance would a Standby LC be called upon?",
+    "options": {
+      "A": "Whenever the seller ships goods successfully",
+      "B": "Routinely at the end of each trade cycle",
+      "C": "ONLY in the event of a FAILURE TO PERFORM by the principal",
+      "D": "When the buyer requests additional documents"
+    },
+    "correct": "C",
+    "explanation": "A Standby LC (like a guarantee) is a DEFAULT instrument. It is ONLY called upon when the principal (the party who obtained it) fails to perform their obligations. If the underlying transaction succeeds, the SBLC should never be drawn.",
+    "whyWrong": "A, B, and D describe routine use \u2014 SBLCs are not routine payment instruments."
+  },
+  {
+    "id": 112,
+    "question": "An exporter presents documents under an LC. The advising bank has been reviewing them for 6 working days. Which rule has been violated?",
+    "options": {
+      "A": "The 5-working-day rule under UCP600",
+      "B": "The 30-day repatriation rule",
+      "C": "The 90-day duty submission rule",
+      "D": "No rule has been violated \u2014 6 days is within limits"
+    },
+    "correct": "A",
+    "explanation": "Under UCP600, banks have a MAXIMUM of 5 WORKING DAYS following the day of presentation to determine compliance. 6 working days is a violation of UCP600 Article 14.",
+    "whyWrong": "B and C are different rules unrelated to document examination. D is incorrect \u2014 6 days exceeds the 5-day limit."
+  },
+  {
+    "id": 113,
+    "question": "A foreign investor imports machinery worth USD 500,000 into Nigeria as equity capital. What document acknowledges this investment?",
+    "options": {
+      "A": "Form M",
+      "B": "Form NXP",
+      "C": "Capital Importation Certificate (CCI)",
+      "D": "CCVO (Combined Certificate of Value and Origin)"
+    },
+    "correct": "C",
+    "explanation": "The Capital Importation Certificate (CCI) is the document issued to a foreign investor to acknowledge their investment in the Nigerian economy, whether in cash, machinery, or equipment.",
+    "whyWrong": "A is for regular imports. B is for exports. D is a commercial document for goods."
+  },
+  {
+    "id": 114,
+    "question": "When comparing Comparative Advantage to Absolute Advantage, trade under comparative advantage is described as:",
+    "options": {
+      "A": "One-sided and only beneficial to the stronger country",
+      "B": "Mutually beneficial to both trading countries",
+      "C": "Limited to developing countries",
+      "D": "Applicable only when one country has no absolute advantage"
+    },
+    "correct": "B",
+    "explanation": "Comparative Advantage is a condition in which trade IS MUTUALLY BENEFICIAL for both countries. Both countries gain from trade by specialising in their relatively most efficient production.",
+    "whyWrong": "A describes a situation close to Absolute Advantage. C and D are incorrect characterisations."
+  },
+  {
+    "id": 115,
+    "question": "An LC issued by a Nigerian bank states \"Available with any bank by negotiation.\" A beneficiary presents compliant documents to a bank not named in the LC. Can that bank negotiate?",
+    "options": {
+      "A": "No \u2014 only the named bank can negotiate",
+      "B": "Yes \u2014 \"any bank\" means any bank can negotiate the LC",
+      "C": "Only if the CBN approves",
+      "D": "Only if the issuing bank consents in writing first"
+    },
+    "correct": "B",
+    "explanation": "When an LC states \"Available with any bank by negotiation,\" ANY bank can negotiate the LC upon presentation of compliant documents. The beneficiary is not restricted to a specific bank.",
+    "whyWrong": "A applies when a specific bank is nominated. C and D add conditions not present in an \"any bank\" LC."
+  },
+  {
+    "id": 116,
+    "question": "Exporters who fail to repatriate export proceeds within 90 days may face:",
+    "options": {
+      "A": "Criminal prosecution by EFCC only",
+      "B": "Sanctions from the CBN",
+      "C": "Automatic Form M cancellation",
+      "D": "Suspension of all bank accounts"
+    },
+    "correct": "B",
+    "explanation": "Non-repatriation of export proceeds within 90 days may attract SANCTIONS FROM THE CBN. These can include fines, restrictions, and regulatory actions.",
+    "whyWrong": "A is a possible escalation but not the primary stated sanction. C and D are not the stated consequences."
+  },
+  {
+    "id": 117,
+    "question": "A Confirmation Line LC differs from a Cash Collateral LC in that under Confirmation Line:",
+    "options": {
+      "A": "The importer provides full FX upfront before LC issuance",
+      "B": "The confirming bank pays based on a credit facility \u2014 no upfront cash from the importer",
+      "C": "The LC cannot be transferred to a third party",
+      "D": "The goods must be pre-inspected by a Nigerian agency"
+    },
+    "correct": "B",
+    "explanation": "Under a Confirmation Line LC, payment by the confirming bank is backed by a CREDIT LINE (not cash collateral). The importer does not deposit FX upfront \u2014 the credit line is the confirming bank's security.",
+    "whyWrong": "A describes Cash Collateral LC. C and D are not the defining differences."
+  },
+  {
+    "id": 118,
+    "question": "For the issuance of a Green Clause LC advance payment, what must be presented to the bank?",
+    "options": {
+      "A": "A Clean Certificate of Inspection",
+      "B": "A Bill of Lading",
+      "C": "A Warehouse Receipt (endorsed to the nominated bank)",
+      "D": "A Pro-Forma Invoice"
+    },
+    "correct": "C",
+    "explanation": "Under a Green Clause LC, the advance payment is released against a WAREHOUSE RECEIPT, which is endorsed to the nominated bank. The goods awaiting shipment must be warehoused in the name of the nominated bank.",
+    "whyWrong": "A is required after export. B is issued after shipment. D is a pre-shipment quotation document."
+  },
+  {
+    "id": 119,
+    "question": "An LC requires documents to be presented within 21 days of the date of shipment. The B/L is dated 10th January. By when must documents be presented at the latest?",
+    "options": {
+      "A": "31st January",
+      "B": "10th February",
+      "C": "21st February",
+      "D": "10th March"
+    },
+    "correct": "A",
+    "explanation": "21 days from 10th January is 31st January. The 21-day presentation period is counted from the date on the transport document (B/L date). Additionally, documents must be presented before LC expiry.",
+    "whyWrong": "B, C, and D miscalculate the 21-day period."
+  },
+  {
+    "id": 120,
+    "question": "What is the legal significance of the BOFIA 1991 (as amended) in the context of foreign exchange?",
+    "options": {
+      "A": "It established the Authorised Buyer category",
+      "B": "It empowers the CBN to grant licenses to Authorised Dealers to deal in Foreign Exchange",
+      "C": "It created the BDC framework",
+      "D": "It set the exchange rates for the naira"
+    },
+    "correct": "B",
+    "explanation": "BOFIA 1991 (Banks and Other Financial Institutions Act) as amended specifically empowers the CBN to GRANT LICENSES to Authorised Dealers (primarily banks) to deal in Foreign Exchange.",
+    "whyWrong": "A is established by the FX Act 1995. C is a CBN administrative function. D is a CBN monetary policy function."
+  },
+  {
+    "id": 121,
+    "question": "A seller in the US ships goods to Nigeria under CIF Lagos terms. The goods are damaged at sea after being loaded on the vessel. Who bears this loss?",
+    "options": {
+      "A": "The seller, as they arranged insurance under CIF",
+      "B": "The shipping company under the B/L",
+      "C": "The buyer, as risk transferred when goods were loaded on board",
+      "D": "The issuing bank, as they guaranteed the transaction"
+    },
+    "correct": "C",
+    "explanation": "Under CIF, risk transfers from seller to buyer when goods are ON BOARD the vessel. The seller arranged the insurance but on behalf of the buyer. The buyer must therefore claim from the insurance (arranged by seller). Legally, the BUYER bears the risk from loading point.",
+    "whyWrong": "A is incorrect \u2014 seller's risk ended when goods were on board. B is the carrier but insurance is the remedy. D banks do not bear cargo risk."
+  },
+  {
+    "id": 122,
+    "question": "An importer receives discrepant documents under an LC. They accept the discrepancies and want to pay. What must they formally provide the bank?",
+    "options": {
+      "A": "A new Form M",
+      "B": "A signed instruction to waive the discrepancies",
+      "C": "CBN approval",
+      "D": "A replacement Bill of Lading"
+    },
+    "correct": "B",
+    "explanation": "When an applicant wishes to accept discrepant documents, they must provide the bank with a SIGNED WAIVER INSTRUCTION. The issuing bank will then waive the discrepancies and proceed with payment. Some discrepancies still require CBN approval.",
+    "whyWrong": "A is not required for the waiver. C is only needed for specific CBN-restricted discrepancies. D is not how discrepancies are resolved."
+  },
+  {
+    "id": 123,
+    "question": "Compare the Tender Guarantee and Performance Guarantee. Which statement is TRUE?",
+    "options": {
+      "A": "Both are issued at the same time during the tender stage",
+      "B": "A Tender Guarantee is issued first; when the contract is awarded and accepted, it is replaced by a Performance Guarantee",
+      "C": "A Performance Guarantee is issued first, then replaced by a Tender Guarantee",
+      "D": "Both guarantees serve the same function and can be used interchangeably"
+    },
+    "correct": "B",
+    "explanation": "The correct sequence is: Tender Guarantee (during the bidding stage) \u2192 Contract awarded \u2192 Exporter accepts \u2192 Tender Guarantee replaced by Performance Guarantee (during the execution stage).",
+    "whyWrong": "A is wrong \u2014 they are issued at different stages. C reverses the correct order. D is wrong \u2014 they protect against different risks."
+  },
+  {
+    "id": 124,
+    "question": "Under the Foreign Exchange (Monitoring and Miscellaneous Provisions) Act of 1995, what were Authorised Dealers empowered to do?",
+    "options": {
+      "A": "Set their own exchange rates independently",
+      "B": "Process and approve foreign exchange subject to prescribed documentation requirements",
+      "C": "Issue their own Capital Importation Certificates",
+      "D": "Operate as Bureau De Change operators"
+    },
+    "correct": "B",
+    "explanation": "The Foreign Exchange Act of 1995 empowered all Authorised Dealers to PROCESS AND APPROVE foreign exchange subject to prescribed documentation requirements \u2014 decentralising FX approval from the CBN to Authorised Dealers.",
+    "whyWrong": "A is wrong \u2014 CBN sets rates. C is wrong \u2014 banks issue CCI. D is a separate operation."
+  },
+  {
+    "id": 125,
+    "question": "An international transaction involves goods shipped from France to Nigeria, then trans- shipped in Ghana before final delivery to Lagos. Under which document type would this shipment most likely be covered?",
+    "options": {
+      "A": "Liner Bill of Lading",
+      "B": "Marine/Ocean Bill of Lading (separate for each leg)",
+      "C": "Combined Transport or Multimodal Bill of Lading",
+      "D": "Charter Party Bill of Lading"
+    },
+    "correct": "C",
+    "explanation": "When goods pass through multiple modes or multiple legs (France \u2192 Ghana \u2192 Nigeria), a COMBINED TRANSPORT (MULTIMODAL) BILL OF LADING covers the entire journey. The issuer accepts liability for the whole journey.",
+    "whyWrong": "A is for scheduled liner vessels only. B would require multiple B/Ls creating title issues. D is for chartered vessels."
+  },
+  {
+    "id": 126,
+    "question": "An exporter wishes to obtain pre-shipment finance from a foreign buyer. Which LC type supports this arrangement and what is the regulatory limit?",
+    "options": {
+      "A": "Green Clause LC \u2014 limited to 10% of CIF value",
+      "B": "Red Clause LC \u2014 limited to 15% of FOB value",
+      "C": "Transferable LC \u2014 limited to 20% of invoice value",
+      "D": "Revolving LC \u2014 limited to 25% of contract value"
+    },
+    "correct": "B",
+    "explanation": "A RED CLAUSE LC enables the exporter to obtain advance payment BEFORE SHIPMENT. The Exchange Control regulation limits this advance payment to 15% OF FOB VALUE, and requires presentation of the exporter's guarantee.",
+    "whyWrong": "A (Green Clause) is for warehousing costs, not production finance. C and D are not advance payment instruments."
+  },
+  {
+    "id": 127,
+    "question": "Nigeria's Comparative Advantage theory implies that Nigeria should specialise in producing and exporting goods where:",
+    "options": {
+      "A": "It has the most physical resources",
+      "B": "Its opportunity cost is lowest relative to trading partners",
+      "C": "Its absolute production cost is lowest globally",
+      "D": "It has the largest domestic market"
+    },
+    "correct": "B",
+    "explanation": "Comparative Advantage holds that a country should specialise in goods where it has the LOWEST OPPORTUNITY COST relative to other countries. This maximises welfare for all trading parties.",
+    "whyWrong": "A is about resource endowments (not opportunity cost). C is Absolute Advantage. D is about market size, not comparative advantage."
+  },
+  {
+    "id": 128,
+    "question": "An importer has a deferred payment LC for 90 days. Documents are compliant. The confirming bank has already paid the seller. The LC has been refinanced. At what point does the importer need to provide funds?",
+    "options": {
+      "A": "Immediately upon document acceptance",
+      "B": "At the 90-day maturity date",
+      "C": "When CBN issues the FX permit",
+      "D": "When goods clear customs"
+    },
+    "correct": "B",
+    "explanation": "Under a deferred/usance LC, the importer is notified of the maturity date. They are required to provide funds (or bid for FX) at the MATURITY DATE (90 days in this case), not at document acceptance.",
+    "whyWrong": "A describes a Sight LC. C adds a non-standard condition. D is customs clearance, not the LC maturity."
+  },
+  {
+    "id": 129,
+    "question": "Which of the following transactions does NOT require Form A in Nigeria?",
+    "options": {
+      "A": "Family maintenance allowance for a foreign national",
+      "B": "Business travel allowance",
+      "C": "Importation of industrial machinery using Form M",
+      "D": "Repayment of an external loan"
+    },
+    "correct": "C",
+    "explanation": "Importation of industrial machinery uses Form M (not Form A). Form A is for invisible transactions (services, remittances, loan repayments, travel, etc.). Physical goods use Form M.",
+    "whyWrong": "A, B, and D all explicitly require Form A as per the training material."
+  },
+  {
+    "id": 130,
+    "question": "An LC requires a \"Charter Party Bill of Lading.\" What must the applicant note about the terms of this B/L?",
+    "options": {
+      "A": "It has no special terms; same as Marine B/L",
+      "B": "Its terms are subject to the contract of hire between the ship owner and the hirer",
+      "C": "It is automatically clean and acceptable under UCP600",
+      "D": "It cannot be used under an LC"
+    },
+    "correct": "B",
+    "explanation": "A Charter Party B/L is issued by the hirer of a ship and its terms are SUBJECT TO THE CONTRACT OF HIRE between the ship owner and the hirer. Such bills are usually marked \"subject to charter party.\" Banks may refuse to accept these under standard LCs unless the LC explicitly authorises them.",
+    "whyWrong": "A is wrong \u2014 it has unique terms. C is wrong \u2014 it may not be acceptable under UCP600. D is wrong \u2014 it can be used if LC permits."
+  },
+  {
+    "id": 131,
+    "question": "Nigeria has blocked Open Account payment for IMPORTS. If a foreign seller insists on Open Account terms, what is the BEST alternative payment method the Nigerian importer can propose that still offers some bank security?",
+    "options": {
+      "A": "Advance Payment only",
+      "B": "Letter of Credit \u2014 the most structured alternative with bank backing",
+      "C": "Bills for Collection (D/A) \u2014 more flexible, moderately secure, bank-facilitated",
+      "D": "Requesting CBN to approve Open Account for this specific transaction"
+    },
+    "correct": "C",
+    "explanation": "While LC is the most secure formal alternative, Bills for Collection (D/A) is the BEST ALTERNATIVE when the seller wants Open Account but the Nigerian regulatory framework prohibits it. It offers moderate security, bank facilitation, and is permitted in Nigeria, making it a practical compromise.",
+    "whyWrong": "A is less secure than D/A collection. B is the most secure but may be more costly and complex. D is unlikely to be approved as a blanket CBN policy exception."
+  }
+]
