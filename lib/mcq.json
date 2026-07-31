@@ -10,7 +10,8 @@
     },
     "correct": "B",
     "explanation": "Trade Finance signifies financing for trade and concerns BOTH domestic and international trade transactions.",
-    "whyWrong": "A is too narrow. C is incorrect as it involves buyers and sellers. D is wrong as trade finance is commercial."
+    "whyWrong": "A is too narrow. C is incorrect as it involves buyers and sellers. D is wrong as trade finance is commercial.",
+    "category": "trade-finance"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     },
     "correct": "C",
     "explanation": "Mercantilist Theory holds that a nation's economic wealth is measured by its stock of precious metals (gold and silver).",
-    "whyWrong": "A measures cost of production, B measures opportunity cost, D is macroeconomic theory."
+    "whyWrong": "A measures cost of production, B measures opportunity cost, D is macroeconomic theory.",
+    "category": "trade-finance"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     },
     "correct": "B",
     "explanation": "Absolute Advantage refers to the ability to produce goods at a LOWER COST (not opportunity cost) than another country.",
-    "whyWrong": "A describes Comparative Advantage. C and D are unrelated definitions."
+    "whyWrong": "A describes Comparative Advantage. C and D are unrelated definitions.",
+    "category": "trade-finance"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     },
     "correct": "B",
     "explanation": "The Central Bank of Nigeria formulates and implements the foreign exchange policy in Nigeria on behalf of the Federal Government.",
-    "whyWrong": "A makes laws but does not implement FX policy. C and D are not the principal."
+    "whyWrong": "A makes laws but does not implement FX policy. C and D are not the principal.",
+    "category": "trade-finance"
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
     },
     "correct": "C",
     "explanation": "The Authorised Dealers in Nigeria are Banks, Bureau De Change (BDC), and Authorised Buyers. Insurance Companies are not listed.",
-    "whyWrong": "A, B, and D are all specifically listed as Authorised Dealers."
+    "whyWrong": "A, B, and D are all specifically listed as Authorised Dealers.",
+    "category": "trade-finance"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
     },
     "correct": "C",
     "explanation": "A Pro-Forma Invoice is similar to a Commercial Invoice except that it does NOT include shipping marks.",
-    "whyWrong": "A, B, and D are all standard contents of a Pro-Forma Invoice."
+    "whyWrong": "A, B, and D are all standard contents of a Pro-Forma Invoice.",
+    "category": "trade-finance"
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
     },
     "correct": "C",
     "explanation": "The Bill of Lading serves as title to the goods \u2014 goods will be released only to the holder of the signed original.",
-    "whyWrong": "A (Airway Bill) and B (Seaway Bill) are NOT title documents. D is for road transport."
+    "whyWrong": "A (Airway Bill) and B (Seaway Bill) are NOT title documents. D is for road transport.",
+    "category": "trade-finance"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     },
     "correct": "B",
     "explanation": "Form Q was introduced by the CBN specifically to make FX available for payment on importations by small and medium scale enterprises (SMEs).",
-    "whyWrong": "A are served by regular LC and Form M. C use BDC channels. D use government FX windows."
+    "whyWrong": "A are served by regular LC and Form M. C use BDC channels. D use government FX windows.",
+    "category": "trade-finance"
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
     },
     "correct": "C",
     "explanation": "Form Q applicants have access to USD 20,000 per quarter from the CBN's weekly allocations.",
-    "whyWrong": "A, B, and D are all incorrect figures for Form Q quarterly allocation."
+    "whyWrong": "A, B, and D are all incorrect figures for Form Q quarterly allocation.",
+    "category": "trade-finance"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
     },
     "correct": "B",
     "explanation": "Importers MUST submit shipping documents not later than 60 DAYS from date of payment under the Form Q scheme.",
-    "whyWrong": "A (30 days) applies to Clean Line LC exchange control docs. C (90 days) applies to export repatriation. D (120 days) is not stated."
+    "whyWrong": "A (30 days) applies to Clean Line LC exchange control docs. C (90 days) applies to export repatriation. D (120 days) is not stated.",
+    "category": "trade-finance"
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
     },
     "correct": "B",
     "explanation": "International trade is regulated by the International Chamber of Commerce (ICC) through its publications and commentaries/opinions that guide international trade.",
-    "whyWrong": "A sets trade policies but does not regulate trade instruments. C is a financial institution. D is Nigeria's central bank."
+    "whyWrong": "A sets trade policies but does not regulate trade instruments. C is a financial institution. D is Nigeria's central bank.",
+    "category": "trade-finance"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
     },
     "correct": "C",
     "explanation": "UCP600 stands for Uniform Customs and Practices for Documentary Credit and governs Letters of Credit.",
-    "whyWrong": "A is governed by URDG758. B is governed by URC522. D has no specific ICC publication."
+    "whyWrong": "A is governed by URDG758. B is governed by URC522. D has no specific ICC publication.",
+    "category": "trade-finance"
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
     },
     "correct": "D",
     "explanation": "DDP (Delivered Duty Paid) places the maximum obligation on the seller \u2014 all costs, risks, and customs clearance at the destination.",
-    "whyWrong": "A places minimum obligation on seller. B and C represent intermediate obligations."
+    "whyWrong": "A places minimum obligation on seller. B and C represent intermediate obligations.",
+    "category": "trade-finance"
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
     },
     "correct": "A",
     "explanation": "EXW (Ex Works) is the term that places minimum obligation on the seller and maximum obligation on the buyer from the very earliest point (seller's premises).",
-    "whyWrong": "B, C, D all have the seller bearing more obligations and risks."
+    "whyWrong": "B, C, D all have the seller bearing more obligations and risks.",
+    "category": "trade-finance"
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
     },
     "correct": "B",
     "explanation": "A Clean Bill of Lading indicates that the shipping company received the goods in apparent good order \u2014 no defects or issues noted.",
-    "whyWrong": "A, C, and D are all incorrect interpretations of \"clean.\""
+    "whyWrong": "A, C, and D are all incorrect interpretations of \"clean.\"",
+    "category": "trade-finance"
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
     },
     "correct": "B",
     "explanation": "A Dirty or Claused B/L carries a statement that the goods for shipment have defects, noting what the carrier found wrong.",
-    "whyWrong": "A describes customs clearance. C describes an incomplete B/L. D describes a Trans- shipment B/L."
+    "whyWrong": "A describes customs clearance. C describes an incomplete B/L. D describes a Trans- shipment B/L.",
+    "category": "trade-finance"
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
     },
     "correct": "C",
     "explanation": "The Seaway Bill serves the same functions as the B/L except that it is NOT a title document and is NOT negotiable.",
-    "whyWrong": "A describes an Airway Bill. B refers to Container B/L. D is incorrect."
+    "whyWrong": "A describes an Airway Bill. B refers to Container B/L. D is incorrect.",
+    "category": "trade-finance"
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
     },
     "correct": "B",
     "explanation": "Advance Payment is the most secure for the SELLER as payment is received before goods are shipped. LC is very secure but involves conditions.",
-    "whyWrong": "A is least secure for seller. C requires document compliance. D gives only moderate security."
+    "whyWrong": "A is least secure for seller. C requires document compliance. D gives only moderate security.",
+    "category": "trade-finance"
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
     },
     "correct": "B",
     "explanation": "Open Account is NOT allowed in Nigeria as an import payment method. It is only available for exports.",
-    "whyWrong": "A is wrong \u2014 open account is most risky for the seller. C and D are incorrect."
+    "whyWrong": "A is wrong \u2014 open account is most risky for the seller. C and D are incorrect.",
+    "category": "trade-finance"
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
     },
     "correct": "B",
     "explanation": "The Applicant is the importer or buyer who applies to the Issuing Bank to open a Letter of Credit.",
-    "whyWrong": "A is the Beneficiary. C is the bank that issues the LC. D is the bank that advises the beneficiary."
+    "whyWrong": "A is the Beneficiary. C is the bank that issues the LC. D is the bank that advises the beneficiary.",
+    "category": "trade-finance"
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
     },
     "correct": "B",
     "explanation": "The Beneficiary is the exporter or seller who receives payment upon presentation of compliant shipping documents.",
-    "whyWrong": "A is the Applicant. C issues the LC. D confirms it."
+    "whyWrong": "A is the Applicant. C issues the LC. D confirms it.",
+    "category": "trade-finance"
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
     },
     "correct": "B",
     "explanation": "Under UCP600, both negotiating/confirming banks and issuing banks have a maximum of 5 WORKING DAYS to determine document compliance.",
-    "whyWrong": "A, C, and D are all incorrect timeframes under UCP600."
+    "whyWrong": "A, C, and D are all incorrect timeframes under UCP600.",
+    "category": "trade-finance"
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
     },
     "correct": "C",
     "explanation": "URC522 stands for Uniform Rules for Collections and governs Bills for Collection transactions.",
-    "whyWrong": "A is governed by UCP600. B is governed by URDG758. D is set by ICC Incoterms rules, not URC522."
+    "whyWrong": "A is governed by UCP600. B is governed by URDG758. D is set by ICC Incoterms rules, not URC522.",
+    "category": "trade-finance"
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
     },
     "correct": "B",
     "explanation": "D/A stands for Documents against Acceptance \u2014 the drawee accepts the Bill of Exchange, and documents are released before actual payment.",
-    "whyWrong": "A, C, and D are all incorrect expansions of the abbreviation D/A."
+    "whyWrong": "A, C, and D are all incorrect expansions of the abbreviation D/A.",
+    "category": "trade-finance"
   },
   {
     "id": 25,
@@ -322,7 +346,8 @@
     },
     "correct": "C",
     "explanation": "Documents against Payment (D/P) is NOT ALLOWED in Nigeria. Only D/A (Documents against Acceptance) is permitted.",
-    "whyWrong": "A, B, and D are all incorrect statements about D/P in Nigeria."
+    "whyWrong": "A, B, and D are all incorrect statements about D/P in Nigeria.",
+    "category": "trade-finance"
   },
   {
     "id": 26,
@@ -335,7 +360,8 @@
     },
     "correct": "C",
     "explanation": "A guarantee is a non-accessory payment undertaking that is independent of the underlying transaction. An LC is tied to document presentation.",
-    "whyWrong": "A may or may not be true. B is wrong \u2014 a guarantee is a DEFAULT instrument. D is wrong \u2014 guarantees are governed by URDG758."
+    "whyWrong": "A may or may not be true. B is wrong \u2014 a guarantee is a DEFAULT instrument. D is wrong \u2014 guarantees are governed by URDG758.",
+    "category": "trade-finance"
   },
   {
     "id": 27,
@@ -348,7 +374,8 @@
     },
     "correct": "C",
     "explanation": "Exporters are expected to repatriate proceeds of their exports within 90 DAYS of shipment.",
-    "whyWrong": "A is the exchange control doc deadline for Clean Line LC. B is the Form Q document deadline. D is not the stated rule."
+    "whyWrong": "A is the exchange control doc deadline for Clean Line LC. B is the Form Q document deadline. D is not the stated rule.",
+    "category": "trade-finance"
   },
   {
     "id": 28,
@@ -361,7 +388,8 @@
     },
     "correct": "C",
     "explanation": "Form NXP (Nigerian Export Proceeds form) is used for exportation from Nigeria.",
-    "whyWrong": "A is for importation. B is for invisible payments. D is for SME FX imports."
+    "whyWrong": "A is for importation. B is for invisible payments. D is for SME FX imports.",
+    "category": "trade-finance"
   },
   {
     "id": 29,
@@ -374,7 +402,8 @@
     },
     "correct": "C",
     "explanation": "Form A is required for invisible transactions \u2014 payments for services (not physical goods) across international borders.",
-    "whyWrong": "A uses Form M. B uses Form NXP. D uses Form Q."
+    "whyWrong": "A uses Form M. B uses Form NXP. D uses Form Q.",
+    "category": "trade-finance"
   },
   {
     "id": 30,
@@ -387,7 +416,8 @@
     },
     "correct": "B",
     "explanation": "CCI is the certificate issued to a FOREIGN INVESTOR to acknowledge their investment in the Nigerian economy.",
-    "whyWrong": "A are exporters. C are dealers who facilitate transactions. D have Form Q."
+    "whyWrong": "A are exporters. C are dealers who facilitate transactions. D have Form Q.",
+    "category": "trade-finance"
   },
   {
     "id": 31,
@@ -400,7 +430,8 @@
     },
     "correct": "C",
     "explanation": "The Certificate of Origin, issued by an independent body such as a Chamber of Commerce, attests to the origin, standard, and quality of goods.",
-    "whyWrong": "A is financial; B is for exchange control; D shows weight and packaging."
+    "whyWrong": "A is financial; B is for exchange control; D shows weight and packaging.",
+    "category": "trade-finance"
   },
   {
     "id": 32,
@@ -413,7 +444,8 @@
     },
     "correct": "B",
     "explanation": "A Packing List details the list of goods packed, the weight of individual items, and the total weight of all goods.",
-    "whyWrong": "A is the Invoice. C is a financial document. D is an insurance certificate."
+    "whyWrong": "A is the Invoice. C is a financial document. D is an insurance certificate.",
+    "category": "trade-finance"
   },
   {
     "id": 33,
@@ -426,7 +458,8 @@
     },
     "correct": "C",
     "explanation": "Under CBN regulation, goods imported under Form M must be insured to 110% of their value by a recognised Nigerian insurance company.",
-    "whyWrong": "A, B, and D are incorrect percentages."
+    "whyWrong": "A, B, and D are incorrect percentages.",
+    "category": "trade-finance"
   },
   {
     "id": 34,
@@ -439,7 +472,8 @@
     },
     "correct": "B",
     "explanation": "A merchant fleet is of vital importance in Mercantilism as it avoids the need for foreign assistance in transporting goods and raw materials, keeping transport revenue domestic.",
-    "whyWrong": "A, C, and D are not the stated mercantilist reason for a merchant fleet."
+    "whyWrong": "A, C, and D are not the stated mercantilist reason for a merchant fleet.",
+    "category": "trade-finance"
   },
   {
     "id": 35,
@@ -452,7 +486,8 @@
     },
     "correct": "C",
     "explanation": "A Standby Letter of Credit is an instrument that has its roots in United States law, where banks were historically prohibited from issuing guarantees.",
-    "whyWrong": "A, B, and D are not the correct legal origin of the SBLC."
+    "whyWrong": "A, B, and D are not the correct legal origin of the SBLC.",
+    "category": "trade-finance"
   },
   {
     "id": 36,
@@ -465,7 +500,8 @@
     },
     "correct": "C",
     "explanation": "Tender Guarantee is one of the four types of guarantees covered in the material. Others are Performance, Advance Payment, and Payment Guarantee.",
-    "whyWrong": "A and D are not types of guarantees. B is a Standby LC not a guarantee type."
+    "whyWrong": "A and D are not types of guarantees. B is a Standby LC not a guarantee type.",
+    "category": "trade-finance"
   },
   {
     "id": 37,
@@ -478,7 +514,8 @@
     },
     "correct": "C",
     "explanation": "Under FOB, risk of loss or damage passes when goods are ON BOARD the vessel nominated by the buyer.",
-    "whyWrong": "A describes EXW. B describes FAS. D describes DAP/DDP."
+    "whyWrong": "A describes EXW. B describes FAS. D describes DAP/DDP.",
+    "category": "trade-finance"
   },
   {
     "id": 38,
@@ -491,7 +528,8 @@
     },
     "correct": "C",
     "explanation": "Under FAS, risk passes when the goods are placed alongside the vessel (e.g., on a quay) at the named port of shipment.",
-    "whyWrong": "A describes FOB and higher. B describes EXW. D describes DAP/DDP."
+    "whyWrong": "A describes FOB and higher. B describes EXW. D describes DAP/DDP.",
+    "category": "trade-finance"
   },
   {
     "id": 39,
@@ -504,7 +542,8 @@
     },
     "correct": "B",
     "explanation": "The Remitting Bank is the seller's bank through which the collection proceeds will be remitted to the seller.",
-    "whyWrong": "A is the Collecting/Presenting Bank. C and D are not parties to collection."
+    "whyWrong": "A is the Collecting/Presenting Bank. C and D are not parties to collection.",
+    "category": "trade-finance"
   },
   {
     "id": 40,
@@ -517,7 +556,8 @@
     },
     "correct": "C",
     "explanation": "Non-commercial exports (gifts, personal effects, exhibition items) use Form NCX.",
-    "whyWrong": "A is for commercial exports. B is for invisible transactions. D is for SME imports."
+    "whyWrong": "A is for commercial exports. B is for invisible transactions. D is for SME imports.",
+    "category": "trade-finance"
   },
   {
     "id": 41,
@@ -530,7 +570,8 @@
     },
     "correct": "B",
     "explanation": "CB prefix before a Form M number indicates that the import item will NOT be inspected at the point of importation (e.g., Gas, Oil, Petroleum products).",
-    "whyWrong": "A (BA) means inspection WILL take place. C and D are not valid Form M prefixes."
+    "whyWrong": "A (BA) means inspection WILL take place. C and D are not valid Form M prefixes.",
+    "category": "trade-finance"
   },
   {
     "id": 42,
@@ -543,7 +584,8 @@
     },
     "correct": "B",
     "explanation": "A Performance Guarantee protects the importer/buyer against the risk that the exporter/seller fails to fulfil delivery commitments.",
-    "whyWrong": "A describes a Payment Guarantee. C and D are not the purpose of a Performance Guarantee."
+    "whyWrong": "A describes a Payment Guarantee. C and D are not the purpose of a Performance Guarantee.",
+    "category": "trade-finance"
   },
   {
     "id": 43,
@@ -556,7 +598,8 @@
     },
     "correct": "C",
     "explanation": "URDG758 stands for Uniform Rules for Demand Guarantees and governs bank guarantees.",
-    "whyWrong": "A is governed by UCP600. B is governed by URC522. D is governed by e-UCP."
+    "whyWrong": "A is governed by UCP600. B is governed by URC522. D is governed by e-UCP.",
+    "category": "trade-finance"
   },
   {
     "id": 44,
@@ -569,7 +612,8 @@
     },
     "correct": "C",
     "explanation": "A Transferable LC can be transferred to another beneficiary \u2014 used when the seller is an intermediary who wishes to involve the actual supplier.",
-    "whyWrong": "A can be cancelled \u2014 different feature. B is a default instrument. D provides advance payment."
+    "whyWrong": "A can be cancelled \u2014 different feature. B is a default instrument. D provides advance payment.",
+    "category": "trade-finance"
   },
   {
     "id": 45,
@@ -582,7 +626,8 @@
     },
     "correct": "B",
     "explanation": "A Bill of Exchange is an UNCONDITIONAL order in writing from one party to another for a SPECIFIC AMOUNT of money, signed by the issuer.",
-    "whyWrong": "A is wrong \u2014 it must be unconditional. C and D are completely different documents."
+    "whyWrong": "A is wrong \u2014 it must be unconditional. C and D are completely different documents.",
+    "category": "trade-finance"
   },
   {
     "id": 46,
@@ -595,7 +640,8 @@
     },
     "correct": "B",
     "explanation": "The Presenting Bank is usually the buyer's bank \u2014 it presents documents to the buyer for acceptance and payment.",
-    "whyWrong": "A is the Remitting Bank. C and D are not parties to a collection transaction."
+    "whyWrong": "A is the Remitting Bank. C and D are not parties to a collection transaction.",
+    "category": "trade-finance"
   },
   {
     "id": 47,
@@ -608,7 +654,8 @@
     },
     "correct": "A",
     "explanation": "The NEPC (Nigerian Export Promotion Council) Registration Certificate is required BEFORE shipment for non-oil exports from Nigeria.",
-    "whyWrong": "B, C, and D are not the specific document required by NEPC for export."
+    "whyWrong": "B, C, and D are not the specific document required by NEPC for export.",
+    "category": "trade-finance"
   },
   {
     "id": 48,
@@ -621,7 +668,8 @@
     },
     "correct": "C",
     "explanation": "Under CIF terms, the cost of insurance is usually the CIF value of the goods PLUS 10% to cover the expected profit of the buyer.",
-    "whyWrong": "A provides no buffer. B is an intermediate amount. D reduces coverage."
+    "whyWrong": "A provides no buffer. B is an intermediate amount. D reduces coverage.",
+    "category": "trade-finance"
   },
   {
     "id": 49,
@@ -634,7 +682,8 @@
     },
     "correct": "B",
     "explanation": "Applicants must have operated their account with the bank for a minimum of SIX MONTHS to be eligible for the Form Q scheme.",
-    "whyWrong": "A is too short. C and D exceed the stated requirement."
+    "whyWrong": "A is too short. C and D exceed the stated requirement.",
+    "category": "trade-finance"
   },
   {
     "id": 50,
@@ -647,7 +696,8 @@
     },
     "correct": "B",
     "explanation": "A Red Clause LC enables the exporter to obtain advance payment BEFORE shipment in the form of pre-shipment finance.",
-    "whyWrong": "A describes a Sight LC. C describes D/A collection. D describes a Revolving LC."
+    "whyWrong": "A describes a Sight LC. C describes D/A collection. D describes a Revolving LC.",
+    "category": "trade-finance"
   },
   {
     "id": 51,
@@ -660,7 +710,8 @@
     },
     "correct": "B",
     "explanation": "Under Cash Collateral LC, Treasury sources FX, the LC is issued, and funds are moved to the Bank's correspondent bank's position until compliant documents are presented.",
-    "whyWrong": "A keeps funds locally. C is not the process. D is not the banking mechanism."
+    "whyWrong": "A keeps funds locally. C is not the process. D is not the banking mechanism.",
+    "category": "trade-finance"
   },
   {
     "id": 52,
@@ -673,7 +724,8 @@
     },
     "correct": "C",
     "explanation": "A Bill of Lading is referred to as quasi-negotiable because a transferee for value who takes possession of an endorsed B/L obtains good title, provided the transferor had good title.",
-    "whyWrong": "A and B are NOT title documents. D is a commercial document, not quasi-negotiable."
+    "whyWrong": "A and B are NOT title documents. D is a commercial document, not quasi-negotiable.",
+    "category": "trade-finance"
   },
   {
     "id": 53,
@@ -686,7 +738,8 @@
     },
     "correct": "B",
     "explanation": "The Confirming Bank adds its OWN COMMITMENT to pay the beneficiary of the credit in compliance with the terms and conditions of the LC.",
-    "whyWrong": "A is done by exporters. C is arranged separately. D is on the invoice and B/L."
+    "whyWrong": "A is done by exporters. C is arranged separately. D is on the invoice and B/L.",
+    "category": "trade-finance"
   },
   {
     "id": 54,
@@ -699,7 +752,8 @@
     },
     "correct": "B",
     "explanation": "FAS (Free Alongside Ship), FOB (Free On Board), and CIF (Cost Insurance Freight) are the three Incoterms restricted to sea and inland waterway transport.",
-    "whyWrong": "A, C, and D all include terms applicable to any mode of transport."
+    "whyWrong": "A, C, and D all include terms applicable to any mode of transport.",
+    "category": "trade-finance"
   },
   {
     "id": 55,
@@ -712,7 +766,8 @@
     },
     "correct": "B",
     "explanation": "A Revolving LC allows the LC to be automatically reinstated under certain circumstances and is normally used where shipments of the same goods are made to the same importer over a period of time.",
-    "whyWrong": "A describes a Transferable LC. C describes a Red Clause LC. D describes Cash Collateral LC."
+    "whyWrong": "A describes a Transferable LC. C describes a Red Clause LC. D describes Cash Collateral LC.",
+    "category": "trade-finance"
   },
   {
     "id": 56,
@@ -725,7 +780,8 @@
     },
     "correct": "C",
     "explanation": "The Principal/Drawer/Applicant/Seller is the exporter who entrusts the responsibility of collecting export proceeds to their bank (the remitting bank).",
-    "whyWrong": "A is the Remitting/Collecting Bank. B is the Drawee. D is the regulator."
+    "whyWrong": "A is the Remitting/Collecting Bank. B is the Drawee. D is the regulator.",
+    "category": "trade-finance"
   },
   {
     "id": 57,
@@ -738,7 +794,8 @@
     },
     "correct": "B",
     "explanation": "The Issuing Bank is the bank that issues the LC on behalf of and at the REQUEST of the APPLICANT (the importer/buyer).",
-    "whyWrong": "A receives payment. C only advises. D does not issue commercial LCs."
+    "whyWrong": "A receives payment. C only advises. D does not issue commercial LCs.",
+    "category": "trade-finance"
   },
   {
     "id": 58,
@@ -751,7 +808,8 @@
     },
     "correct": "B",
     "explanation": "Under an unconfirmed LC, the issuing bank receives documents, either notifies the applicant to bid in the FX market or advises maturity (for deferred), then remits funds to the advising bank.",
-    "whyWrong": "A is correct for confirmed LCs where the confirming bank already paid. C is wrong for compliant docs. D is not the standard process."
+    "whyWrong": "A is correct for confirmed LCs where the confirming bank already paid. C is wrong for compliant docs. D is not the standard process.",
+    "category": "trade-finance"
   },
   {
     "id": 59,
@@ -764,7 +822,8 @@
     },
     "correct": "B",
     "explanation": "Under CIF, the SELLER also contracts for insurance cover against the buyer's risk during the carriage. Under C&F/CFR, the buyer arranges insurance.",
-    "whyWrong": "A describes CFR/C&F. C and D are not the rule under CIF."
+    "whyWrong": "A describes CFR/C&F. C and D are not the rule under CIF.",
+    "category": "trade-finance"
   },
   {
     "id": 60,
@@ -777,7 +836,8 @@
     },
     "correct": "B",
     "explanation": "Multiple transport documents on the SAME means of conveyance, for the SAME journey, to the SAME destination do NOT constitute partial shipment, regardless of different dates or loading ports.",
-    "whyWrong": "A, C, and D would all constitute partial shipments."
+    "whyWrong": "A, C, and D would all constitute partial shipments.",
+    "category": "trade-finance"
   },
   {
     "id": 61,
@@ -790,7 +850,8 @@
     },
     "correct": "C",
     "explanation": "The Certificate of Analysis is issued for exchange control purposes by an appointed third-party agent in the exporter's country.",
-    "whyWrong": "A issues Certificate of Origin. B issues Insurance Certificates. D regulates FX."
+    "whyWrong": "A issues Certificate of Origin. B issues Insurance Certificates. D regulates FX.",
+    "category": "trade-finance"
   },
   {
     "id": 62,
@@ -803,7 +864,8 @@
     },
     "correct": "B",
     "explanation": "Foreign Exchange Buyers MUST go through Authorised Dealers (Banks and Bureau De Change). Direct purchase outside this channel is illegal.",
-    "whyWrong": "A are capital market intermediaries. C does not sell directly to importers. D is not an FX distribution channel."
+    "whyWrong": "A are capital market intermediaries. C does not sell directly to importers. D is not an FX distribution channel.",
+    "category": "trade-finance"
   },
   {
     "id": 63,
@@ -816,7 +878,8 @@
     },
     "correct": "B",
     "explanation": "A Back-to-Back LC uses the original LC as security to open a second LC in favour of the exporter's own supplier. Both LCs must remain in tandem.",
-    "whyWrong": "A describes a Transferable LC. C is a transport concept. D does not describe an LC type."
+    "whyWrong": "A describes a Transferable LC. C is a transport concept. D does not describe an LC type.",
+    "category": "trade-finance"
   },
   {
     "id": 64,
@@ -829,7 +892,8 @@
     },
     "correct": "B",
     "explanation": "Form NXP is the Nigerian Export Proceeds form. The bank that registered the NXP must certify that proceeds have been received and credited to the export domiciliary account.",
-    "whyWrong": "A is for imports. C is for invisible transactions. D is for SME imports."
+    "whyWrong": "A is for imports. C is for invisible transactions. D is for SME imports.",
+    "category": "trade-finance"
   },
   {
     "id": 65,
@@ -842,7 +906,8 @@
     },
     "correct": "D",
     "explanation": "DDP (Delivered Duty Paid) means the seller bears ALL costs and risks including import customs, duties, and delivery to the buyer's named destination.",
-    "whyWrong": "A seller pays freight and insurance but not import duty. B seller pays freight only. C seller delivers but buyer pays import duties."
+    "whyWrong": "A seller pays freight and insurance but not import duty. B seller pays freight only. C seller delivers but buyer pays import duties.",
+    "category": "trade-finance"
   },
   {
     "id": 66,
@@ -855,7 +920,8 @@
     },
     "correct": "B",
     "explanation": "The NAFDAC Certificate is required for the import of ALL processed food items and industrial chemicals. Vaccines and sensitive medicaments need NAFDAC Import Permit.",
-    "whyWrong": "A requires SON Certificate. C and D also require SON but not NAFDAC."
+    "whyWrong": "A requires SON Certificate. C and D also require SON but not NAFDAC.",
+    "category": "trade-finance"
   },
   {
     "id": 67,
@@ -868,7 +934,8 @@
     },
     "correct": "C",
     "explanation": "Under a Confirmation Line LC, the confirming bank checks document compliance and pays the beneficiary FIRST, drawing on the clean line credit facility provided to the issuing bank.",
-    "whyWrong": "A pays only at the end. B reimburses the confirming bank after. D does not pay in commercial transactions."
+    "whyWrong": "A pays only at the end. B reimburses the confirming bank after. D does not pay in commercial transactions.",
+    "category": "trade-finance"
   },
   {
     "id": 68,
@@ -881,7 +948,8 @@
     },
     "correct": "C",
     "explanation": "Business Travel Allowance is an invisible transaction (payment for services, not goods) that requires Form A and supporting documentation.",
-    "whyWrong": "A uses Form M. B uses Form NXP. D uses CCI process."
+    "whyWrong": "A uses Form M. B uses Form NXP. D uses CCI process.",
+    "category": "trade-finance"
   },
   {
     "id": 69,
@@ -894,7 +962,8 @@
     },
     "correct": "B",
     "explanation": "A Charter Party B/L is issued by the HIRER OF THE SHIP to the exporter. Its terms are subject to the contract of hire between the ship owner and the hirer.",
-    "whyWrong": "A receives the B/L. C issues port documents. D issues LCs."
+    "whyWrong": "A receives the B/L. C issues port documents. D issues LCs.",
+    "category": "trade-finance"
   },
   {
     "id": 70,
@@ -907,7 +976,8 @@
     },
     "correct": "B",
     "explanation": "A Green Clause LC requires goods awaiting shipment to be warehoused in the NAME OF A NOMINATED BANK. The advance payment is released against a warehouse receipt.",
-    "whyWrong": "A is a separate requirement. C is for advance payment LCs. D is a Form M insurance requirement."
+    "whyWrong": "A is a separate requirement. C is for advance payment LCs. D is a Form M insurance requirement.",
+    "category": "trade-finance"
   },
   {
     "id": 71,
@@ -920,7 +990,8 @@
     },
     "correct": "B",
     "explanation": "Trans-shipment means unloading from one vessel and reloading onto another vessel during the carriage from the port of loading to the port of discharge.",
-    "whyWrong": "A is partial/multiple destination shipment. C is multi-modal transport. D is container splitting."
+    "whyWrong": "A is partial/multiple destination shipment. C is multi-modal transport. D is container splitting.",
+    "category": "trade-finance"
   },
   {
     "id": 72,
@@ -933,7 +1004,8 @@
     },
     "correct": "C",
     "explanation": "The Negotiating Bank is the bank that pays or undertakes to pay the beneficiary after presentation of compliant shipping documents.",
-    "whyWrong": "A is the Issuing Bank. B is the Advising Bank. D is an insurance company."
+    "whyWrong": "A is the Issuing Bank. B is the Advising Bank. D is an insurance company.",
+    "category": "trade-finance"
   },
   {
     "id": 73,
@@ -946,7 +1018,8 @@
     },
     "correct": "C",
     "explanation": "Under a Cash Collateral LC, the customer must submit exchange control documents to the Bank within 90 DAYS of clearance of goods.",
-    "whyWrong": "A is the Clean Line LC rule (30 days from delivery). B is the Form Q rule. D is not the stated deadline."
+    "whyWrong": "A is the Clean Line LC rule (30 days from delivery). B is the Form Q rule. D is not the stated deadline.",
+    "category": "trade-finance"
   },
   {
     "id": 74,
@@ -959,7 +1032,8 @@
     },
     "correct": "C",
     "explanation": "Combined Transport (Multimodal) B/L (also called \"Through Bill of Lading\") is used when goods will pass through multiple modes \u2014 air, sea, and land \u2014 before delivery. The issuer accepts liability for the entire journey.",
-    "whyWrong": "A is for sea only. B is for chartered vessels. D is for regular scheduled vessels."
+    "whyWrong": "A is for sea only. B is for chartered vessels. D is for regular scheduled vessels.",
+    "category": "trade-finance"
   },
   {
     "id": 75,
@@ -972,7 +1046,8 @@
     },
     "correct": "B",
     "explanation": "The Advance/Down Payment Guarantee protects the buyer against the risk that the seller neither delivers the goods NOR returns the advance payment \u2014 protecting the pre-payment risk.",
-    "whyWrong": "A, C, and D are not the specific risk covered by this type of guarantee."
+    "whyWrong": "A, C, and D are not the specific risk covered by this type of guarantee.",
+    "category": "trade-finance"
   },
   {
     "id": 76,
@@ -985,7 +1060,8 @@
     },
     "correct": "C",
     "explanation": "The Beneficiary is the party in whose favour the guarantee is issued \u2014 they receive financial compensation if the principal defaults.",
-    "whyWrong": "A applies for and takes out the guarantee. B issues the guarantee. D may counter-guarantee but is not the beneficiary."
+    "whyWrong": "A applies for and takes out the guarantee. B issues the guarantee. D may counter-guarantee but is not the beneficiary.",
+    "category": "trade-finance"
   },
   {
     "id": 77,
@@ -998,7 +1074,8 @@
     },
     "correct": "B",
     "explanation": "When the underlying transaction is conducted smoothly (e.g., goods delivered and payment made), the guarantee becomes INVALID without being called upon. A guarantee is only called upon when there is default.",
-    "whyWrong": "A, C, and D do not describe what happens to a guarantee on successful performance."
+    "whyWrong": "A, C, and D do not describe what happens to a guarantee on successful performance.",
+    "category": "trade-finance"
   },
   {
     "id": 78,
@@ -1011,7 +1088,8 @@
     },
     "correct": "B",
     "explanation": "CB prefix applies to items that will NOT be inspected at the point of importation, such as Gas, Oil, and Petroleum products.",
-    "whyWrong": "A (BA) applies to items that WILL be inspected. C is not a valid Form M prefix. D is incorrect."
+    "whyWrong": "A (BA) applies to items that WILL be inspected. C is not a valid Form M prefix. D is incorrect.",
+    "category": "trade-finance"
   },
   {
     "id": 79,
@@ -1024,7 +1102,8 @@
     },
     "correct": "B",
     "explanation": "A Tender Guarantee is replaced by a Performance Guarantee once the exporter accepts the awarded contract. This is the standard progression in international contracting.",
-    "whyWrong": "A, C, and D describe later stages of transaction completion, not when a Tender Guarantee is replaced."
+    "whyWrong": "A, C, and D describe later stages of transaction completion, not when a Tender Guarantee is replaced.",
+    "category": "trade-finance"
   },
   {
     "id": 80,
@@ -1037,7 +1116,8 @@
     },
     "correct": "C",
     "explanation": "Under DDP, the SELLER pays ALL costs including import duties and customs clearance at the destination country. It is the maximum obligation for the seller.",
-    "whyWrong": "A bears these costs under most other terms (EXW through DAP). B and D are not parties to Incoterms obligations."
+    "whyWrong": "A bears these costs under most other terms (EXW through DAP). B and D are not parties to Incoterms obligations.",
+    "category": "trade-finance"
   },
   {
     "id": 81,
@@ -1050,7 +1130,8 @@
     },
     "correct": "C",
     "explanation": "CFR and CIF are identical EXCEPT that under CIF, the SELLER also arranges and pays for INSURANCE. Under CFR, the buyer arranges and pays for insurance.",
-    "whyWrong": "A, B, and D are obligations under BOTH CFR and CIF."
+    "whyWrong": "A, B, and D are obligations under BOTH CFR and CIF.",
+    "category": "trade-finance"
   },
   {
     "id": 82,
@@ -1063,7 +1144,8 @@
     },
     "correct": "B",
     "explanation": "The PAAR (Pre-Arrival Assessment Report) is issued to enable duty collection by the Nigerian Customs Service for imported goods.",
-    "whyWrong": "A is done by SWIFT/bank communications. C is done by insurance certificate. D is done on the CBN/NCS portal."
+    "whyWrong": "A is done by SWIFT/bank communications. C is done by insurance certificate. D is done on the CBN/NCS portal.",
+    "category": "trade-finance"
   },
   {
     "id": 83,
@@ -1076,7 +1158,8 @@
     },
     "correct": "C",
     "explanation": "Insurance Documents include Cover Notes, Insurance Certificates, and Insurance Policies \u2014 they evidence the contract of insurance arrangement on the goods.",
-    "whyWrong": "A includes invoices. B includes cheques and bills of exchange. D includes B/L and airway bills."
+    "whyWrong": "A includes invoices. B includes cheques and bills of exchange. D includes B/L and airway bills.",
+    "category": "trade-finance"
   },
   {
     "id": 84,
@@ -1089,7 +1172,8 @@
     },
     "correct": "B",
     "explanation": "The CBN cited illegal FX trading, speculative trading, and money laundering as the primary reasons for stopping FX sales to BDCs on 27 July 2021.",
-    "whyWrong": "A, C, and D are not the reasons stated in the training material."
+    "whyWrong": "A, C, and D are not the reasons stated in the training material.",
+    "category": "trade-finance"
   },
   {
     "id": 85,
@@ -1102,7 +1186,8 @@
     },
     "correct": "C",
     "explanation": "The Third Party Inspection Certificate is issued by an INDEPENDENT THIRD PARTY (inspection agent) RESIDENT IN THE EXPORTER'S COUNTRY, confirming the goods meet a certain standard.",
-    "whyWrong": "A issues the Certificate of Origin. B is not an inspection agent. D is a customs authority."
+    "whyWrong": "A issues the Certificate of Origin. B is not an inspection agent. D is a customs authority.",
+    "category": "trade-finance"
   },
   {
     "id": 86,
@@ -1115,7 +1200,8 @@
     },
     "correct": "B",
     "explanation": "A Payment Guarantee protects the SELLER by providing financial security in case the buyer fails fully or partially to meet their payment obligations.",
-    "whyWrong": "A describes a Performance Guarantee. C and D are not the purpose of a payment guarantee."
+    "whyWrong": "A describes a Performance Guarantee. C and D are not the purpose of a payment guarantee.",
+    "category": "trade-finance"
   },
   {
     "id": 87,
@@ -1128,7 +1214,8 @@
     },
     "correct": "B",
     "explanation": "For cash investment where investment is in the form of inflow of funds, the documentation should be in place to enable CCI to be issued within 24 HOURS.",
-    "whyWrong": "A, C, and D are all incorrect timeframes for CCI issuance on cash investment."
+    "whyWrong": "A, C, and D are all incorrect timeframes for CCI issuance on cash investment.",
+    "category": "trade-finance"
   },
   {
     "id": 88,
@@ -1141,7 +1228,8 @@
     },
     "correct": "B",
     "explanation": "Form NCX is used for non-commercial exports including gifts, personal effects, and exhibition items. No payment is expected for goods shipped under NCX.",
-    "whyWrong": "A is for commercial exports with expected payment. C is for invisible transactions. D is for SME FX imports."
+    "whyWrong": "A is for commercial exports with expected payment. C is for invisible transactions. D is for SME FX imports.",
+    "category": "trade-finance"
   },
   {
     "id": 89,
@@ -1154,7 +1242,8 @@
     },
     "correct": "C",
     "explanation": "e-UCP is the ICC publication that governs electronic presentations under Letters of Credit, supplementing UCP600 for digital trade documents.",
-    "whyWrong": "A governs traditional paper-based LCs. B governs collections. D provides document examination standards."
+    "whyWrong": "A governs traditional paper-based LCs. B governs collections. D provides document examination standards.",
+    "category": "trade-finance"
   },
   {
     "id": 90,
@@ -1167,7 +1256,8 @@
     },
     "correct": "B",
     "explanation": "Multimodal Transport Documents are new transport documents introduced by the Uniform Customs and Practice Publication 500 (UCP500, the predecessor to UCP600).",
-    "whyWrong": "A (UCP600) is the current LC standard but did not introduce multimodal docs. C governs guarantees. D governs collections."
+    "whyWrong": "A (UCP600) is the current LC standard but did not introduce multimodal docs. C governs guarantees. D governs collections.",
+    "category": "trade-finance"
   },
   {
     "id": 91,
@@ -1180,7 +1270,8 @@
     },
     "correct": "B",
     "explanation": "For a Deferred/Usance LC, the issuing bank receives documents, advises maturity (the future payment date) to the applicant, and then remits funds to the advising bank at maturity.",
-    "whyWrong": "A applies to Sight LCs. C applies to discrepant documents. D is not the standard process for compliant documents."
+    "whyWrong": "A applies to Sight LCs. C applies to discrepant documents. D is not the standard process for compliant documents.",
+    "category": "trade-finance"
   },
   {
     "id": 92,
@@ -1193,7 +1284,8 @@
     },
     "correct": "C",
     "explanation": "For capital importation in the form of equipment/machinery, the Original Import Duty Payment Receipt bearing the SGD (Single Goods Declaration) Form number is required.",
-    "whyWrong": "A is the general import form number. B is an export form. D is for SME FX imports."
+    "whyWrong": "A is the general import form number. B is an export form. D is for SME FX imports.",
+    "category": "trade-finance"
   },
   {
     "id": 93,
@@ -1206,7 +1298,8 @@
     },
     "correct": "C",
     "explanation": "EXW places the MINIMUM obligation on the seller \u2014 simply placing the goods at the buyer's disposal at the seller's premises. The seller does not need to load goods or clear for export.",
-    "whyWrong": "A, B, and D are obligations that arise under higher-level Incoterms (FCA and above)."
+    "whyWrong": "A, B, and D are obligations that arise under higher-level Incoterms (FCA and above).",
+    "category": "trade-finance"
   },
   {
     "id": 94,
@@ -1219,7 +1312,8 @@
     },
     "correct": "B",
     "explanation": "The issuing bank receives documents from the confirming bank and releases them to the applicant, informing them to provide funds at sight or at a future maturity date if the LC was refinanced.",
-    "whyWrong": "A, C, and D do not describe the correct process flow."
+    "whyWrong": "A, C, and D do not describe the correct process flow.",
+    "category": "trade-finance"
   },
   {
     "id": 95,
@@ -1232,7 +1326,8 @@
     },
     "correct": "B",
     "explanation": "CBN communicates FX policy to Authorised Dealers through (1) Annual Monetary, Credit, Foreign Trade and Exchange Guidelines, and (2) CBN Circulars that can be issued at any time.",
-    "whyWrong": "A, C, and D are incomplete or incorrect channels of CBN policy communication."
+    "whyWrong": "A, C, and D are incomplete or incorrect channels of CBN policy communication.",
+    "category": "trade-finance"
   },
   {
     "id": 96,
@@ -1245,7 +1340,8 @@
     },
     "correct": "B",
     "explanation": "BOFIA (Banks and Other Financial Institutions Act) 1991 as amended empowers the CBN to grant licenses to Authorised Dealers to deal in Foreign Exchange.",
-    "whyWrong": "A is done by NCS/Ministry of Finance. C is done by private operators. D is only one of many CBN powers."
+    "whyWrong": "A is done by NCS/Ministry of Finance. C is done by private operators. D is only one of many CBN powers.",
+    "category": "trade-finance"
   },
   {
     "id": 97,
@@ -1258,7 +1354,8 @@
     },
     "correct": "C",
     "explanation": "Evidence of tax payment on amounts remitted outside Nigeria must be issued by the FIRS (Federal Inland Revenue Service).",
-    "whyWrong": "A regulates FX. B collects import duties. D regulates capital markets."
+    "whyWrong": "A regulates FX. B collects import duties. D regulates capital markets.",
+    "category": "trade-finance"
   },
   {
     "id": 98,
@@ -1271,7 +1368,8 @@
     },
     "correct": "B",
     "explanation": "CPT (Carriage Paid To) is applicable to any mode of transport but is USUALLY used for AIR transportation where the seller pays freight to the named destination.",
-    "whyWrong": "A (FAS, FOB, CFR, CIF) are for sea only. C and D are not specifically tied to CPT."
+    "whyWrong": "A (FAS, FOB, CFR, CIF) are for sea only. C and D are not specifically tied to CPT.",
+    "category": "trade-finance"
   },
   {
     "id": 99,
@@ -1284,7 +1382,8 @@
     },
     "correct": "C",
     "explanation": "In Bills for Collection, the BILL OF EXCHANGE is the financial instrument that the drawee/buyer accepts (in D/A) as the payment commitment.",
-    "whyWrong": "A is an LC instrument. B is a transport document. D is a government regulatory form."
+    "whyWrong": "A is an LC instrument. B is a transport document. D is a government regulatory form.",
+    "category": "trade-finance"
   },
   {
     "id": 101,
@@ -1297,7 +1396,8 @@
     },
     "correct": "B",
     "explanation": "When advance payment is used, the FX is sourced from the parallel market. Banks only get involved for documentation purposes: Form M processing and processing shipping documents for issuance of the PAAR (Pre-Arrival Assessment Report) for duty collection.",
-    "whyWrong": "A, C, and D are functions performed under formal bank FX channels (LC, Bills for Collection). In advance payment, bank involvement is minimal."
+    "whyWrong": "A, C, and D are functions performed under formal bank FX channels (LC, Bills for Collection). In advance payment, bank involvement is minimal.",
+    "category": "trade-finance"
   },
   {
     "id": 102,
@@ -1310,7 +1410,8 @@
     },
     "correct": "C",
     "explanation": "When discrepant documents are sent to the issuing bank, the bank contacts the applicant. If the applicant waives the discrepancies, the bank pays. Some discrepancies cannot be waived without CBN approval.",
-    "whyWrong": "A is incorrect \u2014 discrepant documents cannot be paid without waiver. B is only required for specific CBN-restricted discrepancies. D is not automatic."
+    "whyWrong": "A is incorrect \u2014 discrepant documents cannot be paid without waiver. B is only required for specific CBN-restricted discrepancies. D is not automatic.",
+    "category": "trade-finance"
   },
   {
     "id": 103,
@@ -1323,7 +1424,8 @@
     },
     "correct": "B",
     "explanation": "Under DAP, the seller delivers when goods are placed at the buyer's disposal ready for unloading (but NOT unloaded). Under DPU, the seller delivers the goods ONCE UNLOADED at the named terminal.",
-    "whyWrong": "A is DDP (not DPU). C is wrong \u2014 both are for any mode. D is wrong \u2014 neither mandates insurance."
+    "whyWrong": "A is DDP (not DPU). C is wrong \u2014 both are for any mode. D is wrong \u2014 neither mandates insurance.",
+    "category": "trade-finance"
   },
   {
     "id": 104,
@@ -1336,7 +1438,8 @@
     },
     "correct": "D",
     "explanation": "In D/A collections, the buyer accepts the B/E and receives the documents (and goods). If they fail to pay at maturity, this is a CREDIT RISK of the drawee/buyer \u2014 the main risk in Bills for Collection. Unlike LC, the bank has NO payment obligation.",
-    "whyWrong": "A is risk of document deficiencies. B is government-imposed restrictions. C is country-level political or economic risks."
+    "whyWrong": "A is risk of document deficiencies. B is government-imposed restrictions. C is country-level political or economic risks.",
+    "category": "trade-finance"
   },
   {
     "id": 105,
@@ -1349,7 +1452,8 @@
     },
     "correct": "C",
     "explanation": "For vaccines and other sensitive medicaments needed for immediate use, a NAFDAC IMPORT PERMIT or a SIGNED WAIVER BY THE NAFDAC DIRECTOR GENERAL is required instead of the standard NAFDAC Certificate.",
-    "whyWrong": "A is for manufactured goods. B is for petroleum products. D is for exports."
+    "whyWrong": "A is for manufactured goods. B is for petroleum products. D is for exports.",
+    "category": "trade-finance"
   },
   {
     "id": 106,
@@ -1362,7 +1466,8 @@
     },
     "correct": "C",
     "explanation": "In a Back-to-Back LC structure, the second LC (opened in favour of the actual supplier) must have compatible terms with the original \u2014 typically LOWER VALUE (to preserve the intermediary's margin) and EARLIER EXPIRY to ensure the intermediary can receive documents and present to the first LC before its expiry.",
-    "whyWrong": "A would reduce the margin. B would create timing risk. D is not a mandatory requirement."
+    "whyWrong": "A would reduce the margin. B would create timing risk. D is not a mandatory requirement.",
+    "category": "trade-finance"
   },
   {
     "id": 107,
@@ -1375,7 +1480,8 @@
     },
     "correct": "B",
     "explanation": "One of the prerequisites for Form Q is that the applicant must have operated their account with the bank for NOT LESS THAN SIX MONTHS. A 4-month-old account does not qualify.",
-    "whyWrong": "A ignores the tenure requirement. C is not a valid option under Form Q rules. D is not the stipulated remedy."
+    "whyWrong": "A ignores the tenure requirement. C is not a valid option under Form Q rules. D is not the stipulated remedy.",
+    "category": "trade-finance"
   },
   {
     "id": 108,
@@ -1388,7 +1494,8 @@
     },
     "correct": "B",
     "explanation": "In a Clean Line LC, the CONFIRMING BANK pays based on a CREDIT LINE it has extended to the issuing bank. The importer does not need to provide FX upfront. This is the fundamental structural difference from a Cash Collateral LC.",
-    "whyWrong": "A describes Cash Collateral LC. C describes a Revolving LC. D is not how FX works in LCs."
+    "whyWrong": "A describes Cash Collateral LC. C describes a Revolving LC. D is not how FX works in LCs.",
+    "category": "trade-finance"
   },
   {
     "id": 109,
@@ -1401,7 +1508,8 @@
     },
     "correct": "B",
     "explanation": "A Tender Guarantee secures the importer against the risk that after winning the tender, the exporter refuses to accept the contract or fails to replace the tender guarantee with a performance guarantee.",
-    "whyWrong": "A is a shipping cancellation risk. C is documentary fraud risk. D is amendment risk \u2014 not a tender risk."
+    "whyWrong": "A is a shipping cancellation risk. C is documentary fraud risk. D is amendment risk \u2014 not a tender risk.",
+    "category": "trade-finance"
   },
   {
     "id": 110,
@@ -1414,7 +1522,8 @@
     },
     "correct": "B",
     "explanation": "Round tripping is explicitly listed as a mal-practice in the FX market \u2014 obtaining FX at official CBN rates and selling it at higher black market rates.",
-    "whyWrong": "A is a legitimate import transaction. C is standard LC practice. D is a CBN-mandated insurance requirement."
+    "whyWrong": "A is a legitimate import transaction. C is standard LC practice. D is a CBN-mandated insurance requirement.",
+    "category": "trade-finance"
   },
   {
     "id": 111,
@@ -1427,7 +1536,8 @@
     },
     "correct": "C",
     "explanation": "A Standby LC (like a guarantee) is a DEFAULT instrument. It is ONLY called upon when the principal (the party who obtained it) fails to perform their obligations. If the underlying transaction succeeds, the SBLC should never be drawn.",
-    "whyWrong": "A, B, and D describe routine use \u2014 SBLCs are not routine payment instruments."
+    "whyWrong": "A, B, and D describe routine use \u2014 SBLCs are not routine payment instruments.",
+    "category": "trade-finance"
   },
   {
     "id": 112,
@@ -1440,7 +1550,8 @@
     },
     "correct": "A",
     "explanation": "Under UCP600, banks have a MAXIMUM of 5 WORKING DAYS following the day of presentation to determine compliance. 6 working days is a violation of UCP600 Article 14.",
-    "whyWrong": "B and C are different rules unrelated to document examination. D is incorrect \u2014 6 days exceeds the 5-day limit."
+    "whyWrong": "B and C are different rules unrelated to document examination. D is incorrect \u2014 6 days exceeds the 5-day limit.",
+    "category": "trade-finance"
   },
   {
     "id": 113,
@@ -1453,7 +1564,8 @@
     },
     "correct": "C",
     "explanation": "The Capital Importation Certificate (CCI) is the document issued to a foreign investor to acknowledge their investment in the Nigerian economy, whether in cash, machinery, or equipment.",
-    "whyWrong": "A is for regular imports. B is for exports. D is a commercial document for goods."
+    "whyWrong": "A is for regular imports. B is for exports. D is a commercial document for goods.",
+    "category": "trade-finance"
   },
   {
     "id": 114,
@@ -1466,7 +1578,8 @@
     },
     "correct": "B",
     "explanation": "Comparative Advantage is a condition in which trade IS MUTUALLY BENEFICIAL for both countries. Both countries gain from trade by specialising in their relatively most efficient production.",
-    "whyWrong": "A describes a situation close to Absolute Advantage. C and D are incorrect characterisations."
+    "whyWrong": "A describes a situation close to Absolute Advantage. C and D are incorrect characterisations.",
+    "category": "trade-finance"
   },
   {
     "id": 115,
@@ -1479,7 +1592,8 @@
     },
     "correct": "B",
     "explanation": "When an LC states \"Available with any bank by negotiation,\" ANY bank can negotiate the LC upon presentation of compliant documents. The beneficiary is not restricted to a specific bank.",
-    "whyWrong": "A applies when a specific bank is nominated. C and D add conditions not present in an \"any bank\" LC."
+    "whyWrong": "A applies when a specific bank is nominated. C and D add conditions not present in an \"any bank\" LC.",
+    "category": "trade-finance"
   },
   {
     "id": 116,
@@ -1492,7 +1606,8 @@
     },
     "correct": "B",
     "explanation": "Non-repatriation of export proceeds within 90 days may attract SANCTIONS FROM THE CBN. These can include fines, restrictions, and regulatory actions.",
-    "whyWrong": "A is a possible escalation but not the primary stated sanction. C and D are not the stated consequences."
+    "whyWrong": "A is a possible escalation but not the primary stated sanction. C and D are not the stated consequences.",
+    "category": "trade-finance"
   },
   {
     "id": 117,
@@ -1505,7 +1620,8 @@
     },
     "correct": "B",
     "explanation": "Under a Confirmation Line LC, payment by the confirming bank is backed by a CREDIT LINE (not cash collateral). The importer does not deposit FX upfront \u2014 the credit line is the confirming bank's security.",
-    "whyWrong": "A describes Cash Collateral LC. C and D are not the defining differences."
+    "whyWrong": "A describes Cash Collateral LC. C and D are not the defining differences.",
+    "category": "trade-finance"
   },
   {
     "id": 118,
@@ -1518,7 +1634,8 @@
     },
     "correct": "C",
     "explanation": "Under a Green Clause LC, the advance payment is released against a WAREHOUSE RECEIPT, which is endorsed to the nominated bank. The goods awaiting shipment must be warehoused in the name of the nominated bank.",
-    "whyWrong": "A is required after export. B is issued after shipment. D is a pre-shipment quotation document."
+    "whyWrong": "A is required after export. B is issued after shipment. D is a pre-shipment quotation document.",
+    "category": "trade-finance"
   },
   {
     "id": 119,
@@ -1531,7 +1648,8 @@
     },
     "correct": "A",
     "explanation": "21 days from 10th January is 31st January. The 21-day presentation period is counted from the date on the transport document (B/L date). Additionally, documents must be presented before LC expiry.",
-    "whyWrong": "B, C, and D miscalculate the 21-day period."
+    "whyWrong": "B, C, and D miscalculate the 21-day period.",
+    "category": "trade-finance"
   },
   {
     "id": 120,
@@ -1544,7 +1662,8 @@
     },
     "correct": "B",
     "explanation": "BOFIA 1991 (Banks and Other Financial Institutions Act) as amended specifically empowers the CBN to GRANT LICENSES to Authorised Dealers (primarily banks) to deal in Foreign Exchange.",
-    "whyWrong": "A is established by the FX Act 1995. C is a CBN administrative function. D is a CBN monetary policy function."
+    "whyWrong": "A is established by the FX Act 1995. C is a CBN administrative function. D is a CBN monetary policy function.",
+    "category": "trade-finance"
   },
   {
     "id": 121,
@@ -1557,7 +1676,8 @@
     },
     "correct": "C",
     "explanation": "Under CIF, risk transfers from seller to buyer when goods are ON BOARD the vessel. The seller arranged the insurance but on behalf of the buyer. The buyer must therefore claim from the insurance (arranged by seller). Legally, the BUYER bears the risk from loading point.",
-    "whyWrong": "A is incorrect \u2014 seller's risk ended when goods were on board. B is the carrier but insurance is the remedy. D banks do not bear cargo risk."
+    "whyWrong": "A is incorrect \u2014 seller's risk ended when goods were on board. B is the carrier but insurance is the remedy. D banks do not bear cargo risk.",
+    "category": "trade-finance"
   },
   {
     "id": 122,
@@ -1570,7 +1690,8 @@
     },
     "correct": "B",
     "explanation": "When an applicant wishes to accept discrepant documents, they must provide the bank with a SIGNED WAIVER INSTRUCTION. The issuing bank will then waive the discrepancies and proceed with payment. Some discrepancies still require CBN approval.",
-    "whyWrong": "A is not required for the waiver. C is only needed for specific CBN-restricted discrepancies. D is not how discrepancies are resolved."
+    "whyWrong": "A is not required for the waiver. C is only needed for specific CBN-restricted discrepancies. D is not how discrepancies are resolved.",
+    "category": "trade-finance"
   },
   {
     "id": 123,
@@ -1583,7 +1704,8 @@
     },
     "correct": "B",
     "explanation": "The correct sequence is: Tender Guarantee (during the bidding stage) \u2192 Contract awarded \u2192 Exporter accepts \u2192 Tender Guarantee replaced by Performance Guarantee (during the execution stage).",
-    "whyWrong": "A is wrong \u2014 they are issued at different stages. C reverses the correct order. D is wrong \u2014 they protect against different risks."
+    "whyWrong": "A is wrong \u2014 they are issued at different stages. C reverses the correct order. D is wrong \u2014 they protect against different risks.",
+    "category": "trade-finance"
   },
   {
     "id": 124,
@@ -1596,7 +1718,8 @@
     },
     "correct": "B",
     "explanation": "The Foreign Exchange Act of 1995 empowered all Authorised Dealers to PROCESS AND APPROVE foreign exchange subject to prescribed documentation requirements \u2014 decentralising FX approval from the CBN to Authorised Dealers.",
-    "whyWrong": "A is wrong \u2014 CBN sets rates. C is wrong \u2014 banks issue CCI. D is a separate operation."
+    "whyWrong": "A is wrong \u2014 CBN sets rates. C is wrong \u2014 banks issue CCI. D is a separate operation.",
+    "category": "trade-finance"
   },
   {
     "id": 125,
@@ -1609,7 +1732,8 @@
     },
     "correct": "C",
     "explanation": "When goods pass through multiple modes or multiple legs (France \u2192 Ghana \u2192 Nigeria), a COMBINED TRANSPORT (MULTIMODAL) BILL OF LADING covers the entire journey. The issuer accepts liability for the whole journey.",
-    "whyWrong": "A is for scheduled liner vessels only. B would require multiple B/Ls creating title issues. D is for chartered vessels."
+    "whyWrong": "A is for scheduled liner vessels only. B would require multiple B/Ls creating title issues. D is for chartered vessels.",
+    "category": "trade-finance"
   },
   {
     "id": 126,
@@ -1622,7 +1746,8 @@
     },
     "correct": "B",
     "explanation": "A RED CLAUSE LC enables the exporter to obtain advance payment BEFORE SHIPMENT. The Exchange Control regulation limits this advance payment to 15% OF FOB VALUE, and requires presentation of the exporter's guarantee.",
-    "whyWrong": "A (Green Clause) is for warehousing costs, not production finance. C and D are not advance payment instruments."
+    "whyWrong": "A (Green Clause) is for warehousing costs, not production finance. C and D are not advance payment instruments.",
+    "category": "trade-finance"
   },
   {
     "id": 127,
@@ -1635,7 +1760,8 @@
     },
     "correct": "B",
     "explanation": "Comparative Advantage holds that a country should specialise in goods where it has the LOWEST OPPORTUNITY COST relative to other countries. This maximises welfare for all trading parties.",
-    "whyWrong": "A is about resource endowments (not opportunity cost). C is Absolute Advantage. D is about market size, not comparative advantage."
+    "whyWrong": "A is about resource endowments (not opportunity cost). C is Absolute Advantage. D is about market size, not comparative advantage.",
+    "category": "trade-finance"
   },
   {
     "id": 128,
@@ -1648,7 +1774,8 @@
     },
     "correct": "B",
     "explanation": "Under a deferred/usance LC, the importer is notified of the maturity date. They are required to provide funds (or bid for FX) at the MATURITY DATE (90 days in this case), not at document acceptance.",
-    "whyWrong": "A describes a Sight LC. C adds a non-standard condition. D is customs clearance, not the LC maturity."
+    "whyWrong": "A describes a Sight LC. C adds a non-standard condition. D is customs clearance, not the LC maturity.",
+    "category": "trade-finance"
   },
   {
     "id": 129,
@@ -1661,7 +1788,8 @@
     },
     "correct": "C",
     "explanation": "Importation of industrial machinery uses Form M (not Form A). Form A is for invisible transactions (services, remittances, loan repayments, travel, etc.). Physical goods use Form M.",
-    "whyWrong": "A, B, and D all explicitly require Form A as per the training material."
+    "whyWrong": "A, B, and D all explicitly require Form A as per the training material.",
+    "category": "trade-finance"
   },
   {
     "id": 130,
@@ -1674,7 +1802,8 @@
     },
     "correct": "B",
     "explanation": "A Charter Party B/L is issued by the hirer of a ship and its terms are SUBJECT TO THE CONTRACT OF HIRE between the ship owner and the hirer. Such bills are usually marked \"subject to charter party.\" Banks may refuse to accept these under standard LCs unless the LC explicitly authorises them.",
-    "whyWrong": "A is wrong \u2014 it has unique terms. C is wrong \u2014 it may not be acceptable under UCP600. D is wrong \u2014 it can be used if LC permits."
+    "whyWrong": "A is wrong \u2014 it has unique terms. C is wrong \u2014 it may not be acceptable under UCP600. D is wrong \u2014 it can be used if LC permits.",
+    "category": "trade-finance"
   },
   {
     "id": 131,
@@ -1687,6 +1816,567 @@
     },
     "correct": "C",
     "explanation": "While LC is the most secure formal alternative, Bills for Collection (D/A) is the BEST ALTERNATIVE when the seller wants Open Account but the Nigerian regulatory framework prohibits it. It offers moderate security, bank facilitation, and is permitted in Nigeria, making it a practical compromise.",
-    "whyWrong": "A is less secure than D/A collection. B is the most secure but may be more costly and complex. D is unlikely to be approved as a blanket CBN policy exception."
+    "whyWrong": "A is less secure than D/A collection. B is the most secure but may be more costly and complex. D is unlikely to be approved as a blanket CBN policy exception.",
+    "category": "trade-finance"
+  },
+  {
+    "id": 1001,
+    "question": "How many African countries does Ecobank operate in?",
+    "options": {
+      "A": "20",
+      "B": "35",
+      "C": "45",
+      "D": "690"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1002,
+    "question": "What is Ecobank's total assets figure as stated in the document?",
+    "options": {
+      "A": "$1.7B",
+      "B": "$25.9B",
+      "C": "$50.0 Million",
+      "D": "$500 Million"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1003,
+    "question": "How many branches does Ecobank have?",
+    "options": {
+      "A": "2,659",
+      "B": "14,000",
+      "C": "690",
+      "D": "66,000"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1004,
+    "question": "How many ATMs does Ecobank have?",
+    "options": {
+      "A": "690",
+      "B": "2,659",
+      "C": "14,000",
+      "D": "28MM"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1005,
+    "question": "How many Ecobank Mobile users are there, per the document?",
+    "options": {
+      "A": "13MM+",
+      "B": "28MM+",
+      "C": "251,000+",
+      "D": "66,000+"
+    },
+    "correct": "A",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1006,
+    "question": "Ecobank has representative offices in which of the following cities?",
+    "options": {
+      "A": "New York, Tokyo, Berlin",
+      "B": "London, Paris, Dubai, Beijing",
+      "C": "Lagos, Accra, Nairobi",
+      "D": "Cairo, Johannesburg, Casablanca"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1007,
+    "question": "What is Ecobank's stated revenue figure?",
+    "options": {
+      "A": "$25.9B",
+      "B": "$1.7B",
+      "C": "$50.0 Million",
+      "D": "$500 Million 8. Who is the Facilitator for this Corporate Bank induction, and what is his role? A. Segun Anjorin \u2013 Business Head, CB B. Francis Zakari \u2013 Head, Telecoms, Media & Technology C. Michael Larbie \u2013 GE-CIB D. Olakunle Lowo \u2013 Head, CE/PG"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1008,
+    "question": "Who is the Facilitator for this Corporate Bank induction, and what is his role?",
+    "options": {
+      "A": "Segun Anjorin \u2013 Business Head, CB",
+      "B": "Francis Zakari \u2013 Head, Telecoms, Media & Technology",
+      "C": "Michael Larbie \u2013 GE-CIB",
+      "D": "Olakunle Lowo \u2013 Head, CE/PG"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1009,
+    "question": "Corporate banking primarily focuses on responding to:",
+    "options": {
+      "A": "Retail customer savings needs",
+      "B": "Day-to-day operational needs of companies, corporations and institutions and their treasury management",
+      "C": "Individual mortgage applications",
+      "D": "Consumer credit card services"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1010,
+    "question": "Which of the following is NOT listed as a function of Corporate Bank?",
+    "options": {
+      "A": "Facilitates loan processes",
+      "B": "Facilitate/support/coordinate cash management activities",
+      "C": "Retail branch teller operations",
+      "D": "Ensure compliance with regulatory requirements"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1011,
+    "question": "Corporate Bank facilitates local and foreign trade business as well as:",
+    "options": {
+      "A": "Personal loans",
+      "B": "Import and export (where necessary)",
+      "C": "Mortgage refinancing",
+      "D": "Student loans"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1012,
+    "question": "Which statement best describes Corporate Bank's relationship approach with clients?",
+    "options": {
+      "A": "Transactional and one-off",
+      "B": "Maintain close and strategic relationship, providing global solutions adapted to client requirements",
+      "C": "Limited to domestic clients only",
+      "D": "Focused solely on SME lending"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1013,
+    "question": "In the Group CIB Organogram, who holds the role of GE \u2013 CIB?",
+    "options": {
+      "A": "Segun Anjorin",
+      "B": "Michael Larbie",
+      "C": "Francis Zakari",
+      "D": "Olakunle Lowo"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1014,
+    "question": "Which of these is a CB Sub-Unit?",
+    "options": {
+      "A": "Retail Banking",
+      "B": "Energy Assets/Recovery",
+      "C": "Consumer Finance",
+      "D": "Personal Banking"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1015,
+    "question": "Which CB Sub-Unit specifically covers customers whose head office is in Nigeria with yearly sales over $50.0 Million?",
+    "options": {
+      "A": "Global Corporates/Multinationals",
+      "B": "Regional Corporates",
+      "C": "High Value Local Corporates",
+      "D": "Financial Institutions and International Organizations"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1016,
+    "question": "Global Corporates/Multinationals, Regional Corporates, and High Value Local Corporates all share a focus on which common sectors?",
+    "options": {
+      "A": "Mining and Real Estate",
+      "B": "FMCG-Manufacturing, FMCG-Food/Beverages & AgroAllied, and Telecoms Media & Technology",
+      "C": "Government and Public Utilities",
+      "D": "Construction and Transportation"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1017,
+    "question": "For a customer to be classified as a Global Corporate/Multinational, its parent-level head office must be located:",
+    "options": {
+      "A": "In Nigeria",
+      "B": "In Sub-Saharan Africa",
+      "C": "Outside Africa",
+      "D": "Anywhere in Africa"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1018,
+    "question": "What is the minimum Global Sales threshold for classification as a Global Corporate/Multinational?",
+    "options": {
+      "A": "Over $50.0 Million",
+      "B": "Over $500 Million",
+      "C": "Over $25.9 Billion",
+      "D": "Over $1.7 Billion"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1019,
+    "question": "What percentage of Global Sales must be generated outside Africa for Global Corporate/Multinational classification?",
+    "options": {
+      "A": "Over 25%",
+      "B": "Over 50%",
+      "C": "Over 75%",
+      "D": "Over 90%"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1020,
+    "question": "What is the minimum yearly sales criterion for High Value Local Corporates?",
+    "options": {
+      "A": "Over $500 Million",
+      "B": "Over $50.0 Million",
+      "C": "Over $25.9 Billion",
+      "D": "Over $1.7 Billion"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1021,
+    "question": "Regional Corporates are defined by customers with head office located in:",
+    "options": {
+      "A": "Nigeria only",
+      "B": "Sub-Saharan Africa, with operations across Africa and regional coordination",
+      "C": "Outside Africa",
+      "D": "Europe"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1022,
+    "question": "Which of the following best describes a 'Local FI' under the Financial Institutions & International Organisations criteria?",
+    "options": {
+      "A": "Global FI with head office outside Africa and presence in several African countries",
+      "B": "FI with operations in only one country",
+      "C": "Regional FI with head office in Africa",
+      "D": "Regional IO with headquarters in Africa"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1023,
+    "question": "According to the CB Loan Portfolio Overview, which sector represents the largest share of the loan portfolio?",
+    "options": {
+      "A": "Manufacturing",
+      "B": "Oil and Gas",
+      "C": "Agriculture, Forestry and Fishing",
+      "D": "Public Utilities"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1024,
+    "question": "What percentage of the CB loan portfolio is attributed to Oil and Gas?",
+    "options": {
+      "A": "15%",
+      "B": "39%",
+      "C": "13%",
+      "D": "6%"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1025,
+    "question": "What percentage of the CB loan portfolio is attributed to Manufacturing?",
+    "options": {
+      "A": "39%",
+      "B": "6%",
+      "C": "15%",
+      "D": "4%"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1026,
+    "question": "Which sector holds a 13% share of the CB loan portfolio?",
+    "options": {
+      "A": "Public Utilities",
+      "B": "Agriculture, Forestry and Fishing",
+      "C": "General Commerce",
+      "D": "Power and Energy"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1027,
+    "question": "Under CB Strategy Overview, which focus area addresses hedging products to reduce the impact of Naira devaluation risk?",
+    "options": {
+      "A": "Client Focus",
+      "B": "Product Focus (FX)",
+      "C": "Sales Focus",
+      "D": "Service Focus"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1028,
+    "question": "Which fintech/aggregator platforms are mentioned under the Product Focus (Cash) strategy?",
+    "options": {
+      "A": "PayPal, Stripe, Venmo",
+      "B": "Facebook, Flutterwave, D'Local",
+      "C": "Amazon Pay, Google Pay",
+      "D": "Alipay, WeChat Pay"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1029,
+    "question": "Under Client Focus, Ecobank aims to collaborate with which bank to on-board South African clients operating in Nigeria?",
+    "options": {
+      "A": "Standard Chartered",
+      "B": "Nedbank",
+      "C": "Barclays",
+      "D": "Access Bank 30. Which strategic initiative is mentioned in relation to Trade under Product Focus? A. AfCFTA initiative and single sales hub B. Retail branch expansion C. Consumer credit card rollout D. Mortgage securitization"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1030,
+    "question": "Which strategic initiative is mentioned in relation to Trade under Product Focus?",
+    "options": {
+      "A": "AfCFTA initiative and single sales hub",
+      "B": "Retail branch expansion",
+      "C": "Consumer credit card rollout",
+      "D": "Mortgage securitization"
+    },
+    "correct": "A",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1031,
+    "question": "Under CB's Key Must Win Battles, 'Enhanced revenue momentum' includes originating new episodic transactions in which areas?",
+    "options": {
+      "A": "Retail Banking and Consumer Finance",
+      "B": "Investment Banking and Corporate Finance",
+      "C": "Trade Finance only",
+      "D": "Mortgage Banking"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1032,
+    "question": "Which Must Win Battle focuses on aggressively pursuing past due obligations (PDO)?",
+    "options": {
+      "A": "New Good Loan Formation",
+      "B": "Collections/Recoveries",
+      "C": "Limits to new NPL Formation",
+      "D": "Enhanced revenue momentum"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1033,
+    "question": "New credit creation for 'New Good Loan Formation' is targeted within which ORR range?",
+    "options": {
+      "A": "ORR 1-3",
+      "B": "ORR 1-6",
+      "C": "ORR 4-8",
+      "D": "ORR 7-10"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1034,
+    "question": "Which of the following is part of 'Limits to new NPL Formation'?",
+    "options": {
+      "A": "Robust covenant monitoring and risk trigger mechanisms",
+      "B": "Aggressive marketing campaigns",
+      "C": "Reducing branch count",
+      "D": "Increasing retail deposits"
+    },
+    "correct": "A",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1035,
+    "question": "Under Key Execution Imperatives, which products fall under 'Loans'?",
+    "options": {
+      "A": "Current Account, Deposits, Investments",
+      "B": "Trade Loans, Syndicated Loans, Term loans",
+      "C": "Mobile banking, USSD, QR codes",
+      "D": "Wealth Management, Securities"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1036,
+    "question": "Ecobank's corporate e-banking platform is called:",
+    "options": {
+      "A": "BankCollect",
+      "B": "eBillsPAY",
+      "C": "Ecobank Omni",
+      "D": "EcobankPay"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1037,
+    "question": "Which platform(s) are used for collections via branch and internet channels according to the Cash Management Capabilities section?",
+    "options": {
+      "A": "Ecobank Omni",
+      "B": "BankCollect and eBillsPAY",
+      "C": "EcobankPay QR",
+      "D": "Xpress Point"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1038,
+    "question": "Trade Facilitation, as defined in the document, refers to:",
+    "options": {
+      "A": "A single bank's internal loan approval process",
+      "B": "The coordination of complex interconnected processes and partners to make trade happen",
+      "C": "Retail customer onboarding",
+      "D": "Regulatory reporting only"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1039,
+    "question": "In the Trade Facilitation stakeholder table, which entities are classified under 'Export Credit Agencies'?",
+    "options": {
+      "A": "Shipping companies and freight forwarders",
+      "B": "NEXIM, US EXIM, UK Export Finance",
+      "C": "Insurance companies and brokers",
+      "D": "Factors and forfaiters"
+    },
+    "correct": "B",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
+  },
+  {
+    "id": 1040,
+    "question": "In the Nigeria CB Organogram, who holds the position of Business Head, CB?",
+    "options": {
+      "A": "Francis Zakari",
+      "B": "Michael Larbie",
+      "C": "Segun Anjorin",
+      "D": "Olakunle Lowo"
+    },
+    "correct": "C",
+    "explanation": "Check the Corporate Bank Overview page for the source fact.",
+    "whyWrong": "",
+    "category": "corporate-bank"
   }
 ]

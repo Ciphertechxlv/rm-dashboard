@@ -139,6 +139,57 @@ a {
   border-color: var(--amber);
 }
 
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-dropdown-trigger:hover,
+.nav-dropdown-trigger.active {
+  color: var(--amber);
+  border-color: var(--amber);
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  z-index: 20;
+}
+
+.nav-dropdown-menu a {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border-bottom: none !important;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a.active {
+  background: var(--card-tint);
+  color: var(--amber);
+}
+
 @media (max-width: 600px) {
   .nav {
     padding: 18px 16px 14px;
@@ -286,6 +337,11 @@ a {
   border-radius: 10px;
   padding: 24px;
   margin-bottom: 24px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.panel:hover {
+  border-color: color-mix(in srgb, var(--amber) 35%, var(--border-soft));
 }
 
 .panel-head {
@@ -810,6 +866,138 @@ textarea.notes {
   border-top: 1px solid var(--border-soft);
 }
 
+/* ---------- Category tabs (quiz/flashcards) ---------- */
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-tab {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--card-tint);
+  border: 1px solid var(--border-soft);
+  color: var(--text-dim);
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.category-tab:hover {
+  border-color: var(--amber);
+}
+
+.category-tab.active {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: color-mix(in srgb, var(--teal) 10%, transparent);
+}
+
+/* ---------- Bar chart (loan portfolio) ---------- */
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 48px;
+  align-items: center;
+  gap: 12px;
+}
+
+.bar-label {
+  font-size: 0.82rem;
+  color: var(--text-primary);
+}
+
+.bar-track {
+  height: 10px;
+  background: var(--card-tint);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--teal), var(--amber));
+  border-radius: 5px;
+}
+
+.bar-pct {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-align: right;
+}
+
+/* ---------- Corporate Bank page: sub-units & org chart ---------- */
+.subunit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.subunit-tile {
+  background: var(--card-tint);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.subunit-tile.highlight {
+  border-color: var(--amber);
+  background: color-mix(in srgb, var(--amber) 10%, transparent);
+}
+
+.org-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.org-card {
+  background: var(--card-tint);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.org-card.highlight {
+  border-color: var(--amber);
+  background: color-mix(in srgb, var(--amber) 10%, transparent);
+}
+
+.org-sector {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+}
+
+.org-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--text-strong);
+  margin-top: 4px;
+}
+
+.stat-value {
+  font-size: 1.3rem;
+}
+
 /* ---------- Responsive pass (phones & small tablets) ---------- */
 @media (max-width: 600px) {
   .page {
@@ -894,6 +1082,32 @@ textarea.notes {
 
   .topic-toggle h2 {
     font-size: 1rem;
+  }
+
+  .bar-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .bar-pct {
+    text-align: left;
+  }
+
+  .category-tab {
+    font-size: 0.68rem;
+    padding: 6px 12px;
+  }
+
+  .nav-dropdown-menu {
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    transform: none;
+    width: auto;
+  }
+
+  .org-name {
+    font-size: 0.92rem;
   }
 }
 
