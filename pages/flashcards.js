@@ -50,7 +50,6 @@ export default function Flashcards() {
     <main className="page">
       <div className="page-header">
         <h1>Flashcards</h1>
-        <p>{cardBank.length} cards spanning trade finance and your Corporate Bank/FIIO material. Click a card to flip it.</p>
       </div>
 
       <div className="category-tabs">

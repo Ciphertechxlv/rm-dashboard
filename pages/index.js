@@ -18,7 +18,6 @@ export default function Home() {
     <main className="page">
       <div className="page-header">
         <h1>The Desk</h1>
-        <p>Refresh anytime — FX and news panels pull fresh data on every load.</p>
       </div>
 
       <section className="briefing">

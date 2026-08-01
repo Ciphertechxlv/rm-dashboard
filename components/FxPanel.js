@@ -75,7 +75,6 @@ export default function FxPanel({ onHeadline }) {
           value={parallel}
           onChange={(e) => saveParallel(e.target.value)}
         />
-        <span>(saved on this device only)</span>
       </div>
     </div>
   );

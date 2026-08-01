@@ -64,10 +64,6 @@ export default function Quiz() {
     <main className="page">
       <div className="page-header">
         <h1>Quiz</h1>
-        <p>
-          {QUIZ_LENGTH} random questions from a {mcqBank.length}-question bank spanning trade
-          finance and your Corporate Bank/FIIO induction material.
-        </p>
       </div>
 
       <div className="category-tabs">

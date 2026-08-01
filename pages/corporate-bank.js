@@ -20,7 +20,6 @@ export default function CorporateBank() {
     <main className="page">
       <div className="page-header">
         <h1>Corporate Bank &amp; FIIO</h1>
-        <p>Your unit's actual structure, strategy, and organogram — from the Ecobank Academy induction material.</p>
       </div>
 
       <div className="panel">

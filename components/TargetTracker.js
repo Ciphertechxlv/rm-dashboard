@@ -39,7 +39,6 @@ export default function TargetTracker() {
     <div className="panel">
       <div className="panel-head">
         <h2>Targets vs Actuals</h2>
-        <span className="timestamp">Saved on this device only</span>
       </div>
       <div className="target-grid">
         {METRICS.map((m) => {

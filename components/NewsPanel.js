@@ -35,12 +35,7 @@ export default function NewsPanel({ limit = 20, onTopHeadline }) {
         </span>
       </div>
 
-      <p className="empty-state" style={{ marginBottom: 16 }}>
-        The "why this matters" line is a rule-based match on topic, not an AI reading of the
-        full article — it's a quick pointer, not a substitute for opening the piece.
-      </p>
-
-      {error && <p className="empty-state">Could not load news right now — refresh to retry.</p>}
+      {error && <p className="empty-state" style={{ marginBottom: 16 }}>Could not load news right now — refresh to retry.</p>}
 
       {news && news.items && news.items.length === 0 && (
         <p className="empty-state">

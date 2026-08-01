@@ -33,10 +33,6 @@ export default function StudyNotes() {
     <main className="page">
       <div className="page-header">
         <h1>Study Notes</h1>
-        <p>
-          Condensed from your Ecobank Entry Level Training study guide. Click a topic to expand
-          the full notes.
-        </p>
       </div>
       {STUDY_TOPICS.map((t) => (
         <TopicCard key={t.id} topic={t} />

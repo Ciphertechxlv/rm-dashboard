@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
       <Nav />
       <Component {...pageProps} />
       <footer className="site-footer">
-        <span>Built for one desk, one portfolio, one target. Data refreshes automatically — see each panel's timestamp.</span>
+        <span>Cipher&rsquo;s Virtual Office</span>
       </footer>
     </div>
   );

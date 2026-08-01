@@ -6,7 +6,6 @@ export default function Portfolio() {
     <main className="page">
       <div className="page-header">
         <h1>Portfolio &amp; Targets</h1>
-        <p>Your working list of clients and deals, and where you stand against target. Private to this browser.</p>
       </div>
       <PortfolioTable />
       <TargetTracker />

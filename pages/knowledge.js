@@ -76,7 +76,6 @@ export default function Knowledge() {
     <main className="page">
       <div className="page-header">
         <h1>Reference</h1>
-        <p>Quick refreshers for the concepts clients and colleagues assume you already know cold.</p>
       </div>
 
       <div className="panel">

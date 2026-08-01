@@ -50,7 +50,6 @@ export default function PortfolioTable() {
     <div className="panel">
       <div className="panel-head">
         <h2>Client & Deal Tracker</h2>
-        <span className="timestamp">Saved on this device only</span>
       </div>
 
       {rows.length === 0 && <p className="empty-state">No clients logged yet — add your first below.</p>}
