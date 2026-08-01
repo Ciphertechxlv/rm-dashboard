@@ -35,7 +35,7 @@ export default function Nav() {
   return (
     <header className="nav">
       <div className="nav-masthead">
-        <span className="stamp stamp-small">RM</span>
+        <span className="stamp stamp-small">C</span>
         <div className="nav-title">
           <h1>Cipher&rsquo;s Virtual Office</h1>
           <span>Financial Institutions &amp; International Organizations · Corporate Banking</span>

@@ -17,6 +17,23 @@ list, targets, and daily notes are saved privately in your own browser.
 This is deliberately honest rather than fake: nothing on this page pretends
 to be live if it isn't.
 
+## Locking the Portfolio & Targets page
+
+Only you should see your client list. This is enforced on Vercel's servers
+(not just hidden with JavaScript), using two environment variables:
+
+1. In Vercel, open your project → **Settings → Environment Variables**.
+2. Add `PORTFOLIO_PIN` — the PIN you'll type to unlock the page (e.g. `4821`).
+3. Add `PORTFOLIO_SESSION_SECRET` — any long random string (e.g. mash your
+   keyboard for 20+ characters). This is never shown to visitors; it's just
+   what proves your session is unlocked.
+4. Redeploy (Vercel → Deployments → ⋯ → Redeploy) so the new variables take
+   effect.
+
+Neither value is ever committed to your GitHub repo — they only exist in
+Vercel's dashboard. Visiting `/portfolio` without unlocking redirects to a
+PIN screen; a correct PIN unlocks it for 12 hours on that device.
+
 ## Deploy it for real (one-time setup, ~15 minutes)
 
 You need a free [Vercel](https://vercel.com) account and a free
