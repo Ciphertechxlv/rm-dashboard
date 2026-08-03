@@ -1,7 +1,6 @@
 import { useState } from "react";
 import FxPanel from "../components/FxPanel";
 import NewsPanel from "../components/NewsPanel";
-import DailyNote from "../components/DailyNote";
 
 export default function Home() {
   const [fxHeadline, setFxHeadline] = useState(null);
@@ -41,10 +40,6 @@ export default function Home() {
                 "Loading…"
               )}
             </div>
-          </div>
-          <div className="briefing-card">
-            <h3>Your Focus For Today</h3>
-            <DailyNote />
           </div>
         </div>
       </section>

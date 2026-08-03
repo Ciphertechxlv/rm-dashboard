@@ -1020,6 +1020,86 @@ textarea.notes {
   text-decoration: line-through;
 }
 
+/* ---------- Counterparty snapshot cards ---------- */
+.snapshot-card {
+  background: var(--card-tint);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  margin-bottom: 14px;
+}
+
+.snapshot-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.snapshot-name {
+  flex: 1;
+  min-width: 180px;
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  color: var(--text-strong);
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.snapshot-row select {
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  color: var(--text-primary);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.row-actions-btn {
+  background: none;
+  border: 1px solid var(--border-soft);
+  color: var(--negative);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.76rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.snapshot-grid label,
+.snapshot-full {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+
+.snapshot-grid input,
+.snapshot-full input {
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.86rem;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+}
+
 /* ---------- Unlock / PIN screen ---------- */
 .unlock-wrap {
   min-height: 70vh;
