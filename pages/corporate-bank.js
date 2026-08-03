@@ -3,6 +3,11 @@ import {
   REP_OFFICES,
   CB_SUBUNITS,
   FIIO_CRITERIA,
+  FIIO_REAL_SUBUNITS,
+  FIIO_CLIENT_CATEGORIES,
+  FIIO_OFFERINGS,
+  FIIO_TEAM,
+  BRANCH_ROLES,
   OTHER_SEGMENT_CRITERIA,
   LOAN_PORTFOLIO,
   STRATEGY_FOCUS,
@@ -65,13 +70,84 @@ export default function CorporateBank() {
             <tbody>
               {FIIO_CRITERIA.map((c) => (
                 <tr key={c.type}>
-                  <td style={{ fontFamily: "var(--font-mono)", color: "var(--amber)" }}>{c.type}</td>
+                  <td style={{ fontFamily: "var(--font-mono)", color: "var(--blue)" }}>{c.type}</td>
                   <td>{c.def}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Your Real Sub-Units &amp; Owners</h2>
+        </div>
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Sub-Unit</th><th>Owner</th><th>Examples</th></tr>
+            </thead>
+            <tbody>
+              {FIIO_REAL_SUBUNITS.map((s) => (
+                <tr key={s.name}>
+                  <td style={{ color: "var(--blue)", fontWeight: 600 }}>{s.name}</td>
+                  <td>{s.owner}</td>
+                  <td>{s.examples}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Other Client Categories You Cover</h2>
+        </div>
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Category</th><th>Examples</th></tr>
+            </thead>
+            <tbody>
+              {FIIO_CLIENT_CATEGORIES.map((c) => (
+                <tr key={c.category}>
+                  <td style={{ color: "var(--blue)", fontWeight: 600 }}>{c.category}</td>
+                  <td>{c.examples}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>What Your Unit Offers</h2>
+        </div>
+        <ul className="topic-points">
+          {FIIO_OFFERINGS.map((o, i) => (
+            <li key={i}>{o}</li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Your FIIO Team</h2>
+        </div>
+        <div className="org-grid">
+          {FIIO_TEAM.map((m) => (
+            <div className={`org-card ${m.highlight ? "highlight" : ""}`} key={m.name}>
+              <div className="org-sector">{m.role}</div>
+              <div className="org-name">{m.name}</div>
+            </div>
+          ))}
+        </div>
+        <p className="empty-state" style={{ marginTop: 14 }}>
+          Branch-side roles you'll interface with: {BRANCH_ROLES.join(", ")}.
+        </p>
       </div>
 
       <div className="panel">
@@ -155,7 +231,7 @@ export default function CorporateBank() {
             <tbody>
               {CASH_MANAGEMENT.map((c) => (
                 <tr key={c.area}>
-                  <td style={{ fontFamily: "var(--font-mono)", color: "var(--teal)" }}>{c.area}</td>
+                  <td style={{ fontFamily: "var(--font-mono)", color: "var(--blue)" }}>{c.area}</td>
                   <td>{c.detail}</td>
                 </tr>
               ))}
