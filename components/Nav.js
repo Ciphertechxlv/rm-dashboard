@@ -5,6 +5,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const PRIMARY_LINKS = [
   { href: "/", label: "Desk" },
+  { href: "/tasks", label: "Tasks" },
   { href: "/corporate-bank", label: "Corporate Bank" },
   { href: "/policy", label: "Policy Rates" },
 ];
