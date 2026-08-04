@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Daily trade finance & FX briefing desk" />
+        <meta name="description" content="FIIO daily briefing & workspace — FX rates, CBN policy, and correspondent/DFI/fintech news" />
         <script
           dangerouslySetInnerHTML={{
             __html:

@@ -3,12 +3,6 @@ import mcqBank from "../lib/mcq.json";
 
 const QUIZ_LENGTH = 15;
 
-const CATEGORIES = [
-  { id: "all", label: "All Topics" },
-  { id: "trade-finance", label: "Trade Finance" },
-  { id: "corporate-bank", label: "Corporate Bank & FIIO" },
-];
-
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -18,17 +12,12 @@ function shuffle(arr) {
   return a;
 }
 
-function bankFor(category) {
-  return category === "all" ? mcqBank : mcqBank.filter((q) => q.category === category);
-}
-
-function newSet(category) {
-  return shuffle(bankFor(category)).slice(0, QUIZ_LENGTH);
+function newSet() {
+  return shuffle(mcqBank).slice(0, Math.min(QUIZ_LENGTH, mcqBank.length));
 }
 
 export default function Quiz() {
-  const [category, setCategory] = useState("all");
-  const [set, setSet] = useState(() => newSet("all"));
+  const [set, setSet] = useState(() => newSet());
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
@@ -51,9 +40,8 @@ export default function Quiz() {
     setSelected(null);
   }
 
-  function restart(cat = category) {
-    setCategory(cat);
-    setSet(newSet(cat));
+  function restart() {
+    setSet(newSet());
     setIndex(0);
     setSelected(null);
     setScore(0);
@@ -64,18 +52,10 @@ export default function Quiz() {
     <main className="page">
       <div className="page-header">
         <h1>Quiz</h1>
-      </div>
-
-      <div className="category-tabs">
-        {CATEGORIES.map((c) => (
-          <button
-            key={c.id}
-            className={`category-tab ${category === c.id ? "active" : ""}`}
-            onClick={() => restart(c.id)}
-          >
-            {c.label} ({bankFor(c.id).length})
-          </button>
-        ))}
+        <p>
+          {set.length} random questions from a {mcqBank.length}-question bank covering
+          correspondent banking, DFIs, fintech regulation, NBFIs, and your FIIO unit.
+        </p>
       </div>
 
       {!finished && current && (
@@ -125,7 +105,7 @@ export default function Quiz() {
           <p className="quiz-question">
             You scored {score} / {set.length} ({Math.round((score / set.length) * 100)}%)
           </p>
-          <button className="add-row-btn" onClick={() => restart()}>
+          <button className="add-row-btn" onClick={restart}>
             Take another set →
           </button>
         </div>

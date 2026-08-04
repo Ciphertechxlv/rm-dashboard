@@ -1,74 +1,77 @@
 const TOPICS = [
   {
-    title: "Letter of Credit (LC)",
+    title: "Nostro & Vostro Accounts",
     body:
-      "A bank's promise to pay the exporter once documents proving shipment match the LC terms exactly. Protects both sides: the exporter gets a bank's word instead of the buyer's, and the importer only pays once shipment is proven.",
+      "The core mechanics of correspondent banking. A Nostro account is your bank's account held abroad in foreign currency. A Vostro account is the correspondent's account held with your bank in local currency.",
     points: [
-      "Governed by UCP 600 (and eUCP for electronic docs)",
-      "Confirmed LC = a second bank also guarantees payment — used when the issuing bank's country risk is high",
-      "Common trip-up: document discrepancies (wrong dates, mismatched descriptions) — this is where deals stall",
+      "Nostro = 'ours, with them' — how Ecobank accesses foreign currency abroad",
+      "Vostro = 'theirs, with us' — how a correspondent bank accesses Naira liquidity through Ecobank",
+      "Reconciliation of these accounts is a routine but critical FIIO operational task",
     ],
   },
   {
-    title: "Bills for Collection",
+    title: "SWIFT Messaging",
     body:
-      "Exporter ships goods and sends shipping documents through banks to the importer's bank, which releases them only against payment (D/P) or acceptance of a bill of exchange (D/A). Cheaper than an LC but less secure — no bank payment guarantee.",
+      "The global network correspondent banks use to instruct and confirm payments. Nearly every cross-border transaction your unit touches passes through it.",
     points: [
-      "D/P: importer must pay before getting the documents needed to clear goods",
-      "D/A: importer accepts a bill promising to pay later, then gets the documents",
-      "Governed by ICC's URC 522",
+      "MT103 — customer payment instruction",
+      "MT202 — bank-to-bank transfer",
+      "Industry migration underway from MT to the richer ISO 20022 (MX) format",
     ],
   },
   {
-    title: "Bank Guarantees",
+    title: "DFI Co-Financing & Guarantees",
     body:
-      "The bank promises to pay a beneficiary if your client fails to perform — used to win contracts (bid bonds), guarantee performance, or secure advance payments.",
+      "Development Finance Institutions often don't just lend — they provide guarantee or risk-sharing structures that make a deal viable for a commercial bank that otherwise couldn't take the full exposure.",
     points: [
-      "Common in government/NNPC contract bidding",
-      "Governed by URDG 758",
-      "Ties up the client's credit line — factor this into your risk conversations",
+      "AFC — African-led, infrastructure-focused, strong credit rating",
+      "IFC — World Bank Group's private-sector financing arm",
+      "EBRD — expanding footprint beyond its traditional Eastern Europe/Central Asia base",
     ],
   },
   {
-    title: "Invoice Discounting / Receivables Finance",
+    title: "Fintech Licensing Categories (CBN)",
     body:
-      "The bank advances cash against unpaid invoices so a client doesn't have to wait 30–90 days for a buyer to pay. Useful for distributors and suppliers to large corporates (FMCG, manufacturing).",
+      "What a fintech can legally do depends entirely on its CBN licence category — check this before assuming scope of activity.",
     points: [
-      "Recourse vs non-recourse: who bears the loss if the buyer never pays",
-      "Works well for value-chain financing (anchor buyer + many small suppliers)",
+      "Mobile Money Operator (MMO) — e-wallet/mobile money services",
+      "Payment Service Bank (PSB) — deposit-taking with restrictions, no lending",
+      "PSSP/Switching — payment processing, switching, aggregation",
     ],
   },
   {
-    title: "Incoterms (2020)",
+    title: "NBFI Regulators",
     body:
-      "Standard trade terms defining who pays for shipping, insurance, and risk at each stage. You'll see these on every commercial invoice and LC.",
+      "Three different regulators oversee the three main NBFI types you'll deal with — know which applies before onboarding.",
     points: [
-      "EXW — buyer takes on almost everything from the seller's door",
-      "FOB — seller's risk ends once goods are on the ship",
-      "CIF — seller pays freight + insurance to destination port",
-      "DDP — seller delivers, duty paid, all the way to buyer's door",
+      "NAICOM — regulates insurance companies (watch: solvency ratio)",
+      "SEC — regulates asset managers and capital market operators",
+      "PenCom — regulates Pension Fund Administrators and Custodians",
     ],
   },
   {
-    title: "UCP 600 — the LC rulebook",
+    title: "IO & Embassy Account Considerations",
     body:
-      "The ICC's Uniform Customs and Practice for Documentary Credits. Nearly every LC references it. Know the core principle: banks deal in documents, not goods — if the paperwork matches, the bank pays, even if the goods themselves have a problem.",
+      "International organizations and diplomatic missions carry unique documentation and compliance considerations beyond standard corporate KYC.",
     points: [
-      "Doctrine of strict compliance: documents must match the LC exactly",
-      "Banks have 5 banking days to examine documents and flag discrepancies",
+      "Mandate letters and authorised signatory documentation are essential",
+      "Relationship value is usually deposits, FX, and payments — not credit risk",
+      "Global IOs: HQ outside Africa, presence in several African countries. Regional IOs: HQ in Africa.",
     ],
   },
 ];
 
 const LINKS = [
   { label: "CBN — Circulars", href: "https://www.cbn.gov.ng/documents/circulars.asp" },
-  { label: "CBN — Trade & Exchange", href: "https://www.cbn.gov.ng/tradeexchange/" },
-  { label: "NEXIM Bank", href: "https://neximbank.com.ng/" },
-  { label: "ICC — UCP 600 & Trade Rules", href: "https://iccwbo.org/business-solutions/trade-finance/" },
-  { label: "AfCFTA Secretariat", href: "https://au-afcfta.org/" },
-  { label: "Incoterms 2020 Overview", href: "https://iccwbo.org/business-solutions/incoterms-rules/" },
-  { label: "CITF Certification (LIBF)", href: "https://www.libf.ac.uk/study/qualifications/certificate-in-international-trade-and-finance" },
-  { label: "CDCS Certification (IFS/BAFT)", href: "https://www.ifsuniversity.ac.uk/qualifications/professional-qualifications/cdcs" },
+  { label: "CBN — Payments System", href: "https://www.cbn.gov.ng/paymentsystem/" },
+  { label: "NAICOM (Insurance Regulator)", href: "https://naicom.gov.ng/" },
+  { label: "SEC Nigeria (Asset Managers)", href: "https://sec.gov.ng/" },
+  { label: "PenCom (Pension Regulator)", href: "https://www.pencom.gov.ng/" },
+  { label: "Africa Finance Corporation (AFC)", href: "https://www.africafc.org/" },
+  { label: "IFC — World Bank Group", href: "https://www.ifc.org/" },
+  { label: "EBRD", href: "https://www.ebrd.com/" },
+  { label: "ECOWAS", href: "https://ecowas.int/" },
+  { label: "Bank of Industry Nigeria", href: "https://www.boi.ng/" },
 ];
 
 export default function Knowledge() {
@@ -76,6 +79,7 @@ export default function Knowledge() {
     <main className="page">
       <div className="page-header">
         <h1>Reference</h1>
+        <p>Core FIIO concepts and the real regulators/institutions you'll deal with.</p>
       </div>
 
       <div className="panel">

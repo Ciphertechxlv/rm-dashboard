@@ -1,782 +1,236 @@
 [
   {
-    "id": 1,
-    "front": "What is Trade Finance?",
-    "back": "Financing for domestic and international trade transactions between a buyer and a seller, facilitated by banks.",
-    "category": "trade-finance"
+    "id": 4001,
+    "front": "What does Nostro mean in correspondent banking?",
+    "back": "'Ours, with them' \u2014 your bank's own account held abroad in foreign currency.",
+    "category": "fiio"
   },
   {
-    "id": 2,
-    "front": "Define Absolute Advantage.",
-    "back": "Producing goods at a LOWER COST than another country.",
-    "category": "trade-finance"
+    "id": 4002,
+    "front": "What does Vostro mean in correspondent banking?",
+    "back": "'Theirs, with us' \u2014 the correspondent bank's account held at your bank in local currency.",
+    "category": "fiio"
   },
   {
-    "id": 3,
-    "front": "Define Comparative Advantage.",
-    "back": "Producing goods at a LOWER OPPORTUNITY COST than another country.",
-    "category": "trade-finance"
+    "id": 4003,
+    "front": "What SWIFT message type is used for customer payments?",
+    "back": "MT103.",
+    "category": "fiio"
   },
   {
-    "id": 4,
-    "front": "Is trade under Comparative Advantage mutually beneficial?",
-    "back": "Yes, always.",
-    "category": "trade-finance"
+    "id": 4004,
+    "front": "What SWIFT message type is used for bank-to-bank transfers?",
+    "back": "MT202.",
+    "category": "fiio"
   },
   {
-    "id": 5,
-    "front": "What measures wealth under Mercantilist Theory?",
-    "back": "The amount of precious metals (gold and silver) a nation possesses.",
-    "category": "trade-finance"
+    "id": 4005,
+    "front": "What newer messaging standard is SWIFT migrating to?",
+    "back": "ISO 20022 (MX format).",
+    "category": "fiio"
   },
   {
-    "id": 6,
-    "front": "What enabling law of 1995 governs FX in Nigeria?",
-    "back": "The Foreign Exchange (Monitoring and Miscellaneous Provisions) Act of 1995.",
-    "category": "trade-finance"
+    "id": 4006,
+    "front": "Name three real correspondent banks in your unit's coverage.",
+    "back": "Deutsche Bank, Citibank, and Access Bank UK (also Absa, Nedbank).",
+    "category": "fiio"
   },
   {
-    "id": 7,
-    "front": "What does BOFIA empower the CBN to do?",
-    "back": "Grant licenses to Authorised Dealers to deal in Foreign Exchange.",
-    "category": "trade-finance"
+    "id": 4007,
+    "front": "What must a correspondent bank NOT be, per your unit's criteria?",
+    "back": "A Nigerian bank \u2014 correspondent banks must be non-Nigerian, international institutions.",
+    "category": "fiio"
   },
   {
-    "id": 8,
-    "front": "Name the three Authorised Dealers in Nigeria.",
-    "back": "Banks, Bureau De Change (BDC), Authorised Buyers (e.g. Airlines, Hotels).",
-    "category": "trade-finance"
+    "id": 4008,
+    "front": "What is AFC?",
+    "back": "Africa Finance Corporation \u2014 an African-led, infrastructure-focused DFI with a strong credit rating.",
+    "category": "fiio"
   },
   {
-    "id": 9,
-    "front": "When did CBN stop FX sales to BDCs?",
-    "back": "27 July 2021.",
-    "category": "trade-finance"
+    "id": 4009,
+    "front": "What is IFC?",
+    "back": "International Finance Corporation \u2014 the World Bank Group's private-sector financing arm.",
+    "category": "fiio"
   },
   {
-    "id": 10,
-    "front": "Name three reasons CBN stopped BDC FX sales.",
-    "back": "Illegal FX trading, Speculative trading, Money laundering.",
-    "category": "trade-finance"
+    "id": 4010,
+    "front": "What is EBRD?",
+    "back": "European Bank for Reconstruction and Development \u2014 historically Eastern Europe/Central Asia-focused, expanding into Africa.",
+    "category": "fiio"
   },
   {
-    "id": 11,
-    "front": "What are the 5 objectives of CBN's June 2016 FX policy?",
-    "back": "Boost liquidity, promote competitiveness, improve dynamics, deepen market, promote financial security.",
-    "category": "trade-finance"
+    "id": 4011,
+    "front": "Beyond lending, what else do DFIs often provide?",
+    "back": "Guarantee or risk-sharing structures that de-risk deals for commercial banks.",
+    "category": "fiio"
   },
   {
-    "id": 12,
-    "front": "Define Round Tripping.",
-    "back": "Buying FX at official rates and reselling at black market rates.",
-    "category": "trade-finance"
+    "id": 4012,
+    "front": "What should you check before pursuing a DFI-backed deal?",
+    "back": "Whether the transaction fits the DFI's sector or thematic mandate.",
+    "category": "fiio"
   },
   {
-    "id": 13,
-    "front": "What is Capital Flight?",
-    "back": "Illegal movement of capital out of Nigeria.",
-    "category": "trade-finance"
+    "id": 4013,
+    "front": "What does an MMO CBN licence permit?",
+    "back": "E-wallet and mobile money services.",
+    "category": "fiio"
   },
   {
-    "id": 14,
-    "front": "What document is a \"quasi-negotiable\" instrument?",
-    "back": "Bill of Lading.",
-    "category": "trade-finance"
+    "id": 4014,
+    "front": "What can't a Payment Service Bank (PSB) do?",
+    "back": "Lend \u2014 PSBs can take deposits and offer payments but are restricted from lending.",
+    "category": "fiio"
   },
   {
-    "id": 15,
-    "front": "Is a Seaway Bill a title document?",
-    "back": "No.",
-    "category": "trade-finance"
+    "id": 4015,
+    "front": "Name three fintechs in your unit's Fintechs sub-unit.",
+    "back": "OPay, Kuda, and Moniepoint.",
+    "category": "fiio"
   },
   {
-    "id": 16,
-    "front": "Is an Airway Bill negotiable?",
-    "back": "No.",
-    "category": "trade-finance"
+    "id": 4016,
+    "front": "What does PSSP/Switching licence cover?",
+    "back": "Payment processing, switching, and aggregation services.",
+    "category": "fiio"
   },
   {
-    "id": 17,
-    "front": "What is a Clean Bill of Lading?",
-    "back": "Goods received in apparent good order, no defects noted.",
-    "category": "trade-finance"
+    "id": 4017,
+    "front": "Who regulates insurance companies in Nigeria?",
+    "back": "NAICOM (National Insurance Commission).",
+    "category": "fiio"
   },
   {
-    "id": 18,
-    "front": "What is a Dirty/Claused Bill of Lading?",
-    "back": "Carries a statement noting defects in the goods/packaging.",
-    "category": "trade-finance"
+    "id": 4018,
+    "front": "Who regulates asset managers in Nigeria?",
+    "back": "The SEC (Securities and Exchange Commission).",
+    "category": "fiio"
   },
   {
-    "id": 19,
-    "front": "What is a Charter Party Bill of Lading?",
-    "back": "Issued by the hirer of a ship; marked \"subject to charter party.\"",
-    "category": "trade-finance"
+    "id": 4019,
+    "front": "Who regulates Pension Fund Administrators in Nigeria?",
+    "back": "PenCom (National Pension Commission).",
+    "category": "fiio"
   },
   {
-    "id": 20,
-    "front": "What is a Combined Transport B/L also known as?",
-    "back": "Through Bill of Lading.",
-    "category": "trade-finance"
+    "id": 4020,
+    "front": "What's the key financial metric to check for an insurer?",
+    "back": "Solvency ratio \u2014 available capital vs. required solvency capital.",
+    "category": "fiio"
   },
   {
-    "id": 21,
-    "front": "What document introduced Multimodal Transport Documents?",
-    "back": "UCP Publication 500.",
-    "category": "trade-finance"
+    "id": 4021,
+    "front": "Why are NBFIs attractive liability-side relationships?",
+    "back": "They typically hold large, relatively stable balances.",
+    "category": "fiio"
   },
   {
-    "id": 22,
-    "front": "Define a Pro-Forma Invoice.",
-    "back": "A seller's quotation/invitation to the buyer to place a firm order; marked \"pro-forma\"; no shipping marks.",
-    "category": "trade-finance"
+    "id": 4022,
+    "front": "Give three examples of International Organizations your unit covers.",
+    "back": "Embassies, the Bank of Industry, and ECOWAS.",
+    "category": "fiio"
   },
   {
-    "id": 23,
-    "front": "What does a Certificate of Origin attest to?",
-    "back": "The origin, standard, and quality of goods, issued by an independent body like a Chamber of Commerce.",
-    "category": "trade-finance"
+    "id": 4023,
+    "front": "What distinguishes a Global IO from a Regional IO?",
+    "back": "Global IOs: HQ outside Africa, presence in several African countries. Regional IOs: HQ in Africa.",
+    "category": "fiio"
   },
   {
-    "id": 24,
-    "front": "What is a Black List Certificate?",
-    "back": "Certifies goods have no connection with blacklisted countries.",
-    "category": "trade-finance"
+    "id": 4024,
+    "front": "What documentation is essential for embassy/diplomatic account opening?",
+    "back": "Mandate letters and authorised signatory documentation.",
+    "category": "fiio"
   },
   {
-    "id": 25,
-    "front": "What is a Third Party Inspection Certificate also called?",
-    "back": "Clean Report of Findings.",
-    "category": "trade-finance"
+    "id": 4025,
+    "front": "Where does most IO relationship value usually come from?",
+    "back": "Deposits, FX, and payments activity \u2014 not credit risk.",
+    "category": "fiio"
   },
   {
-    "id": 26,
-    "front": "Who issues a Certificate of Analysis?",
-    "back": "An appointed third-party agent in the exporter's country.",
-    "category": "trade-finance"
+    "id": 4026,
+    "front": "What is a Ledger Account used for in FIIO's product set?",
+    "back": "Tracking investment under fixed deposit arrangements.",
+    "category": "fiio"
   },
   {
-    "id": 27,
-    "front": "What does a Packing List show?",
-    "back": "List of goods packed, weight of individual items, and total weight.",
-    "category": "trade-finance"
+    "id": 4027,
+    "front": "What's typically the anchor product for FIIO relationships?",
+    "back": "Fixed Deposits, priced with negotiated interest rates.",
+    "category": "fiio"
   },
   {
-    "id": 28,
-    "front": "What is a Bill of Exchange?",
-    "back": "An unconditional order in writing for a specific sum, payable immediately or at a future date.",
-    "category": "trade-finance"
+    "id": 4028,
+    "front": "What two core functions does the FIIO unit perform beyond selling products?",
+    "back": "Funding the bank (deposit mobilisation) and managing international organization relationships.",
+    "category": "fiio"
   },
   {
-    "id": 29,
-    "front": "What is Form M used for?",
-    "back": "Formal application for importation of goods into Nigeria.",
-    "category": "trade-finance"
+    "id": 4029,
+    "front": "Who is the Head of the FIIO Unit?",
+    "back": "Mrs Ijeoma.",
+    "category": "fiio"
   },
   {
-    "id": 30,
-    "front": "What is Form Q used for?",
-    "back": "SME access to FX for imports \u2014 USD 20,000 per quarter.",
-    "category": "trade-finance"
+    "id": 4030,
+    "front": "Who is the Deputy Head of the FIIO Unit, and what do they also manage?",
+    "back": "Mr Laj \u2014 also manages Asset Management.",
+    "category": "fiio"
   },
   {
-    "id": 31,
-    "front": "What is Form NXP used for?",
-    "back": "Nigerian Export Proceeds \u2014 required for exportation.",
-    "category": "trade-finance"
+    "id": 4031,
+    "front": "Who manages the Fintechs sub-unit?",
+    "back": "Praise.",
+    "category": "fiio"
   },
   {
-    "id": 32,
-    "front": "What is Form A used for?",
-    "back": "Invisible transactions (payments for services).",
-    "category": "trade-finance"
+    "id": 4032,
+    "front": "Who manages Correspondent Banks and Mortgages?",
+    "back": "Folakemi.",
+    "category": "fiio"
   },
   {
-    "id": 33,
-    "front": "What is Form NCX used for?",
-    "back": "Non-commercial exports (gifts, personal effects, exhibitions).",
-    "category": "trade-finance"
+    "id": 4033,
+    "front": "Who manages the Insurance sub-unit?",
+    "back": "Ini.",
+    "category": "fiio"
   },
   {
-    "id": 34,
-    "front": "What is the minimum account tenure for Form Q?",
-    "back": "6 months.",
-    "category": "trade-finance"
+    "id": 4034,
+    "front": "Who provides customer support for FIIO?",
+    "back": "Lara and Favour (JJ).",
+    "category": "fiio"
   },
   {
-    "id": 35,
-    "front": "Within how many days must Form Q shipping documents be submitted?",
-    "back": "60 days from date of payment.",
-    "category": "trade-finance"
+    "id": 4035,
+    "front": "What branch-side roles does FIIO typically interface with?",
+    "back": "CSM, Head Teller, and CSU.",
+    "category": "fiio"
   },
   {
-    "id": 36,
-    "front": "What does a \"BA\" prefix on Form M mean?",
-    "back": "The item WILL be inspected at point of importation.",
-    "category": "trade-finance"
+    "id": 4036,
+    "front": "What's usually the biggest lever in winning an FI/IO deposit relationship?",
+    "back": "The interest rate offered.",
+    "category": "fiio"
   },
   {
-    "id": 37,
-    "front": "What does a \"CB\" prefix on Form M mean?",
-    "back": "The item will NOT be inspected (e.g., Gas, Oil, Petroleum).",
-    "category": "trade-finance"
+    "id": 4037,
+    "front": "Name three mortgage institutions in FIIO's coverage.",
+    "back": "Jubilee Life Mortgage, FT Mortgage, and Abbey Mortgage.",
+    "category": "fiio"
   },
   {
-    "id": 38,
-    "front": "What insurance percentage is required under Form M?",
-    "back": "110% of goods value.",
-    "category": "trade-finance"
+    "id": 4038,
+    "front": "What ongoing compliance work does correspondent banking require?",
+    "back": "Ongoing AML/KYC due diligence, including periodic review of ownership, licensing, and sanctions exposure.",
+    "category": "fiio"
   },
   {
-    "id": 39,
-    "front": "Which body must issue the Form M insurance certificate?",
-    "back": "A recognised Nigerian insurance company.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 40,
-    "front": "What permit is required for manufactured goods import?",
-    "back": "SON Product Certificate or SON Import Permit.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 41,
-    "front": "What certificate is required for processed food/chemicals import?",
-    "back": "NAFDAC Certificate.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 42,
-    "front": "What permit is required for power generators import?",
-    "back": "NERC Permit.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 43,
-    "front": "What permit is required for petroleum products import?",
-    "back": "DPR (Department of Petroleum Resources) Permit.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 44,
-    "front": "What does UCP600 govern?",
-    "back": "Letters of Credit.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 45,
-    "front": "What does URC522 govern?",
-    "back": "Bills for Collection.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 46,
-    "front": "What does URDG758 govern?",
-    "back": "Demand Guarantees.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 47,
-    "front": "What does ISP98 govern?",
-    "back": "Standby Letters of Credit.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 48,
-    "front": "What does e-UCP govern?",
-    "back": "Electronic LC presentations.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 49,
-    "front": "What does ISBP745 provide?",
-    "back": "International Standard Banking Practices for document examination.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 50,
-    "front": "How many Incoterms 2020 are there?",
-    "back": "11.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 51,
-    "front": "Which Incoterms are restricted to sea/inland waterway?",
-    "back": "FAS, FOB, CFR, CIF.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 52,
-    "front": "Under EXW, who has the minimum obligation?",
-    "back": "The seller.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 53,
-    "front": "Under DDP, who has the maximum obligation?",
-    "back": "The seller.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 54,
-    "front": "Under FOB, when does risk transfer?",
-    "back": "When goods are on board the vessel.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 55,
-    "front": "Under FAS, when does risk transfer?",
-    "back": "When goods are placed alongside the vessel.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 56,
-    "front": "What is the key difference between CFR and CIF?",
-    "back": "CIF includes seller-arranged insurance; CFR does not.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 57,
-    "front": "How is CIF insurance typically calculated?",
-    "back": "CIF value plus 10%.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 58,
-    "front": "What replaced \"DAT\" in Incoterms 2020?",
-    "back": "DPU (Delivered At Place Unloaded).",
-    "category": "trade-finance"
-  },
-  {
-    "id": 59,
-    "front": "Under DPU, what must the seller do that DAP does not require?",
-    "back": "Unload the goods at the named terminal.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 60,
-    "front": "What is the foundational principle of banking in trade finance?",
-    "back": "Banks deal with documents, not goods, services, or performance.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 61,
-    "front": "Name the four international payment methods.",
-    "back": "Advance Payment, Letter of Credit, Bills for Collection, Open Account.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 62,
-    "front": "Is Open Account allowed for imports in Nigeria?",
-    "back": "No.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 63,
-    "front": "Rank the three Nigeria-permitted payment methods by security.",
-    "back": "LC (most secure), Bills for Collection (moderate), Advance Payment (least secure).",
-    "category": "trade-finance"
-  },
-  {
-    "id": 64,
-    "front": "Approximately what % of Nigeria's imports use Advance Payment?",
-    "back": "70%.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 65,
-    "front": "Define a Letter of Credit.",
-    "back": "An irrevocable undertaking by the Issuing Bank to pay the Beneficiary on presentation of compliant documents.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 66,
-    "front": "Who is the Applicant in an LC?",
-    "back": "The buyer/importer.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 67,
-    "front": "Who is the Beneficiary in an LC?",
-    "back": "The seller/exporter.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 68,
-    "front": "What does the Issuing Bank do?",
-    "back": "Issues the LC on behalf of the applicant.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 69,
-    "front": "What does the Advising Bank do?",
-    "back": "Advises the beneficiary of the LC.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 70,
-    "front": "What does the Confirming Bank do?",
-    "back": "Adds its own payment commitment to the LC.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 71,
-    "front": "What does the Negotiating Bank do?",
-    "back": "Pays or undertakes to pay the beneficiary after document presentation.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 72,
-    "front": "How many working days for document examination under UCP600?",
-    "back": "5 working days.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 73,
-    "front": "Does this 5-day rule apply to both confirming and issuing bank?",
-    "back": "Yes, separately to each.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 74,
-    "front": "What is a discrepant document?",
-    "back": "A document that does not comply with the LC terms.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 75,
-    "front": "Who must authorise a waiver of discrepancies?",
-    "back": "The Applicant (buyer); some require CBN approval too.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 76,
-    "front": "What is a Confirmed LC?",
-    "back": "An LC where a second bank adds its payment guarantee.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 77,
-    "front": "What is a Transferable LC used for?",
-    "back": "When the beneficiary is an intermediary who wants to transfer credit to the actual supplier.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 78,
-    "front": "What is a Back-to-Back LC?",
-    "back": "The original LC is used as security to open a second LC for the actual supplier.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 79,
-    "front": "What is a Standby LC?",
-    "back": "A default instrument, similar to a guarantee; only called on failure to perform.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 80,
-    "front": "What is the advance payment limit under a Red Clause LC?",
-    "back": "15% of FOB value.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 81,
-    "front": "What security does a Red Clause LC require?",
-    "back": "A guarantee from the exporter/beneficiary.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 82,
-    "front": "What security does a Green Clause LC require?",
-    "back": "A Warehouse Receipt (goods warehoused in nominated bank's name).",
-    "category": "trade-finance"
-  },
-  {
-    "id": 83,
-    "front": "What is a Revolving LC used for?",
-    "back": "Repeat shipments of the same goods to the same importer over time.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 84,
-    "front": "What is a Cash Collateral LC?",
-    "back": "Importer provides FX upfront, held with the confirming bank as collateral.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 85,
-    "front": "What is a Clean Line/Confirmation Line LC?",
-    "back": "Confirming bank pays based on a credit line extended to the issuing bank.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 86,
-    "front": "What does D/P stand for in Bills for Collection?",
-    "back": "Documents against Payment.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 87,
-    "front": "What does D/A stand for?",
-    "back": "Documents against Acceptance.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 88,
-    "front": "Is D/P allowed in Nigeria?",
-    "back": "No.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 89,
-    "front": "Is D/A allowed in Nigeria?",
-    "back": "Yes.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 90,
-    "front": "Who is the Drawer in a Bills for Collection transaction?",
-    "back": "The exporter/seller (also called Principal/Applicant).",
-    "category": "trade-finance"
-  },
-  {
-    "id": 91,
-    "front": "Who is the Drawee?",
-    "back": "The importer/buyer.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 92,
-    "front": "What is the Remitting Bank?",
-    "back": "The seller's bank, through which proceeds are remitted to the seller.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 93,
-    "front": "What is the Presenting/Collecting Bank?",
-    "back": "Usually the buyer's bank; presents documents and collects proceeds.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 94,
-    "front": "What is a Guarantee?",
-    "back": "A non-accessory payment undertaking independent of the underlying transaction.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 95,
-    "front": "Is a guarantee normally expected to be claimed?",
-    "back": "No \u2014 only on default.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 96,
-    "front": "What is a Tender Guarantee for?",
-    "back": "Protects importer against exporter refusing the awarded contract.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 97,
-    "front": "What is a Performance Guarantee for?",
-    "back": "Protects importer against exporter's nondelivery; replaces Tender Guarantee.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 98,
-    "front": "What is an Advance/Down Payment Guarantee for?",
-    "back": "Protects buyer who paid in advance if seller fails to deliver/refund.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 99,
-    "front": "What is a Payment Guarantee for?",
-    "back": "Protects seller if buyer fails to meet payment obligations.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 100,
-    "front": "What is the export proceeds repatriation deadline?",
-    "back": "90 days from shipment.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 101,
-    "front": "What account must export proceeds be credited into?",
-    "back": "An export proceeds (export domiciliary) account.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 102,
-    "front": "What is a Capital Importation Certificate (CCI)?",
-    "back": "Certificate issued to a foreign investor acknowledging investment in Nigeria.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 103,
-    "front": "Within what timeframe is CCI issued for cash investment?",
-    "back": "24 hours.",
-    "category": "trade-finance"
-  },
-  {
-    "id": 104,
-    "front": "What body approves consultancy service agreements for FX remittance?",
-    "back": "NOTAP (National Office for Technology Acquisition and Promotion).",
-    "category": "trade-finance"
-  },
-  {
-    "id": 2001,
-    "front": "How many African countries does Ecobank operate in?",
-    "back": "35 countries.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2002,
-    "front": "What is Ecobank's total assets figure?",
-    "back": "$25.9 Billion.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2003,
-    "front": "What is Ecobank's stated revenue figure?",
-    "back": "$1.7 Billion.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2004,
-    "front": "How many branches does Ecobank have?",
-    "back": "690.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2005,
-    "front": "How many ATMs does Ecobank have?",
-    "back": "2,659.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2006,
-    "front": "How many Ecobank Mobile users are there?",
-    "back": "13MM+.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2007,
-    "front": "How many customers does Ecobank serve?",
-    "back": "28MM+.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2008,
-    "front": "Where are Ecobank's representative offices (outside the core African network)?",
-    "back": "London, Paris (Affiliate), Dubai, Beijing.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2009,
-    "front": "What are the five sub-units of Corporate Bank?",
-    "back": "Global Corporates/Multinationals, Regional Corporates, High Value Local Corporates, Financial Institutions & International Organizations, Energy Assets/Recovery.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2010,
-    "front": "What defines a 'Local FI' under FIIO criteria?",
-    "back": "A financial institution with operations in only one country.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2011,
-    "front": "What defines a 'Global FI' under FIIO criteria?",
-    "back": "Head office outside Africa, with presence in several African countries.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2012,
-    "front": "What's the minimum yearly sales for High Value Local Corporates?",
-    "back": "Over $50.0 Million, with HQ in Nigeria.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2013,
-    "front": "What's the minimum global sales threshold for Global Corporates/Multinationals?",
-    "back": "Over $500 Million, with over 50% of sales generated outside Africa.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2014,
-    "front": "Which sector is the largest share of the CB loan portfolio?",
-    "back": "Oil and Gas, at 39%.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2015,
-    "front": "What are the top three sectors in the CB loan portfolio?",
-    "back": "Oil & Gas (39%), Manufacturing (15%), Agriculture/Forestry/Fishing (13%).",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2016,
-    "front": "What ORR range is targeted for New Good Loan Formation?",
-    "back": "ORR 1\u20136.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2017,
-    "front": "What is Ecobank's corporate e-banking platform called?",
-    "back": "Ecobank Omni.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2018,
-    "front": "Which platforms handle collections via branch and internet channels?",
-    "back": "BankCollect and eBillsPAY.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2019,
-    "front": "Under Product Focus, what does the FX strategy address?",
-    "back": "Hedging products to reduce the impact of Naira devaluation risk.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2020,
-    "front": "Which bank does Ecobank collaborate with to on-board South African clients in Nigeria?",
-    "back": "Nedbank.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2021,
-    "front": "What strategic trade initiative is Ecobank pursuing under Product Focus?",
-    "back": "The AfCFTA initiative, leveraging the Ecobank network and a single sales hub.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2022,
-    "front": "Who is the Business Head, Corporate Bank (Nigeria)?",
-    "back": "Segun Anjorin.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2023,
-    "front": "Who is the Sector Head for Financial Institution/International Org. (your sector)?",
-    "back": "Ijeoma Ezeanya \u2014 also your supervisor.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2024,
-    "front": "Who is the GE \u2013 CIB (Group Executive, Corporate & Investment Banking)?",
-    "back": "Michael Larbie.",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2025,
-    "front": "What does 'LAM' stand for in the Nigeria CB organogram?",
-    "back": "The frontline relationship officers reporting into each sector head (e.g. Local Account Managers).",
-    "category": "corporate-bank"
-  },
-  {
-    "id": 2026,
-    "front": "What are Export Credit Agencies, per the Trade Facilitation stakeholder table?",
-    "back": "Government agencies like NEXIM, US EXIM, and UK Export Finance.",
-    "category": "corporate-bank"
+    "id": 4039,
+    "front": "What payment infrastructure does FIIO offer institutional clients?",
+    "back": "Virtual accounts and online banking.",
+    "category": "fiio"
   }
 ]

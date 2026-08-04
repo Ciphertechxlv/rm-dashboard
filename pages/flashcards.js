@@ -1,12 +1,6 @@
 import { useState } from "react";
 import cardBank from "../lib/flashcards.json";
 
-const CATEGORIES = [
-  { id: "all", label: "All Topics" },
-  { id: "trade-finance", label: "Trade Finance" },
-  { id: "corporate-bank", label: "Corporate Bank & FIIO" },
-];
-
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -16,13 +10,8 @@ function shuffle(arr) {
   return a;
 }
 
-function bankFor(category) {
-  return category === "all" ? cardBank : cardBank.filter((c) => c.category === category);
-}
-
 export default function Flashcards() {
-  const [category, setCategory] = useState("all");
-  const [deck, setDeck] = useState(bankFor("all"));
+  const [deck, setDeck] = useState(cardBank);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
@@ -33,15 +22,8 @@ export default function Flashcards() {
     setIndex((i) => (i + delta + deck.length) % deck.length);
   }
 
-  function switchCategory(cat) {
-    setCategory(cat);
-    setDeck(bankFor(cat));
-    setIndex(0);
-    setFlipped(false);
-  }
-
   function shuffleDeck() {
-    setDeck(shuffle(bankFor(category)));
+    setDeck(shuffle(cardBank));
     setIndex(0);
     setFlipped(false);
   }
@@ -50,18 +32,7 @@ export default function Flashcards() {
     <main className="page">
       <div className="page-header">
         <h1>Flashcards</h1>
-      </div>
-
-      <div className="category-tabs">
-        {CATEGORIES.map((c) => (
-          <button
-            key={c.id}
-            className={`category-tab ${category === c.id ? "active" : ""}`}
-            onClick={() => switchCategory(c.id)}
-          >
-            {c.label} ({bankFor(c.id).length})
-          </button>
-        ))}
+        <p>{cardBank.length} cards covering correspondent banking, DFIs, fintech regulation, NBFIs, and your FIIO team. Click a card to flip it.</p>
       </div>
 
       <div className="panel flashcard-panel">

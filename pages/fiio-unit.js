@@ -10,21 +10,18 @@ export default function FiioUnit() {
   return (
     <main className="page">
       <div className="page-header">
-        <h1>Your FIIO Unit</h1>
-        <p>
-          Financial Institutions &amp; International Organizations, Ecobank Nigeria — Head Office.
-          Built from what you know firsthand, not generic Group material.
-        </p>
+        <h1>FIIO Unit</h1>
+        <p>Financial Institutions &amp; International Organizations, Ecobank Nigeria.</p>
       </div>
 
       <div className="panel">
         <div className="panel-head">
-          <h2>Your Sub-Units &amp; Owners</h2>
+          <h2>Sub-Units &amp; Managers</h2>
         </div>
         <div className="table-wrap">
           <table>
             <thead>
-              <tr><th>Sub-Unit</th><th>Owner</th><th>Examples</th></tr>
+              <tr><th>Sub-Unit</th><th>Manager</th><th>Examples</th></tr>
             </thead>
             <tbody>
               {FIIO_REAL_SUBUNITS.map((s) => (
@@ -41,7 +38,7 @@ export default function FiioUnit() {
 
       <div className="panel">
         <div className="panel-head">
-          <h2>Other Client Categories You Cover</h2>
+          <h2>Institutional Client Segments</h2>
         </div>
         <div className="table-wrap">
           <table>
@@ -62,7 +59,7 @@ export default function FiioUnit() {
 
       <div className="panel">
         <div className="panel-head">
-          <h2>What Your Unit Offers</h2>
+          <h2>Product &amp; Service Offering</h2>
         </div>
         <ul className="topic-points">
           {FIIO_OFFERINGS.map((o, i) => (
@@ -73,7 +70,7 @@ export default function FiioUnit() {
 
       <div className="panel">
         <div className="panel-head">
-          <h2>Your Team</h2>
+          <h2>FIIO Team</h2>
         </div>
         <div className="org-grid">
           {FIIO_TEAM.map((m) => (
