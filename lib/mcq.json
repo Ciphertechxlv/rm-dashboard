@@ -544,5 +544,145 @@
     "explanation": "Jubilee Life Mortgage, FT Mortgage, and Abbey Mortgage are examples in the Mortgages sub-unit.",
     "whyWrong": "",
     "category": "fiio"
+  },
+  {
+    "id": 3040,
+    "question": "What does PLX stand for in your unit's product set?",
+    "options": {
+      "A": "Payment Ledger Exchange",
+      "B": "Interbank Placements",
+      "C": "Pre-settlement Limit Exposure",
+      "D": "Portfolio Liquidity Index"
+    },
+    "correct": "B",
+    "explanation": "PLX = Interbank Placements \u2014 placing or accepting deposits with/from other banks for a fixed tenor.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3041,
+    "question": "What does CKU cover?",
+    "options": {
+      "A": "Contingency Financing \u2014 e.g. Guarantees, Counter-guarantees",
+      "B": "Customer Know-your-customer Updates",
+      "C": "Currency Kept Untouched (idle FX)",
+      "D": "Credit Kickback Utility"
+    },
+    "correct": "A",
+    "explanation": "CKU = Contingency Financing, covering off-balance-sheet commitments like guarantees and counter-guarantees.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3042,
+    "question": "What does PSR stand for?",
+    "options": {
+      "A": "Payment Settlement Record",
+      "B": "Pre-Settlement Risk",
+      "C": "Portfolio Sector Rating",
+      "D": "Product Sales Report"
+    },
+    "correct": "B",
+    "explanation": "PSR = Pre-Settlement Risk \u2014 counterparty credit risk on derivative/treasury instruments before they settle.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3043,
+    "question": "Which of these are examples of PSR products?",
+    "options": {
+      "A": "Fixed deposits and current accounts",
+      "B": "Swaps, spots, forwards, repos",
+      "C": "Guarantees and counter-guarantees",
+      "D": "Mortgages and pensions"
+    },
+    "correct": "B",
+    "explanation": "PSR examples include swaps, spots, forwards, and repos.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3044,
+    "question": "A bid bond or performance bond would fall under which product code?",
+    "options": {
+      "A": "PLX",
+      "B": "PSR",
+      "C": "CKU",
+      "D": "None of these"
+    },
+    "correct": "C",
+    "explanation": "Guarantees like bid or performance bonds fall under CKU (Contingency Financing).",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3045,
+    "question": "What are the three core recurring deliverables in this role?",
+    "options": {
+      "A": "Marketing, sales calls, and onboarding",
+      "B": "Credit Approval Memorandums, Reports, and Cashflow Projections",
+      "C": "Branch audits, teller training, and vault checks",
+      "D": "Loan disbursement, collections, and write-offs"
+    },
+    "correct": "B",
+    "explanation": "The three core deliverables are CAMs, Reports, and Cashflow Projections.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3046,
+    "question": "In a Credit Approval Memorandum for a PLX facility, what's especially important to assess?",
+    "options": {
+      "A": "The counterparty bank's credit rating and placement limit",
+      "B": "The client's shoe size",
+      "C": "Only the branch address",
+      "D": "Nothing \u2014 PLX needs no credit assessment"
+    },
+    "correct": "A",
+    "explanation": "For PLX, the counterparty bank's credit rating, proposed limit, and tenor are key assessment points.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3047,
+    "question": "What should a CAM for a CKU (guarantee) facility always identify?",
+    "options": {
+      "A": "The weather forecast",
+      "B": "The beneficiary and the underlying obligation being guaranteed",
+      "C": "Only the guarantee's page count",
+      "D": "The client's social media following"
+    },
+    "correct": "B",
+    "explanation": "A CKU-related CAM must identify the beneficiary and the underlying transaction/obligation.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3048,
+    "question": "For a PSR-related CAM, what exposure measure should be included?",
+    "options": {
+      "A": "Mark-to-market exposure",
+      "B": "Number of branch visits",
+      "C": "Client's Instagram followers",
+      "D": "None \u2014 PSR needs no exposure measure"
+    },
+    "correct": "A",
+    "explanation": "Mark-to-market exposure at the time of the memo is a key PSR risk measure.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3049,
+    "question": "What is a key component of good report writing, per your unit's checklist?",
+    "options": {
+      "A": "Comparative context vs prior period or budget",
+      "B": "Avoiding any recommendation",
+      "C": "Skipping data sources",
+      "D": "Writing only in bullet points with no findings"
+    },
+    "correct": "A",
+    "explanation": "Comparative context (vs prior period/budget/peers) is a core part of a good report.",
+    "whyWrong": "",
+    "category": "fiio"
   }
 ]

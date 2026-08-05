@@ -17,6 +17,7 @@ const DROPDOWNS = [
     links: [
       { href: "/financial-analysis", label: "Financial Analysis" },
       { href: "/business-development", label: "Business Development" },
+      { href: "/deliverables", label: "Deliverables" },
     ],
   },
   {

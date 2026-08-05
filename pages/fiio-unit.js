@@ -4,6 +4,8 @@ import {
   FIIO_OFFERINGS,
   FIIO_TEAM,
   BRANCH_ROLES,
+  FIIO_PRODUCTS,
+  CORE_DELIVERABLES,
 } from "../lib/corporateBank";
 
 export default function FiioUnit() {
@@ -64,6 +66,40 @@ export default function FiioUnit() {
         <ul className="topic-points">
           {FIIO_OFFERINGS.map((o, i) => (
             <li key={i}>{o}</li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Products You Deal With</h2>
+        </div>
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Code</th><th>Product</th><th>Definition</th><th>Examples</th></tr>
+            </thead>
+            <tbody>
+              {FIIO_PRODUCTS.map((p) => (
+                <tr key={p.code}>
+                  <td style={{ color: "var(--blue)", fontWeight: 700, fontFamily: "var(--font-mono)" }}>{p.code}</td>
+                  <td style={{ fontWeight: 600 }}>{p.name}</td>
+                  <td>{p.def}</td>
+                  <td>{p.examples}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Core Deliverables</h2>
+        </div>
+        <ul className="topic-points">
+          {CORE_DELIVERABLES.map((d, i) => (
+            <li key={i}>{d}</li>
           ))}
         </ul>
       </div>

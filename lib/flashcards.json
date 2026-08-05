@@ -232,5 +232,65 @@
     "front": "What payment infrastructure does FIIO offer institutional clients?",
     "back": "Virtual accounts and online banking.",
     "category": "fiio"
+  },
+  {
+    "id": 4040,
+    "front": "What does PLX stand for?",
+    "back": "Interbank Placements \u2014 placing or accepting deposits with/from other banks for a fixed tenor at an agreed rate.",
+    "category": "fiio"
+  },
+  {
+    "id": 4041,
+    "front": "What does CKU cover?",
+    "back": "Contingency Financing \u2014 off-balance-sheet commitments like Guarantees and Counter-guarantees.",
+    "category": "fiio"
+  },
+  {
+    "id": 4042,
+    "front": "What does PSR stand for?",
+    "back": "Pre-Settlement Risk \u2014 counterparty credit risk on derivative/treasury instruments before they settle.",
+    "category": "fiio"
+  },
+  {
+    "id": 4043,
+    "front": "Give examples of PSR products.",
+    "back": "Swaps, Spots, Forwards, and Repos.",
+    "category": "fiio"
+  },
+  {
+    "id": 4044,
+    "front": "Which product code covers bid bonds and performance bonds?",
+    "back": "CKU (Contingency Financing).",
+    "category": "fiio"
+  },
+  {
+    "id": 4045,
+    "front": "What are your three core recurring work deliverables?",
+    "back": "Credit Approval Memorandums (CAMs), Reports, and Cashflow Projections.",
+    "category": "fiio"
+  },
+  {
+    "id": 4046,
+    "front": "In a PLX CAM, what's a key thing to assess?",
+    "back": "The counterparty bank's credit rating, proposed placement limit, and tenor.",
+    "category": "fiio"
+  },
+  {
+    "id": 4047,
+    "front": "In a CKU CAM, what must always be identified?",
+    "back": "The beneficiary and the underlying obligation being guaranteed.",
+    "category": "fiio"
+  },
+  {
+    "id": 4048,
+    "front": "In a PSR CAM, what exposure measure matters most?",
+    "back": "Mark-to-market exposure at the time of the memo.",
+    "category": "fiio"
+  },
+  {
+    "id": 4049,
+    "front": "What should a good report always include besides findings?",
+    "back": "Comparative context \u2014 vs prior period, budget, or peer institutions \u2014 and a clear recommendation.",
+    "category": "fiio"
   }
 ]
