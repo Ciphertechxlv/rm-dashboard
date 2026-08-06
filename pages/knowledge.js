@@ -1,3 +1,5 @@
+import Glossary from "../components/Glossary";
+
 const TOPICS = [
   {
     title: "Nostro & Vostro Accounts",
@@ -81,6 +83,8 @@ export default function Knowledge() {
         <h1>Reference</h1>
         <p>Core FIIO concepts and the real regulators/institutions you'll deal with.</p>
       </div>
+
+      <Glossary />
 
       <div className="panel">
         <div className="panel-head">

@@ -292,5 +292,83 @@
     "front": "What should a good report always include besides findings?",
     "back": "Comparative context \u2014 vs prior period, budget, or peer institutions \u2014 and a clear recommendation.",
     "category": "fiio"
+  },
+  {
+    "id": 4050,
+    "front": "What is a Loro account?",
+    "back": "\"Their account, with you\" \u2014 a third party's reference to an account someone else holds at a bank being discussed.",
+    "category": "fiio"
+  },
+  {
+    "id": 4051,
+    "front": "What's the difference between a correspondent and respondent bank?",
+    "back": "Correspondent = the host providing services. Respondent = the guest whose funds sit with the correspondent.",
+    "category": "fiio"
+  },
+  {
+    "id": 4052,
+    "front": "What does IBAN identify, vs SWIFT/BIC?",
+    "back": "IBAN identifies a specific customer account. SWIFT/BIC identifies the bank itself.",
+    "category": "fiio"
+  },
+  {
+    "id": 4053,
+    "front": "RTGS vs Net Settlement \u2014 what's the difference?",
+    "back": "RTGS settles each transaction individually and immediately. Net settlement batches and offsets transactions, settling only the net difference periodically.",
+    "category": "fiio"
+  },
+  {
+    "id": 4054,
+    "front": "What is Nostro reconciliation?",
+    "back": "Checking your bank's internal record of a nostro account against the statement from the correspondent bank holding it.",
+    "category": "fiio"
+  },
+  {
+    "id": 4055,
+    "front": "What is a Mirror account?",
+    "back": "An internal ledger account reflecting a nostro account's balance, used for reconciliation and tracking.",
+    "category": "fiio"
+  },
+  {
+    "id": 4056,
+    "front": "What does 'Due From Banks' represent?",
+    "back": "The accounting side of nostro balances \u2014 money owed to your bank by other banks.",
+    "category": "fiio"
+  },
+  {
+    "id": 4057,
+    "front": "What does 'Due To Banks' represent?",
+    "back": "The accounting side of vostro balances \u2014 money your bank owes to other banks.",
+    "category": "fiio"
+  },
+  {
+    "id": 4058,
+    "front": "What is a Value Date?",
+    "back": "The date funds from a transaction actually become available or effective.",
+    "category": "fiio"
+  },
+  {
+    "id": 4059,
+    "front": "What is a Cut-off Time?",
+    "back": "The daily deadline by which a payment instruction must be received to be processed/settled that same business day.",
+    "category": "fiio"
+  },
+  {
+    "id": 4060,
+    "front": "What are Standard Settlement Instructions (SSIs)?",
+    "back": "Pre-agreed instructions specifying exactly how a counterparty's recurring payments should be routed \u2014 reduces errors and delays.",
+    "category": "fiio"
+  },
+  {
+    "id": 4061,
+    "front": "What is de-risking?",
+    "back": "When a bank terminates or restricts correspondent relationships (often by country/sector) to cut compliance risk rather than manage it.",
+    "category": "fiio"
+  },
+  {
+    "id": 4062,
+    "front": "What is the Wolfsberg CBDDQ?",
+    "back": "The industry-standard Correspondent Banking Due Diligence Questionnaire, used to assess a correspondent bank's AML/compliance standing.",
+    "category": "fiio"
   }
 ]

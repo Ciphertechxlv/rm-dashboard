@@ -684,5 +684,173 @@
     "explanation": "Comparative context (vs prior period/budget/peers) is a core part of a good report.",
     "whyWrong": "",
     "category": "fiio"
+  },
+  {
+    "id": 3050,
+    "question": "What is a Loro account?",
+    "options": {
+      "A": "Your bank's own account held abroad",
+      "B": "An account belonging to a third party, referred to from an observer's perspective",
+      "C": "An account exclusive to fintechs",
+      "D": "A frozen compliance-hold account"
+    },
+    "correct": "B",
+    "explanation": "Loro = 'their account, with you' \u2014 used when a third party refers to someone else's account at a bank being discussed.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3051,
+    "question": "What is the difference between a correspondent bank and a respondent bank?",
+    "options": {
+      "A": "There is no difference",
+      "B": "The correspondent is the 'host' providing services; the respondent is the 'guest' receiving them",
+      "C": "Respondent banks are always bigger",
+      "D": "Correspondent banks never hold deposits"
+    },
+    "correct": "B",
+    "explanation": "Correspondent = host providing services; Respondent = guest whose funds sit with the correspondent.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3052,
+    "question": "What does IBAN identify, as opposed to a SWIFT/BIC code?",
+    "options": {
+      "A": "A specific customer account, not the bank itself",
+      "B": "The bank's head office address",
+      "C": "The bank's credit rating",
+      "D": "Nothing \u2014 IBAN and BIC are identical"
+    },
+    "correct": "A",
+    "explanation": "IBAN identifies a specific account; SWIFT/BIC identifies the bank.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3053,
+    "question": "What distinguishes RTGS from net settlement?",
+    "options": {
+      "A": "RTGS settles each transaction individually and immediately; net settlement batches and offsets periodically",
+      "B": "They are the same system",
+      "C": "Net settlement is always faster",
+      "D": "RTGS is only used for retail payments"
+    },
+    "correct": "A",
+    "explanation": "RTGS = individual, immediate settlement. Net settlement = batched, periodic settlement of the net difference.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3054,
+    "question": "What is Nostro reconciliation?",
+    "options": {
+      "A": "Opening a new nostro account",
+      "B": "Checking your bank's internal record of a nostro account against the correspondent's statement",
+      "C": "Closing an overdraft facility",
+      "D": "Converting a nostro account to a vostro account"
+    },
+    "correct": "B",
+    "explanation": "Nostro reconciliation checks your internal records against the correspondent bank's statement to catch errors, delays, or fraud.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3055,
+    "question": "What is a Mirror account?",
+    "options": {
+      "A": "An account held only by embassies",
+      "B": "An internal ledger account reflecting a nostro account's balance, for reconciliation",
+      "C": "A duplicate SWIFT code",
+      "D": "An account that can never go negative"
+    },
+    "correct": "B",
+    "explanation": "A Mirror account is an internal ledger reflecting the nostro balance, aiding reconciliation and tracking.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3056,
+    "question": "On a balance sheet, 'Due From Banks' represents the accounting side of which type of balance?",
+    "options": {
+      "A": "Vostro balances",
+      "B": "Nostro balances",
+      "C": "Retail deposits",
+      "D": "Fixed assets"
+    },
+    "correct": "B",
+    "explanation": "'Due From Banks' is the accounting side of nostro balances \u2014 money owed to your bank by other banks.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3057,
+    "question": "What is a Value Date?",
+    "options": {
+      "A": "The date a payment instruction was typed",
+      "B": "The date funds from a transaction actually become available/effective",
+      "C": "The date a SWIFT message expires",
+      "D": "A public holiday calendar"
+    },
+    "correct": "B",
+    "explanation": "Value date is when funds actually become available or effective \u2014 not necessarily when the instruction was sent.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3058,
+    "question": "What happens if a payment instruction misses the cut-off time?",
+    "options": {
+      "A": "Nothing changes",
+      "B": "It's usually processed with value date pushed to the next business day",
+      "C": "The payment is cancelled permanently",
+      "D": "The correspondent bank is fined"
+    },
+    "correct": "B",
+    "explanation": "Missing the cut-off time typically pushes the value date to the next business day.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3059,
+    "question": "What are Standard Settlement Instructions (SSIs)?",
+    "options": {
+      "A": "Emergency compliance procedures",
+      "B": "Pre-agreed routing instructions for a counterparty's recurring payments",
+      "C": "A type of SWIFT error message",
+      "D": "Retail customer onboarding forms"
+    },
+    "correct": "B",
+    "explanation": "SSIs are pre-agreed instructions specifying exactly how a counterparty's payments should be routed, reducing errors.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3060,
+    "question": "What is 'de-risking' in correspondent banking?",
+    "options": {
+      "A": "Increasing exposure to a counterparty",
+      "B": "Terminating or restricting correspondent relationships to cut compliance risk rather than manage it",
+      "C": "A type of derivative hedge",
+      "D": "A CBN interest rate policy"
+    },
+    "correct": "B",
+    "explanation": "De-risking is when banks terminate/restrict correspondent relationships to reduce compliance risk exposure \u2014 a real challenge for African correspondent banking access.",
+    "whyWrong": "",
+    "category": "fiio"
+  },
+  {
+    "id": 3061,
+    "question": "What is the Wolfsberg CBDDQ used for?",
+    "options": {
+      "A": "Setting FX rates",
+      "B": "Assessing a correspondent bank's AML/compliance standing before establishing or renewing a relationship",
+      "C": "Calculating cashflow projections",
+      "D": "Filing tax returns"
+    },
+    "correct": "B",
+    "explanation": "The Wolfsberg CBDDQ is the industry-standard due diligence questionnaire for assessing correspondent banks' AML/compliance standing.",
+    "whyWrong": "",
+    "category": "fiio"
   }
 ]

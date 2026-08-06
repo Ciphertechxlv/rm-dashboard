@@ -1020,6 +1020,44 @@ textarea.notes {
   text-decoration: line-through;
 }
 
+/* ---------- Glossary ---------- */
+.glossary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.glossary-item {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.glossary-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.glossary-term {
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: var(--text-strong);
+  margin-bottom: 4px;
+}
+
+.glossary-phrase {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-dim);
+  font-size: 0.86rem;
+  margin-left: 10px;
+}
+
+.glossary-def {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
 /* ---------- Counterparty snapshot cards ---------- */
 .snapshot-card {
   background: var(--card-tint);
