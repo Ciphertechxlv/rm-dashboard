@@ -18,6 +18,7 @@ const DROPDOWNS = [
       { href: "/financial-analysis", label: "Financial Analysis" },
       { href: "/business-development", label: "Business Development" },
       { href: "/deliverables", label: "Deliverables" },
+      { href: "/communication-toolkit", label: "Communication Toolkit" },
     ],
   },
   {
@@ -28,6 +29,7 @@ const DROPDOWNS = [
       { href: "/study-notes", label: "Study Notes" },
       { href: "/quiz", label: "Quiz" },
       { href: "/flashcards", label: "Flashcards" },
+      { href: "/institution-directory", label: "Institution Directory" },
     ],
   },
 ];
