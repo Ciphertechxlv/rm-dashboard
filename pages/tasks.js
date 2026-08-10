@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { TASK_GROUPS, TEAM_ROUTING, BRANCH_CONTACTS } from "../lib/fiioTasks";
+import DailyLog from "../components/DailyLog";
 
 function storageKey(groupId) {
   return `tasks_${groupId}`;
@@ -63,6 +64,8 @@ export default function Tasks() {
       <div className="page-header">
         <h1>Tasks</h1>
       </div>
+
+      <DailyLog />
 
       {TASK_GROUPS.map((g) => (
         <TaskGroup key={g.id} group={g} />

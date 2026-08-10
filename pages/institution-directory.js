@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { INSTITUTION_DIRECTORY } from "../lib/institutionDirectory";
+import { INSTITUTION_DIRECTORY, KNOWN_CONTACTS } from "../lib/institutionDirectory";
 
 export default function InstitutionDirectory() {
   const [query, setQuery] = useState("");
@@ -26,6 +26,27 @@ export default function InstitutionDirectory() {
           context. Nothing here has been verified as an actual Ecobank Nigeria relationship —
           always confirm independently before treating any name as a client or counterparty.
         </p>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Known Contacts</h2>
+          <span className="timestamp">Firsthand-confirmed — higher confidence than the directory below</span>
+        </div>
+        <div className="table-wrap">
+          <table>
+            <thead><tr><th>Institution</th><th>Contact</th><th>Note</th></tr></thead>
+            <tbody>
+              {KNOWN_CONTACTS.map((c) => (
+                <tr key={c.institution}>
+                  <td style={{ color: "var(--blue)", fontWeight: 600 }}>{c.institution}</td>
+                  <td>{c.contact || "—"}</td>
+                  <td>{c.note}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div className="panel">

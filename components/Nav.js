@@ -7,6 +7,7 @@ const PRIMARY_LINKS = [
   { href: "/", label: "Desk" },
   { href: "/tasks", label: "Tasks" },
   { href: "/fiio-unit", label: "FIIO Unit" },
+  { href: "/kpi", label: "KPI" },
   { href: "/policy", label: "Policy Rates" },
 ];
 

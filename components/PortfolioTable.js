@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 const STORAGE_KEY = "portfolio_rows";
 const INSTITUTION_TYPES = ["Correspondent Bank", "DFI", "Fintech", "Insurance / NBFI", "Mortgage Institution", "IO / Embassy", "Other"];
 const RELATIONSHIP_STAGES = ["Onboarding", "Active — Growing", "Active — Stable", "At Risk", "Dormant"];
+const HANDLERS = ["Mrs Ijeoma", "Mr Laj", "Praise", "Folakemi", "Ini", "Omolaja", "Tumininu", "Emmanuel", "Lara", "Favour (JJ)"];
 
 function emptyRow() {
   return {
@@ -10,6 +11,8 @@ function emptyRow() {
     client: "",
     product: INSTITUTION_TYPES[0],
     status: RELATIONSHIP_STAGES[0],
+    whatsapp: "",
+    handledBy: HANDLERS[0],
     nextAction: "",
     dueDate: "",
   };
@@ -62,6 +65,8 @@ export default function PortfolioTable() {
                 <th>Client</th>
                 <th>Institution Type</th>
                 <th>Relationship Stage</th>
+                <th>WhatsApp</th>
+                <th>Handled By (RM)</th>
                 <th>Next Touchpoint</th>
                 <th>Date</th>
                 <th></th>
@@ -84,6 +89,16 @@ export default function PortfolioTable() {
                     <select value={r.status} onChange={(e) => updateRow(r.id, "status", e.target.value)}>
                       {RELATIONSHIP_STAGES.map((s) => (
                         <option key={s}>{s}</option>
+                      ))}
+                    </select>
+                  </td>
+                  <td>
+                    <input value={r.whatsapp} placeholder="e.g. +234…" onChange={(e) => updateRow(r.id, "whatsapp", e.target.value)} />
+                  </td>
+                  <td>
+                    <select value={r.handledBy} onChange={(e) => updateRow(r.id, "handledBy", e.target.value)}>
+                      {HANDLERS.map((h) => (
+                        <option key={h}>{h}</option>
                       ))}
                     </select>
                   </td>

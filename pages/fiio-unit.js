@@ -3,6 +3,7 @@ import {
   FIIO_CLIENT_CATEGORIES,
   FIIO_OFFERINGS,
   FIIO_TEAM,
+  FIIO_ROUTING,
   BRANCH_ROLES,
   FIIO_PRODUCTS,
   CORE_DELIVERABLES,
@@ -119,6 +120,32 @@ export default function FiioUnit() {
         <p className="empty-state" style={{ marginTop: 14 }}>
           Branch-side roles you'll interface with: {BRANCH_ROLES.join(", ")}.
         </p>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Client Handling &amp; Routing</h2>
+        </div>
+        <p className="empty-state" style={{ marginBottom: 14 }}>
+          This is mainly support work — email confirmations and backup coverage, not primary
+          relationship ownership.
+        </p>
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Whose Clients</th><th>Handled By</th><th>Supervised By</th></tr>
+            </thead>
+            <tbody>
+              {FIIO_ROUTING.map((r, i) => (
+                <tr key={i}>
+                  <td>{r.owners}</td>
+                  <td style={{ color: "var(--blue)", fontWeight: 600 }}>{r.handledBy}</td>
+                  <td>{r.supervisedBy}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </main>
   );
