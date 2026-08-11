@@ -11,11 +11,42 @@ list, targets, and daily notes are saved privately in your own browser.
 | USD/GBP/EUR → NGN rates | Live, fetched fresh on every page load (5-min edge cache) from a free, keyless FX API |
 | News feed | Live, pulled from 5 Nigerian business news RSS feeds on every load, filtered by trade/FX keywords |
 | Parallel ("black market") NGN rate | **Manual** — there's no reliable free public API for this. Type it in yourself each morning; it's saved to your browser |
-| CBN policy alerts | Not automated — no free structured feed exists. Use the "Your Focus For Today" note, and check the CBN link on the Reference page each morning |
-| Client/deal tracker, targets | Fully yours, saved in your browser only (not on any server) |
+| CBN policy alerts | Not automated — no free structured feed exists. Check the CBN links on the Reference and Policy Rates pages |
+| Activity Log | **Cloud-synced** via Upstash Redis (free tier) — same log on every device, once set up. See setup section below |
+| Client/deal tracker, targets, counterparty snapshots, BD pipeline | Fully yours, saved in your browser only (not on any server) |
 
 This is deliberately honest rather than fake: nothing on this page pretends
 to be live if it isn't.
+
+## Setting up cloud storage for the Activity Log (one-time, free)
+
+The Activity Log now saves to the cloud instead of just your browser, so
+the same log shows up whether you open the site on your phone, laptop,
+or anywhere else. This needs a free database connected through Vercel's
+Marketplace (Vercel's own built-in database offerings were retired, so
+this now goes through a partner called Upstash — still free, still all
+managed from your Vercel dashboard).
+
+1. In your Vercel project, look for a **"Storage"** tab (next to
+   Deployments, Settings, etc.) — or search "Marketplace" if you don't
+   see Storage directly.
+2. Find **Upstash** in the list and click to create/connect a database.
+   Choose the free tier.
+3. Vercel will automatically add the right environment variables to your
+   project for you — you don't need to copy/paste anything yourself.
+4. Go to **Deployments → (latest) → ⋯ → Redeploy** so the new connection
+   takes effect.
+5. Open your live site, go to the Activity Log page, and save an entry.
+   Then open the site on a different device (or a different browser) and
+   confirm the same entry shows up there too.
+
+The Activity Log page is now PIN-locked with the same PIN as Portfolio &
+Targets, since it holds real, centrally-stored work data — see the
+section above for that PIN setup if you haven't done it yet.
+
+If you skip this setup, the Activity Log page will still load and tell
+you clearly that cloud storage isn't configured yet, rather than failing
+silently.
 
 ## Locking the Portfolio & Targets page
 

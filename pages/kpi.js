@@ -1,4 +1,4 @@
-import { KPI_SECTIONS, MACRO_QUICK_FACTS, DAY_COUNT_NOTES } from "../lib/kpi";
+import { KPI_SECTIONS, MACRO_QUICK_FACTS, DAY_COUNT_NOTES, MARKET_RATE_DRIVERS } from "../lib/kpi";
 import NrffCalculator from "../components/NrffCalculator";
 
 const HEADLINE_TARGETS = [
@@ -65,6 +65,20 @@ export default function Kpi() {
             <li key={i}>{n}</li>
           ))}
         </ul>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
+          <h2>What Drives the Market Rate</h2>
+        </div>
+        <div className="kb-grid">
+          {MARKET_RATE_DRIVERS.map((d) => (
+            <div className="kb-card" key={d.title}>
+              <h3>{d.title}</h3>
+              <p>{d.detail}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </main>
   );
