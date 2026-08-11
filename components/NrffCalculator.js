@@ -13,7 +13,7 @@ function n(v) {
 
 export default function NrffCalculator() {
   const [principal, setPrincipal] = useState("");
-  const [ftp, setFtp] = useState("9.39");
+  const [ftp, setFtp] = useState("");
   const [dealRate, setDealRate] = useState("");
   const [tenor, setTenor] = useState("180");
   const [basis, setBasis] = useState("360");
@@ -34,8 +34,9 @@ export default function NrffCalculator() {
       </div>
       <p className="empty-state" style={{ marginBottom: 16 }}>
         Standard spread formula: Principal × (FTP − Deal Rate) × (Tenor Days ÷ Day-Count Basis).
-        This is a live calculation — always accurate for whatever numbers you enter, rather than a
-        fixed worked example.
+        This is a live calculation — always mathematically correct for whatever numbers you enter.
+        <strong> FTP is an internal treasury rate with no public source — always confirm today's
+        actual FTP with treasury/your desk before relying on this for a real decision.</strong>
       </p>
 
       <div className="target-grid">
@@ -44,8 +45,8 @@ export default function NrffCalculator() {
           <input value={principal} onChange={(e) => setPrincipal(e.target.value)} placeholder="e.g. 40000000" />
         </div>
         <div className="target-card">
-          <label>FTP Rate (%)</label>
-          <input value={ftp} onChange={(e) => setFtp(e.target.value)} placeholder="e.g. 9.39" />
+          <label>FTP Rate (%) — confirm today's rate internally</label>
+          <input value={ftp} onChange={(e) => setFtp(e.target.value)} placeholder="No default set — enter today's confirmed FTP" />
         </div>
         <div className="target-card">
           <label>Deal Rate Offered (%)</label>

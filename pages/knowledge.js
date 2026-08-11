@@ -64,8 +64,11 @@ const TOPICS = [
 ];
 
 const LINKS = [
-  { label: "CBN — Circulars", href: "https://www.cbn.gov.ng/documents/circulars.asp" },
-  { label: "CBN — Payments System", href: "https://www.cbn.gov.ng/paymentsystem/" },
+  { label: "CBN — Monetary Policy Decisions", href: "https://www.cbn.gov.ng/MonetaryPolicy/decisions.html" },
+  { label: "CBN — Circulars", href: "https://www.cbn.gov.ng/Documents/circulars.html" },
+  { label: "CBN — Live Monetary Policy Rate", href: "https://www.cbn.gov.ng/rates/mnymktind.html" },
+  { label: "CBN — Live Inflation Rate", href: "https://www.cbn.gov.ng/rates/inflrates.html" },
+  { label: "CBN — Development Finance", href: "https://www.cbn.gov.ng/Documents/DevelopmentFinance.html" },
   { label: "NAICOM (Insurance Regulator)", href: "https://naicom.gov.ng/" },
   { label: "SEC Nigeria (Asset Managers)", href: "https://sec.gov.ng/" },
   { label: "PenCom (Pension Regulator)", href: "https://www.pencom.gov.ng/" },

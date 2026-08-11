@@ -49,7 +49,7 @@ export default function PolicyRatesPanel() {
 
       <div className="fx-row" style={{ marginTop: 16 }}>
         <Stat label="Liquidity Ratio" value={`${CBN_RATES.liquidityRatio.toFixed(2)}%`} />
-        <Stat label="Inflation Rate" value={`${CBN_RATES.inflationRate.toFixed(2)}%`} sub="Per FIIO team notes — cross-check NBS/CBN" />
+        <Stat label="Inflation Rate" value={`${CBN_RATES.inflationRate.toFixed(2)}%`} sub="Confirmed via CBN's own rate ticker — check link below for latest" />
       </div>
 
       <p className="empty-state" style={{ marginTop: 18 }}>
@@ -60,9 +60,14 @@ export default function PolicyRatesPanel() {
         assets.
       </p>
 
-      <a className="cbn-source-link" href={CBN_RATES.sourceUrl} target="_blank" rel="noreferrer">
-        Verify on CBN's official page ↗
-      </a>
+      <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+        <a className="cbn-source-link" href={CBN_RATES.sourceUrl} target="_blank" rel="noreferrer">
+          Verify MPC decisions on CBN ↗
+        </a>
+        <a className="cbn-source-link" href={CBN_RATES.inflationSourceUrl} target="_blank" rel="noreferrer">
+          Verify latest inflation on CBN ↗
+        </a>
+      </div>
     </div>
   );
 }

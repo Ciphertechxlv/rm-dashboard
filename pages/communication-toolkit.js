@@ -5,7 +5,6 @@ import {
   CELL_PHONE_RULES,
   RESEARCH_METHOD,
   RESEARCH_PROMPT,
-  OUTLOOK_SETUP,
   EMAIL_TEMPLATES,
   PHONE_TEMPLATES,
 } from "../lib/communicationToolkit";
@@ -50,25 +49,6 @@ export default function CommunicationToolkit() {
             <CopyButton text={RESEARCH_PROMPT} />
           </div>
           <pre className="prompt-block">{RESEARCH_PROMPT}</pre>
-        </div>
-      </div>
-
-      <div className="panel">
-        <div className="panel-head">
-          <h2>Your Outlook Setup</h2>
-        </div>
-        <div className="table-wrap">
-          <table>
-            <thead><tr><th>Setting</th><th>Your Configuration</th></tr></thead>
-            <tbody>
-              {OUTLOOK_SETUP.map((o) => (
-                <tr key={o.setting}>
-                  <td style={{ color: "var(--blue)", fontWeight: 600 }}>{o.setting}</td>
-                  <td>{o.value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
         </div>
       </div>
 

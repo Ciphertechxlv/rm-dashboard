@@ -1,12 +1,29 @@
 import { KPI_SECTIONS, MACRO_QUICK_FACTS, DAY_COUNT_NOTES } from "../lib/kpi";
 import NrffCalculator from "../components/NrffCalculator";
 
+const HEADLINE_TARGETS = [
+  { label: "Deposit Mobilisation", value: "₦1.2tn", sub: "CASA ₦297bn · Term ₦861bn" },
+  { label: "Revenue", value: "₦24.2bn", sub: "NRFF + Fees & Commission + FICC" },
+  { label: "Account Opening", value: "24", sub: "corporate accounts · 1/RM/month" },
+  { label: "Fees & Commission", value: "₦6.6bn", sub: "within Revenue target" },
+];
+
 export default function Kpi() {
   return (
     <main className="page">
       <div className="page-header">
         <h1>FIIO KPI</h1>
         <p>The FI part of your KPI — IO is mainly based in Abuja. 5 sections total; documented as discussed so far.</p>
+      </div>
+
+      <div className="kpi-hero-grid">
+        {HEADLINE_TARGETS.map((t) => (
+          <div className="kpi-hero-tile" key={t.label}>
+            <div className="kpi-hero-value">{t.value}</div>
+            <div className="kpi-hero-label">{t.label}</div>
+            <div className="kpi-hero-sub">{t.sub}</div>
+          </div>
+        ))}
       </div>
 
       {KPI_SECTIONS.map((s) => (

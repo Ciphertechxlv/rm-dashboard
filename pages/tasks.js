@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { TASK_GROUPS, TEAM_ROUTING, BRANCH_CONTACTS } from "../lib/fiioTasks";
-import DailyLog from "../components/DailyLog";
+import Link from "next/link";
 
 function storageKey(groupId) {
   return `tasks_${groupId}`;
@@ -65,7 +65,18 @@ export default function Tasks() {
         <h1>Tasks</h1>
       </div>
 
-      <DailyLog />
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Daily Activity Log</h2>
+        </div>
+        <p className="empty-state" style={{ marginBottom: 14 }}>
+          Now its own page — full editable history, saved permanently, ready to summarize for
+          Monday's 8am meeting.
+        </p>
+        <Link href="/activity-log" className="add-row-btn" style={{ display: "inline-block", textDecoration: "none" }}>
+          Open Activity Log →
+        </Link>
+      </div>
 
       {TASK_GROUPS.map((g) => (
         <TaskGroup key={g.id} group={g} />

@@ -1153,6 +1153,43 @@ textarea.notes {
   font-weight: 400;
 }
 
+/* ---------- KPI hero targets ---------- */
+.kpi-hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.kpi-hero-tile {
+  background: linear-gradient(145deg, var(--blue-soft), var(--bg-raised));
+  border: 1.5px solid var(--blue);
+  border-radius: var(--radius-lg);
+  padding: 24px 22px;
+  text-align: center;
+}
+
+.kpi-hero-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: var(--blue);
+  letter-spacing: -0.02em;
+}
+
+.kpi-hero-label {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--text-strong);
+  margin-top: 6px;
+}
+
+.kpi-hero-sub {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
 /* ---------- Unlock / PIN screen ---------- */
 .unlock-wrap {
   min-height: 70vh;
@@ -1351,6 +1388,10 @@ textarea.notes {
 
   .org-name {
     font-size: 0.94rem;
+  }
+
+  .kpi-hero-value {
+    font-size: 1.6rem;
   }
 }
 
