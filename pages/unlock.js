@@ -1,11 +1,20 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 
+const LOCKED_PAGES = {
+  "/portfolio": { title: "Portfolio is locked", body: "Enter your PIN to view your client list and targets." },
+  "/activity-log": { title: "Activity Log is locked", body: "Enter your PIN to view and edit your activity log." },
+};
+const DEFAULT_COPY = { title: "This page is locked", body: "Enter your PIN to continue." };
+
 export default function Unlock() {
   const router = useRouter();
   const [pin, setPin] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const nextPath = typeof router.query.next === "string" ? router.query.next : "/portfolio";
+  const copy = LOCKED_PAGES[nextPath] || DEFAULT_COPY;
 
   async function submit(e) {
     e.preventDefault();
@@ -19,8 +28,7 @@ export default function Unlock() {
       });
       const data = await res.json();
       if (data.ok) {
-        const next = typeof router.query.next === "string" ? router.query.next : "/portfolio";
-        window.location.href = next;
+        window.location.href = nextPath;
       } else {
         setError(data.message || "Incorrect PIN.");
         setPin("");
@@ -36,8 +44,8 @@ export default function Unlock() {
     <main className="page">
       <div className="unlock-wrap">
         <form className="unlock-card" onSubmit={submit}>
-          <h1>Portfolio is locked</h1>
-          <p>Enter your PIN to view your client list and targets.</p>
+          <h1>{copy.title}</h1>
+          <p>{copy.body}</p>
           <input
             className="unlock-input"
             type="password"

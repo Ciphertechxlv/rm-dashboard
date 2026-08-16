@@ -8,6 +8,17 @@ const FTP_DEFAULTS = {
   FCY: { rate: "9.37", tenorBasis: 360, label: "FCY (USD)" },
 };
 
+const DIRECTIONS = {
+  placement: {
+    label: "Funds Placed (Asset — e.g. PLX)",
+    explain: "You're placing/lending funds and earning the deposit rate, while FTP is your cost of funds. Profit when the deposit-rate maturity value is HIGHER than the FTP maturity value.",
+  },
+  deposit: {
+    label: "Deposit Taken (Liability — e.g. client deposit)",
+    explain: "You're taking a deposit and paying the deposit rate, while FTP is what treasury credits you internally. Profit when the FTP maturity value is HIGHER than the deposit-rate maturity value.",
+  },
+};
+
 function n(v) {
   const x = parseFloat(v);
   return Number.isNaN(x) ? 0 : x;
@@ -15,10 +26,12 @@ function n(v) {
 
 export default function NrffCalculator() {
   const [currency, setCurrency] = useState("LCY");
+  const [direction, setDirection] = useState("placement");
   const [principal, setPrincipal] = useState("");
   const [ftp, setFtp] = useState(FTP_DEFAULTS.LCY.rate);
   const [dealRate, setDealRate] = useState("");
   const [tenor, setTenor] = useState("180");
+  const [fxRate, setFxRate] = useState("");
 
   function switchCurrency(cur) {
     setCurrency(cur);
@@ -34,12 +47,20 @@ export default function NrffCalculator() {
   const maturityAtDealRate = n(principal) + interestAmount;
   const maturityAtFtp = n(principal) + ftpAmount;
 
-  const diff = maturityAtDealRate - maturityAtFtp;
+  // Direction determines which side is "yours" — see DIRECTIONS above.
+  const diff = direction === "placement"
+    ? maturityAtDealRate - maturityAtFtp
+    : maturityAtFtp - maturityAtDealRate;
   const isProfit = diff > 0;
   const isLoss = diff < 0;
 
+  const showNgn = currency === "FCY" && n(fxRate) > 0;
+  const ngn = (usd) => usd * n(fxRate);
+
   const fmt = (x) =>
     x.toLocaleString("en-US", { maximumFractionDigits: 2, minimumFractionDigits: 2 });
+  const fmtNgn = (x) =>
+    "₦" + x.toLocaleString("en-NG", { maximumFractionDigits: 2, minimumFractionDigits: 2 });
 
   return (
     <div className="panel">
@@ -49,8 +70,7 @@ export default function NrffCalculator() {
       </div>
       <p className="empty-state" style={{ marginBottom: 16 }}>
         Maturity Value = Principal + Interest Amount. Interest Amount = Principal × Rate × (Tenor
-        ÷ Day-Count Basis). LCY uses a 365-day basis; FCY uses 360. If the maturity value at the
-        deposit rate is higher than at the FTP rate, it's a profit — if lower, it's a loss.
+        ÷ Day-Count Basis). LCY uses a 365-day basis; FCY uses 360.
         <strong> FTP updates monthly — confirm the current rate with treasury before relying on
         this for a real decision.</strong>
       </p>
@@ -67,7 +87,22 @@ export default function NrffCalculator() {
         ))}
       </div>
 
-      <div className="target-grid" style={{ marginTop: 16 }}>
+      <div className="category-tabs" style={{ marginTop: 10 }}>
+        {Object.entries(DIRECTIONS).map(([id, cfg]) => (
+          <button
+            key={id}
+            className={`category-tab ${direction === id ? "active" : ""}`}
+            onClick={() => setDirection(id)}
+          >
+            {cfg.label}
+          </button>
+        ))}
+      </div>
+      <p className="empty-state" style={{ marginTop: 10, marginBottom: 16 }}>
+        {DIRECTIONS[direction].explain}
+      </p>
+
+      <div className="target-grid">
         <div className="target-card">
           <label>Principal (deposit amount)</label>
           <input value={principal} onChange={(e) => setPrincipal(e.target.value)} placeholder="e.g. 40000000" />
@@ -77,7 +112,7 @@ export default function NrffCalculator() {
           <input value={ftp} onChange={(e) => setFtp(e.target.value)} />
         </div>
         <div className="target-card">
-          <label>Deposit Rate Offered (%)</label>
+          <label>Deposit Rate (%)</label>
           <input value={dealRate} onChange={(e) => setDealRate(e.target.value)} placeholder="e.g. 9" />
         </div>
         <div className="target-card">
@@ -86,14 +121,25 @@ export default function NrffCalculator() {
         </div>
       </div>
 
+      {currency === "FCY" && (
+        <div className="target-grid" style={{ marginTop: 4 }}>
+          <div className="target-card">
+            <label>Exchange Rate at Transaction (₦ per $1)</label>
+            <input value={fxRate} onChange={(e) => setFxRate(e.target.value)} placeholder="e.g. 1520 — the rate on the day of this deal" />
+          </div>
+        </div>
+      )}
+
       <div className="fx-row" style={{ marginTop: 18 }}>
         <div className="fx-tile">
           <div className="fx-pair">Maturity Value — Deposit Rate</div>
           <div className="fx-value">{fmt(maturityAtDealRate)}</div>
+          {showNgn && <div className="stat-sub">{fmtNgn(ngn(maturityAtDealRate))}</div>}
         </div>
         <div className="fx-tile">
           <div className="fx-pair">Maturity Value — FTP Rate</div>
           <div className="fx-value">{fmt(maturityAtFtp)}</div>
+          {showNgn && <div className="stat-sub">{fmtNgn(ngn(maturityAtFtp))}</div>}
         </div>
         <div
           className="fx-tile"
@@ -113,8 +159,24 @@ export default function NrffCalculator() {
           >
             {diff >= 0 ? "+" : ""}{fmt(diff)}
           </div>
+          {showNgn && (
+            <div
+              className="stat-sub"
+              style={{ color: isProfit ? "var(--positive)" : isLoss ? "var(--negative)" : undefined }}
+            >
+              {diff >= 0 ? "+" : ""}{fmtNgn(ngn(diff))}
+            </div>
+          )}
         </div>
       </div>
+
+      {currency === "FCY" && !showNgn && (
+        <p className="empty-state" style={{ marginTop: 12 }}>
+          Enter the exchange rate at the time of this transaction above to see the Naira
+          equivalent — deliberately not auto-filled from today's live rate, since a past
+          transaction should use the rate that actually applied on that day.
+        </p>
+      )}
     </div>
   );
 }
