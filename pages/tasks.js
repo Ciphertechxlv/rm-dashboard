@@ -69,10 +69,6 @@ export default function Tasks() {
         <div className="panel-head">
           <h2>Daily Activity Log</h2>
         </div>
-        <p className="empty-state" style={{ marginBottom: 14 }}>
-          Now its own page — full editable history, saved permanently, ready to summarize for
-          Monday's 8am meeting.
-        </p>
         <Link href="/activity-log" className="add-row-btn" style={{ display: "inline-block", textDecoration: "none" }}>
           Open Activity Log →
         </Link>

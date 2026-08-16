@@ -9,6 +9,7 @@ const PRIMARY_LINKS = [
   { href: "/activity-log", label: "Activity Log" },
   { href: "/fiio-unit", label: "FIIO Unit" },
   { href: "/kpi", label: "KPI" },
+  { href: "/calculator", label: "Calculator" },
   { href: "/policy", label: "Policy Rates" },
 ];
 

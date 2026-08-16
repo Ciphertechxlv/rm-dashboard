@@ -72,7 +72,14 @@ export default function NrffCalculator() {
         Maturity Value = Principal + Interest Amount. Interest Amount = Principal × Rate × (Tenor
         ÷ Day-Count Basis). LCY uses a 365-day basis; FCY uses 360.
         <strong> FTP updates monthly — confirm the current rate with treasury before relying on
-        this for a real decision.</strong>
+        this for a real decision.</strong> This matches standard bank Funds Transfer Pricing
+        methodology: treasury charges lending/placement units the FTP rate as a cost, and credits
+        deposit-taking units the FTP rate as revenue — pick the correct direction below for your
+        deal, since profit runs opposite ways for each.
+      </p>
+      <p className="empty-state" style={{ marginBottom: 16 }}>
+        <strong>FTP Rate and Deposit Rate are both entered as plain percentages</strong> — type 9
+        to mean 9%, not 0.09. The calculator divides by 100 internally.
       </p>
 
       <div className="category-tabs">

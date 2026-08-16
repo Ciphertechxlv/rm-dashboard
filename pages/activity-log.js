@@ -28,9 +28,12 @@ export default function ActivityLog() {
   const [configured, setConfigured] = useState(true);
   const [loading, setLoading] = useState(true);
   const [entries, setEntries] = useState({});
+  // selectedDate is the single source of truth for which date is loaded
+  // into the editable box below — whether that's today or a past day
+  // you've clicked "Edit" on. Saving never changes it, so you can keep
+  // editing and re-saving the same entry as many times as you need.
   const [selectedDate, setSelectedDate] = useState(todayKey());
   const [draft, setDraft] = useState("");
-  const [editingDate, setEditingDate] = useState(null);
   const [status, setStatus] = useState(""); // "saving" | "saved" | ""
   const [copied, setCopied] = useState(false);
 
@@ -63,7 +66,6 @@ export default function ActivityLog() {
       });
       setEntries((prev) => ({ ...prev, [selectedDate]: draft }));
       setStatus("saved");
-      setEditingDate(null);
       setTimeout(() => setStatus(""), 1800);
     } catch {
       setStatus("");
@@ -86,16 +88,10 @@ export default function ActivityLog() {
     }
   }
 
-  function startEdit(date) {
+  function selectDate(date) {
     setSelectedDate(date);
     setDraft(entries[date] || "");
-    setEditingDate(date);
-  }
-
-  function backToToday() {
-    setSelectedDate(todayKey());
-    setDraft(entries[todayKey()] || "");
-    setEditingDate(null);
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   const allDates = Object.keys(entries)
@@ -118,13 +114,12 @@ export default function ActivityLog() {
     setTimeout(() => setCopied(false), 1500);
   }
 
-  const isEditingPast = editingDate && editingDate !== todayKey();
+  const isViewingPast = selectedDate !== todayKey();
 
   return (
     <main className="page">
       <div className="page-header">
         <h1>Activity Log</h1>
-        <p>Saved to the cloud — the same log appears on every device you open this site on.</p>
       </div>
 
       {!configured && (
@@ -140,8 +135,8 @@ export default function ActivityLog() {
       <div className="panel">
         <div className="panel-head">
           <h2>{formatDate(selectedDate)}</h2>
-          {isEditingPast && (
-            <button className="cbn-source-link" style={{ border: "1px solid var(--border-soft)", cursor: "pointer" }} onClick={backToToday}>
+          {isViewingPast && (
+            <button className="cbn-source-link" style={{ border: "1px solid var(--border-soft)", cursor: "pointer" }} onClick={() => selectDate(todayKey())}>
               ← Back to today
             </button>
           )}
@@ -149,7 +144,7 @@ export default function ActivityLog() {
         <textarea
           className="notes"
           style={{ minHeight: 140 }}
-          placeholder="What did you work on? e.g. confirmed Folakemi's correspondent bank maturity, drafted CAM for PLX placement, called Custodian Asset re: Q3 review…"
+          placeholder="What did you work on? e.g. confirmed a correspondent bank maturity, drafted a CAM, called a client re: quarterly review…"
           value={draft}
           onChange={(e) => setDraft(e.target.value)}
           disabled={loading}
@@ -158,7 +153,7 @@ export default function ActivityLog() {
           <button className="add-row-btn" onClick={saveEntry} disabled={loading || status === "saving"}>
             {status === "saving" ? "Saving…" : "Save"}
           </button>
-          {status === "saved" && <span style={{ color: "var(--positive)", fontSize: "0.84rem" }}>Saved ✓</span>}
+          {status === "saved" && <span style={{ color: "var(--positive)", fontSize: "0.84rem" }}>Saved ✓ — you can keep editing and save again anytime</span>}
         </div>
       </div>
 
@@ -190,7 +185,7 @@ export default function ActivityLog() {
             <div className="news-item-title">{formatDate(d)}</div>
             <div className="news-why" style={{ whiteSpace: "pre-wrap" }}>{entries[d]}</div>
             <div style={{ display: "flex", gap: 10, marginTop: 8 }}>
-              <button className="cbn-source-link" style={{ border: "1px solid var(--border-soft)", cursor: "pointer" }} onClick={() => startEdit(d)}>
+              <button className="cbn-source-link" style={{ border: "1px solid var(--border-soft)", cursor: "pointer" }} onClick={() => selectDate(d)}>
                 Edit
               </button>
               <button className="row-actions-btn" onClick={() => deleteEntry(d)}>

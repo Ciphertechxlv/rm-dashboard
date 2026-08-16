@@ -1,5 +1,5 @@
 import { KPI_SECTIONS, MACRO_QUICK_FACTS, DAY_COUNT_NOTES, MARKET_RATE_DRIVERS } from "../lib/kpi";
-import NrffCalculator from "../components/NrffCalculator";
+import Link from "next/link";
 
 const HEADLINE_TARGETS = [
   { label: "Deposit Mobilisation", value: "₦1.2tn", sub: "CASA ₦297bn · Term ₦861bn" },
@@ -40,7 +40,17 @@ export default function Kpi() {
         </div>
       ))}
 
-      <NrffCalculator />
+      <div className="panel">
+        <div className="panel-head">
+          <h2>Deposit Profit/Loss Calculator</h2>
+        </div>
+        <p className="empty-state" style={{ marginBottom: 14 }}>
+          Moved to its own page for more room to work with.
+        </p>
+        <Link href="/calculator" className="add-row-btn" style={{ display: "inline-block", textDecoration: "none" }}>
+          Open Calculator →
+        </Link>
+      </div>
 
       <div className="panel">
         <div className="panel-head">
