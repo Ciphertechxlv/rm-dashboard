@@ -191,18 +191,15 @@ export default function NrffCalculator() {
         <div className="fx-tile">
           <div className="fx-pair">Maturity Value — Deposit Rate</div>
           <div className="fx-value">{fmt(maturityAtDealRate)}</div>
-          {showNgn && <div className="stat-sub">{fmtNgn(toNgn(maturityAtDealRate))}</div>}
         </div>
         <div className="fx-tile">
           <div className="fx-pair">Maturity Value — FTP Rate{crrActive ? " (CRR-adjusted)" : ""}</div>
           <div className="fx-value">{fmt(maturityAtFtp)}</div>
-          {showNgn && <div className="stat-sub">{fmtNgn(toNgn(maturityAtFtp))}</div>}
         </div>
         {ndicActive && (
           <div className="fx-tile">
             <div className="fx-pair">NDIC Premium Cost</div>
             <div className="fx-value" style={{ color: "var(--negative)" }}>−{fmt(ndicCost)}</div>
-            {showNgn && <div className="stat-sub">−{fmtNgn(toNgn(ndicCost))}</div>}
           </div>
         )}
         <div
@@ -220,21 +217,63 @@ export default function NrffCalculator() {
           <div className="fx-value" style={{ color: isProfit ? "var(--positive)" : isLoss ? "var(--negative)" : undefined }}>
             {netDiff >= 0 ? "+" : ""}{fmt(netDiff)}
           </div>
-          {showNgn && (
-            <div className="stat-sub" style={{ color: isProfit ? "var(--positive)" : isLoss ? "var(--negative)" : undefined, fontWeight: 600 }}>
-              Converted to Naira: {netDiff >= 0 ? "+" : ""}{fmtNgn(toNgn(netDiff))}
-            </div>
-          )}
         </div>
       </div>
 
       {currency === "FCY" && !showNgn && (
-        <p className="empty-state" style={{ marginTop: 12 }}>
-          Enter the exchange rate at the time of this transaction above to see every figure's
-          Naira equivalent — deliberately not auto-filled from today's live rate, since a past
-          transaction should use the rate that actually applied on that day. Until you do, all
-          figures above are shown in {cfg.label} only, clearly marked with the {sym} symbol.
+        <p className="empty-state" style={{ marginTop: 16 }}>
+          Enter the exchange rate at the time of this transaction above to convert every figure
+          into Naira — deliberately not auto-filled from today's live rate, since a past
+          transaction should use the rate that actually applied on that day.
         </p>
+      )}
+
+      {showNgn && (
+        <>
+          <div className="panel-head" style={{ marginTop: 24, marginBottom: 10 }}>
+            <h2 style={{ fontSize: "1.05rem" }}>Converted to Naira</h2>
+            <span className="timestamp">at ₦{n(fxRate).toLocaleString("en-NG")} per $1</span>
+          </div>
+
+          <div className="kpi-hero-grid">
+            <div className="kpi-hero-tile">
+              <div className="kpi-hero-value">{fmtNgn(toNgn(maturityAtDealRate))}</div>
+              <div className="kpi-hero-label">Maturity Value — Deposit Rate</div>
+              <div className="kpi-hero-sub">{fmt(maturityAtDealRate)} × ₦{n(fxRate).toLocaleString("en-NG")}</div>
+            </div>
+            <div className="kpi-hero-tile">
+              <div className="kpi-hero-value">{fmtNgn(toNgn(maturityAtFtp))}</div>
+              <div className="kpi-hero-label">Maturity Value — FTP Rate</div>
+              <div className="kpi-hero-sub">{fmt(maturityAtFtp)} × ₦{n(fxRate).toLocaleString("en-NG")}</div>
+            </div>
+            {ndicActive && (
+              <div className="kpi-hero-tile">
+                <div className="kpi-hero-value" style={{ color: "var(--negative)" }}>−{fmtNgn(toNgn(ndicCost))}</div>
+                <div className="kpi-hero-label">NDIC Premium Cost</div>
+                <div className="kpi-hero-sub">{fmt(ndicCost)} × ₦{n(fxRate).toLocaleString("en-NG")}</div>
+              </div>
+            )}
+            <div
+              className="kpi-hero-tile"
+              style={{
+                borderColor: isProfit ? "var(--positive)" : isLoss ? "var(--negative)" : undefined,
+                background: isProfit
+                  ? "color-mix(in srgb, var(--positive) 14%, transparent)"
+                  : isLoss
+                  ? "color-mix(in srgb, var(--negative) 14%, transparent)"
+                  : undefined,
+              }}
+            >
+              <div className="kpi-hero-value" style={{ color: isProfit ? "var(--positive)" : isLoss ? "var(--negative)" : undefined }}>
+                {netDiff >= 0 ? "+" : ""}{fmtNgn(toNgn(netDiff))}
+              </div>
+              <div className="kpi-hero-label">{isProfit ? "Net Profit" : isLoss ? "Net Loss" : "Net Position"} in Naira</div>
+              <div className="kpi-hero-sub">
+                {netDiff >= 0 ? "+" : ""}{fmt(netDiff)} × ₦{n(fxRate).toLocaleString("en-NG")} = {netDiff >= 0 ? "+" : ""}{fmtNgn(toNgn(netDiff))}
+              </div>
+            </div>
+          </div>
+        </>
       )}
     </div>
   );
