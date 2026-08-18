@@ -42,8 +42,8 @@ export default function TargetTracker() {
       </div>
       <div className="target-grid">
         {METRICS.map((m) => {
-          const target = parseFloat(state[m.key]?.target) || 0;
-          const actual = parseFloat(state[m.key]?.actual) || 0;
+          const target = parseFloat(String(state[m.key]?.target || "").replace(/,/g, "")) || 0;
+          const actual = parseFloat(String(state[m.key]?.actual || "").replace(/,/g, "")) || 0;
           const pct = target > 0 ? Math.min(100, Math.round((actual / target) * 100)) : 0;
           return (
             <div className="target-card" key={m.key}>

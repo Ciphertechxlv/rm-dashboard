@@ -376,6 +376,8 @@ a {
   border: 1px solid var(--border-soft);
   border-radius: var(--radius-md);
   padding: 18px;
+  min-width: 0; /* lets the tile shrink below its content's natural width, so long numbers wrap instead of overflowing into neighboring tiles */
+  overflow: hidden;
 }
 
 .fx-pair {
@@ -386,10 +388,13 @@ a {
 
 .fx-value {
   font-family: var(--font-mono);
-  font-size: 1.65rem;
+  font-size: clamp(1.1rem, 2.6vw, 1.65rem);
   font-weight: 500;
   color: var(--text-strong);
   margin-top: 6px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.2;
 }
 
 .stat-sub {
@@ -397,6 +402,8 @@ a {
   font-size: 0.68rem;
   color: var(--text-dim);
   margin-top: 4px;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .cbn-source-link {
@@ -939,6 +946,8 @@ textarea.notes {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .subunit-tile.highlight {
@@ -957,6 +966,8 @@ textarea.notes {
   border: 1px solid var(--border-soft);
   border-radius: var(--radius-md);
   padding: 16px 18px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .org-card.highlight {
@@ -978,6 +989,8 @@ textarea.notes {
   font-size: 1.02rem;
   color: var(--text-strong);
   margin-top: 4px;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .stat-value {
@@ -1167,14 +1180,19 @@ textarea.notes {
   border-radius: var(--radius-lg);
   padding: 24px 22px;
   text-align: center;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .kpi-hero-value {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 2.1rem;
+  font-size: clamp(1.15rem, 3.2vw, 2.1rem);
   color: var(--blue);
   letter-spacing: -0.02em;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.15;
 }
 
 .kpi-hero-label {
@@ -1186,6 +1204,8 @@ textarea.notes {
 
 .kpi-hero-sub {
   font-size: 0.74rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
   color: var(--text-dim);
   margin-top: 4px;
 }

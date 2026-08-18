@@ -11,7 +11,8 @@ function defaultPeriods() {
 }
 
 function num(v) {
-  const n = parseFloat(v);
+  const cleaned = typeof v === "string" ? v.replace(/,/g, "").trim() : v;
+  const n = parseFloat(cleaned);
   return Number.isNaN(n) ? 0 : n;
 }
 

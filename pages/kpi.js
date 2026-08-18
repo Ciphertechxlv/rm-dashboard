@@ -1,5 +1,5 @@
 import { KPI_SECTIONS, MACRO_QUICK_FACTS, DAY_COUNT_NOTES, MARKET_RATE_DRIVERS } from "../lib/kpi";
-import Link from "next/link";
+import LiveInflation from "../components/LiveInflation";
 
 const HEADLINE_TARGETS = [
   { label: "Deposit Mobilisation", value: "₦1.2tn", sub: "CASA ₦297bn · Term ₦861bn" },
@@ -13,7 +13,6 @@ export default function Kpi() {
     <main className="page">
       <div className="page-header">
         <h1>FIIO KPI</h1>
-        <p>The FI part of your KPI — IO is mainly based in Abuja. 5 sections total; documented as discussed so far.</p>
       </div>
 
       <div className="kpi-hero-grid">
@@ -42,18 +41,6 @@ export default function Kpi() {
 
       <div className="panel">
         <div className="panel-head">
-          <h2>Deposit Profit/Loss Calculator</h2>
-        </div>
-        <p className="empty-state" style={{ marginBottom: 14 }}>
-          Moved to its own page for more room to work with.
-        </p>
-        <Link href="/calculator" className="add-row-btn" style={{ display: "inline-block", textDecoration: "none" }}>
-          Open Calculator →
-        </Link>
-      </div>
-
-      <div className="panel">
-        <div className="panel-head">
           <h2>Macro Quick Facts</h2>
         </div>
         <div className="fx-row">
@@ -63,6 +50,7 @@ export default function Kpi() {
               <div className="fx-value" style={{ fontSize: "1.3rem" }}>{f.value}</div>
             </div>
           ))}
+          <LiveInflation />
         </div>
       </div>
 

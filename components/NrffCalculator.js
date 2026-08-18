@@ -29,7 +29,12 @@ const DIRECTIONS = {
 };
 
 function n(v) {
-  const x = parseFloat(v);
+  if (typeof v !== "string") return Number.isNaN(v) ? 0 : v || 0;
+  // Strip thousands-separator commas (e.g. "1,349.54" -> "1349.54") so
+  // typing numbers the natural way never silently breaks the math —
+  // parseFloat alone stops at the first comma and returns just "1".
+  const cleaned = v.replace(/,/g, "").trim();
+  const x = parseFloat(cleaned);
   return Number.isNaN(x) ? 0 : x;
 }
 
